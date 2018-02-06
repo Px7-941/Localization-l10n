@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Fusion Builder 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
 "POT-Creation-Date: 2018-01-26 06:33:55+00:00\n"
-"PO-Revision-Date: 2017-04-05 19:30+0200\n"
+"PO-Revision-Date: 2018-02-21 16:35+0100\n"
 "Last-Translator: Aristeides <aristath@aristeidiss-mbp>\n"
 "Language-Team: German\n"
 "Language: de\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Bookmarks: 650,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 1130,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #: fusion-builder.php:379
 msgid "Go to the Avada plugin installation page"
@@ -191,7 +191,6 @@ msgid "<a href=\"%1$s\" target=\"%2$s\">Fusion Builder Video Tutorials</a>"
 msgstr "<a href=\"%1$s\" target=\"%2$s\">Fusion Builder Video Anleitungen</a>"
 
 #: inc/admin-screens/faq.php:53
-#, fuzzy
 msgid ""
 "All support on Envato Hosted Platform is handled through Envato's WordPress "
 "experts, who have extensive experience with WordPress and can answer theme "
@@ -205,22 +204,18 @@ msgstr ""
 "helfen:"
 
 #: inc/admin-screens/faq.php:55
-#, fuzzy
 msgid "Theme Installation & Setup."
 msgstr "Theme Installation und Einrichtung."
 
 #: inc/admin-screens/faq.php:56
-#, fuzzy
 msgid "Installation of bundled/required plugins."
 msgstr "Installation von gebündelten / erforderlichen Plugins."
 
 #: inc/admin-screens/faq.php:57
-#, fuzzy
 msgid "Installation of included demo content."
 msgstr "Installation des mitgelieferten Demo-Inhalts."
 
 #: inc/admin-screens/faq.php:58
-#, fuzzy
 msgid ""
 "Guidance with using Theme Options, Fusion Builder or navigating WordPress "
 "features."
@@ -229,25 +224,21 @@ msgstr ""
 "in WordPress-Funktionen."
 
 #: inc/admin-screens/faq.php:59
-#, fuzzy
 msgid "Troubleshooting and diagnosing technical issues with your site."
 msgstr ""
 "Fehlerbehebung und Diagnose von technischen Problemen mit Ihrer Website."
 
 #: inc/admin-screens/faq.php:60
-#, fuzzy
 msgid "Assistance with escalating or reporting theme-related bugs or issues."
 msgstr ""
 "Unterstützung bei der Eskalation oder dem Melden themenbezogener Fehler oder "
 "Probleme."
 
 #: inc/admin-screens/faq.php:61
-#, fuzzy
 msgid "Basic Customization."
 msgstr "Grundlegende Anpassung."
 
 #: inc/admin-screens/faq.php:62
-#, fuzzy
 msgid "Guidance on where to get help for third-party plugins or features."
 msgstr ""
 "Anleitung, wo Sie Hilfe für Plug-ins oder Funktionen von Drittanbietern "
@@ -924,7 +915,6 @@ msgstr ""
 "Builder Demoseiten-Import zu nutzen. Wir hoffen, dass es Ihnen gefällt!"
 
 #: inc/fusion-builder-admin.php:223
-#, fuzzy
 msgid ""
 "Fusion Builder is now installed and ready to use! Get ready to build "
 "something beautiful. Through your registration on the Envato hosted "
@@ -933,12 +923,13 @@ msgid ""
 "Support Policy</a> to learn how to receive support through the Envato hosted "
 "support team. We hope you enjoy it!"
 msgstr ""
-"Fusion Builder ist jetzt installiert und einsatzbereit! Mach dich bereit, "
-"etwas Schönes zu bauen. Durch Ihre Registrierung auf der von Envato "
-"gehosteten Plattform können Sie jetzt automatische Updates und einseitige "
-"Fusion Builder Demo-Importe erhalten. In der <a href=\"%s\" target=\"_blank"
-"\">Envato Hosted Support-Richtlinie</a> erfahren Sie, wie Sie über das von "
-"Envato gehostete Support-Team Support erhalten. Wir hoffen, Sie genießen es!"
+"Fusion Builder ist nun installiert und einsatzbereit! Machen Sie sich "
+"bereit, etwas Schönes zu erschaffen. Durch Ihre Registrierung auf der von "
+"Envato betriebenen Plattform können Sie nun automatische Updates und "
+"einseitige Fusion Builder-Demo-Importe abrufen. Schauen Sie sich die <a href="
+"\"%s\" target=\"_blank\">Envato Hosted Support Policy</a> an, um zu "
+"erfahren, wie Sie Support durch das Envato Hosted Support Team erhalten. Wir "
+"hoffen, dass es Ihnen gefällt!"
 
 #: inc/fusion-builder-admin.php:231
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:8
@@ -1178,9 +1169,8 @@ msgstr "Benutzerdefinierte CSS"
 
 #: inc/helpers.php:794 inc/lib/inc/class-fusion-fusionredux.php:725
 #: inc/lib/inc/redux/framework/class.fusionredux-plugin.php:415
-#, fuzzy
 msgid "Builder"
-msgstr "Fusion Builder Einstellungen"
+msgstr "Builder"
 
 #: inc/helpers.php:795 inc/layouts.php:180
 msgid "Library"
@@ -1376,7 +1366,6 @@ msgid "Save Element"
 msgstr "Element speichern"
 
 #: inc/helpers.php:843
-#, fuzzy
 msgid "Save As Global"
 msgstr "Als Globales Element speichern"
 
@@ -1441,21 +1430,19 @@ msgid "Are you sure you want to delete this ?"
 msgstr "Sind Sie sicher, dass Sie alle Fusion Caches löschen möchten?"
 
 #: inc/helpers.php:860
-#, fuzzy
 msgid ""
 "This is a global item. Deleting this element will remove it from every page "
 "you have it on. Are you sure you want to remove it?"
 msgstr ""
-"Dies ist ein globaler Gegenstand. Wenn Sie dieses Element löschen, wird es "
-"von jeder Seite, auf der Sie es haben, entfernt. Sind Sie sicher, dass Sie "
-"es entfernen möchten?"
+"Dies ist ein globales Element. Wenn Sie dieses Element löschen, wird es von "
+"jeder Seite, auf der Sie es haben, entfernt. Sind Sie sicher, dass Sie es "
+"entfernen möchten?"
 
 #: inc/helpers.php:861
 msgid "Global element"
 msgstr "Globales Element"
 
 #: inc/helpers.php:862
-#, fuzzy
 msgid "Global column"
 msgstr "Globale Spalte"
 
@@ -1464,7 +1451,6 @@ msgid "Global container"
 msgstr "Globaler Container"
 
 #: inc/helpers.php:864
-#, fuzzy
 msgid "An element with this name already exists. Please enter different name."
 msgstr ""
 "Ein Element mit diesem Namen existiert bereits. Bitte geben Sie einen "
@@ -1934,12 +1920,10 @@ msgid "Next Page"
 msgstr "Nächste Seite"
 
 #: inc/helpers.php:938
-#, fuzzy
 msgid "Special"
-msgstr "Spezial"
+msgstr "Besonders"
 
 #: inc/helpers.php:939
-#, fuzzy
 msgid "Special Items"
 msgstr "Besondere Elemente"
 
@@ -2698,7 +2682,6 @@ msgid "All items displayed."
 msgstr "Alle Elemente angezeigt."
 
 #: inc/lib/inc/class-fusion-settings.php:393
-#, fuzzy
 msgid "Link & Zoom"
 msgstr "Link & Zoom"
 
@@ -2748,13 +2731,13 @@ msgstr ""
 
 #. translators: The element and its value.
 #: inc/lib/inc/class-fusion-settings.php:488
-#, fuzzy
 msgid ""
 "  Leave empty for value set in parent options. If that is also empty, the "
 "%1$s value of %2$s will be used."
 msgstr ""
-"Leave empty for value set in parent options.  If that is also empty, the "
-"%1$s value of %2$s will be used."
+"  Lassen Sie das Feld leer für den Wert, der in den übergeordneten "
+"Einstellungen gesetzt wurde. Wenn dieser ebenfalls leer ist, wird der %1$s-"
+"Wert von %2$s verwendet."
 
 #. translators: The default value.
 #: inc/lib/inc/class-fusion-settings.php:494
@@ -2823,7 +2806,6 @@ msgstr "Fehler beim Importieren von %s %s"
 #: inc/lib/inc/importer/class-fusion-wxr-importer.php:537
 #: inc/lib/inc/importer/class-wxr-importer.php:902
 #: inc/lib/inc/importer/class-wxr-importer.php:1736
-#, fuzzy
 msgid "Imported \"%s\" (%s)"
 msgstr "\"%s\" (%s) Importiert "
 
@@ -3371,7 +3353,6 @@ msgid "Arabic"
 msgstr "Arabisch"
 
 #: inc/lib/inc/redux/custom-fields/typography/googlefonts.php:108
-#, fuzzy
 msgid "Gujarati"
 msgstr "Gujarati"
 
@@ -3701,14 +3682,8 @@ msgid "Back"
 msgstr "Zurück"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_panel.php:146
-#, fuzzy
 msgid "Help"
-msgstr ""
-"Derzeit wird Fusion Builder nur mit dem Avada Theme angeboten, so dass jede "
-"Unterstützung durch das Avada Support Center abgewickelt wird. <a href=\"%1$s"
-"\" target=\"%2$s\">Melden Sie sich bei unserem Support Center an</a>, danach "
-"erstellen Sie ein Ticket mit Ihrer Anfrage und unser Experten-Team hilft "
-"Ihnen anschließend gerne weiter."
+msgstr "Hilfe"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
 msgid "Press return or enter to open"
@@ -3856,10 +3831,7 @@ msgstr "Rahmen Style"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
 msgid "From "
-msgstr ""
-"In Ihrer Kontoübersicht können Sie bisherige Bestellungen sehen, Ihre "
-"Versand- und Rechnungsadresse verwalten und <a href=\"%s\">Ihr Passwort und "
-"Kontoinformationen ändern</a>."
+msgstr "Von "
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
 msgid "To "
@@ -3894,9 +3866,8 @@ msgid "Visited"
 msgstr "Besuchte"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/link_color/field_link_color.php:100
-#, fuzzy
 msgid "Active"
-msgstr "Aktiv:"
+msgstr "Aktiv"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/fields/multi_text/field_multi_text.php:61
 msgid "Add More"
@@ -3953,10 +3924,10 @@ msgid ""
 "strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
 "document</a>, or your theme will be rejected because of FusionRedux."
 msgstr ""
-"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
-"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
-"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
-"document</a>, or your theme will be rejected because of FusionRedux."
+"<span class=“tc-lead tc-recommended”>EMPFEHLUNG</span>: Wenn Sie dies bei "
+"WordPress.org Theme Repository einreichen, wird <strong>dringend</strong> "
+"empfohlen, dass Sie <a href=\"%s\" target=\"_blank\">dieses Dokument</a> "
+"lesen oder Ihr Theme wird wegen FusionRedux abgelehnt."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:24
 msgid ""
@@ -3964,9 +3935,9 @@ msgid ""
 "<strong> %s </strong>, or your theme will be rejected by WP.org theme "
 "submission because of FusionRedux."
 msgstr ""
-"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
-"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
-"submission because of FusionRedux."
+"<span class=\"tc-lead tc-required\">ERFORDERLICH</span>: Sie müssen <strong>"
+"%s</strong> löschen oder Ihr Theme wird von WP.org wegen FusionRedux "
+"abgelehnt."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/embedded.php:38
 msgid "Optional"
@@ -3978,41 +3949,41 @@ msgid ""
 "arguments MUST be used for WP.org submissions, or you will be rejected "
 "because of your FusionRedux configuration."
 msgstr ""
-"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
-"arguments MUST be used for WP.org submissions, or you will be rejected "
-"because of your FusionRedux configuration."
+"<span class=\"tc-lead tc-recommended\">EMPFEHLUNG</span>: Die folgenden "
+"Argumente müssen verwendet werden oder Ihr Eintrag wird wegen Ihrer "
+"FusionRedux-Konfiguration abgelehnt."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:16
 msgid "FusionRedux localization utilities"
-msgstr "FusionRedux localization utilities"
+msgstr "FusionRedux Lokalisierungstools"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:17
 msgid "FusionRedux Resting Diles"
-msgstr "FusionRedux Resting Diles"
+msgstr "FusionRedux Testdateien"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:18
 msgid "FusionRedux Code Styles"
-msgstr "FusionRedux Code Styles"
+msgstr "FusionRedux Codestile"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:19
 msgid "FusionRedux Unit Testing"
-msgstr "FusionRedux Unit Testing"
+msgstr "FusionRedux Unit-Tests"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:20
 msgid "FusionRedux Plugin File"
-msgstr "FusionRedux Plugin File"
+msgstr "FusionRedux Plugin Datei"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:21
 msgid "FusionRedux Boostrap Tests"
-msgstr "FusionRedux Boostrap Tests"
+msgstr "FusionRedux Boostrap-Tests"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:22
 msgid "CI Testing FIle"
-msgstr "CI Testing FIle"
+msgstr "CI-Testdatei"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:23
 msgid "PHP Unit Testing"
-msgstr "PHP Unit Testing"
+msgstr "PHP Unit-Tests"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/themecheck/checks/full_package.php:36
 msgid ""
@@ -4021,14 +3992,18 @@ msgid ""
 "Embedding anything else will get your rejected from theme submission. "
 "Suspected FusionRedux package file(s):"
 msgstr ""
-"It appears that you have embedded the full FusionRedux package inside your "
-"theme. You need only embed the <strong>FusionReduxCore</strong> folder. "
-"Embedding anything else will get your rejected from theme submission. "
-"Suspected FusionRedux package file(s):"
+"Es scheint, dass du das volle Redux-Paket in deinem Thema eingebettet hast. "
+"Du musst nur den Ordner <strong>ReduxCore</strong> einbetten. Alles andere "
+"wird von deiner Theme-Vorlage abgelehnt. Verdächtige Redux-Paketdatei(en):\n"
+"\n"
+"Es scheint, dass Sie das komplette FusionRedux-Paket in Ihr Theme "
+"eingebettet haben. Sie brauchen nur den Ordner <strong>FusionReduxCore</"
+"strong> einzubetten. Wenn Sie irgendetwas anderes einbetten, werden Sie bei "
+"der Theme-Einreichung abgelehnt. Verdächtige FusionRedux-Paketdatei(en):"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:129
 msgid "Help improve Our Panel"
-msgstr "Help improve Our Panel"
+msgstr "Helfen Sie mit, unser Angebot zu verbessern"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:130
 msgid ""
@@ -4036,17 +4011,18 @@ msgid ""
 "stats so we know which configurations, plugins and themes to test to ensure "
 "compatibility."
 msgstr ""
-"Please helps us improve our panel by allowing us to gather anonymous usage "
-"stats so we know which configurations, plugins and themes to test to ensure "
-"compatibility."
+"Bitte helfen Sie uns, unser Panel zu verbessern, indem Sie uns erlauben, "
+"anonyme Nutzungsstatistiken zu sammeln, damit wir wissen, welche "
+"Konfigurationen, Plugins und Themes wir testen müssen, um die Kompatibilität "
+"sicherzustellen."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:135
 msgid "Allow tracking"
-msgstr "Allow tracking"
+msgstr "Datenerhebung erlauben"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:140
 msgid "Do not allow tracking"
-msgstr "Do not allow tracking"
+msgstr "Datenerhebung nicht erlauben"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:151
 msgid "Welcome to the FusionRedux Demo Panel"
@@ -4054,19 +4030,20 @@ msgstr "Willkommen beim FusionRedux Demo Panel"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:152
 msgid "Getting Started"
-msgstr "Anfangen"
+msgstr "Erste Schritte"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:152
 msgid ""
 "This panel demonstrates the many features of FusionRedux.  Before digging "
 "in, we suggest you get up to speed by reviewing %1$s."
 msgstr ""
-"This panel demonstrates the many features of FusionRedux.  Before digging "
-"in, we suggest you get up to speed by reviewing %1$s."
+"Dieses Panel demonstriert die vielen Funktionen von FusionRedux.  Bevor Sie "
+"sich an die Arbeit machen, empfehlen wir Ihnen, sich mit %1$s vertraut zu "
+"machen."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:152
 msgid "our documentation"
-msgstr "our documentation"
+msgstr "unsere Dokumentation"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:153
 msgid "FusionRedux Generator"
@@ -4079,27 +4056,29 @@ msgid ""
 "FusionRedux (with the help of Underscores and TGM). Save yourself a headache "
 "and try it today."
 msgstr ""
-"Want to get a head start? Use the %1$s. It will create a customized "
-"boilerplate theme or a standalone admin folder complete with all things "
-"FusionRedux (with the help of Underscores and TGM). Save yourself a headache "
-"and try it today."
+"Wollen Sie sich einen Vorsprung verschaffen? Verwenden Sie die %1$s. Es wird "
+"ein individuelles Boilerplate Theme oder einen eigenständigen Admin-Ordner "
+"mit allen notwendigen Elementen von FusionRedux erstellen (mit Hilfe von "
+"Underscores und TGM). Sparen Sie sich Kopfschmerzen und versuchen Sie es "
+"noch heute."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:154
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:191
 msgid "FusionRedux Extensions"
-msgstr "FusionRedux Extensions"
+msgstr "FusionRedux Erweiterungen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:154
 msgid ""
 "Did you know we have extensions, which greatly enhance the features of "
 "FusionRedux?  Visit our %1$s to learn more!"
 msgstr ""
-"Did you know we have extensions, which greatly enhance the features of "
-"FusionRedux?  Visit our %1$s to learn more!"
+"Wussten Sie, dass wir Erweiterungen haben, die die Funktionen von "
+"FusionRedux erheblich verbessern?  Besuchen Sie unsere %1$s, um mehr zu "
+"erfahren!"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:154
 msgid "extensions directory"
-msgstr "extensions directory"
+msgstr "Erweiterungs-Verzeichnis"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:155
 msgid "Like FusionRedux?"
@@ -4110,8 +4089,8 @@ msgid ""
 "If so, please %1$s and consider making a %2$s to keep development of "
 "FusionRedux moving forward."
 msgstr ""
-"If so, please %1$s and consider making a %2$s to keep development of "
-"FusionRedux moving forward."
+"Wenn ja, bitte %1$s und erwägen Sie, ein %2$s zu machen, um die Entwicklung "
+"von FusionRedux voranzutreiben."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:155
 msgid "leave us a favorable review on WordPress.org"
@@ -4130,8 +4109,8 @@ msgid ""
 "If you'd like to keep up to with all things FusionRedux, please subscribe to "
 "our newsletter"
 msgstr ""
-"If you'd like to keep up to with all things FusionRedux, please subscribe to "
-"our newsletter"
+"Wenn Sie immer auf dem Laufenden bleiben möchten, abonnieren Sie bitte "
+"unseren Newsletter."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/tracking.php:157
 msgid "Email address"
@@ -4150,22 +4129,23 @@ msgstr "Schließen"
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
 msgid "This field must be a valid color value."
-msgstr "This field must be a valid color value."
+msgstr "Dieses Feld muss einen gültigen Farbwert enthalten."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
 msgid ""
 "You must provide a comma separated list of numerical values for this option."
 msgstr ""
-"Sie müssen eine durch Kommas getrennte Liste numerischer Werte für diese "
-"Option angeben."
+"Für diese Option müssen Sie eine durch Komma getrennte Liste numerischer "
+"Werte angeben."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/css/validation_css.php:39
 msgid "Unsafe strings were found in your CSS and have been filtered out."
-msgstr "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+"Unsichere Zeichenketten wurden in Ihrem CSS gefunden und herausgefiltert."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/date/validation_date.php:16
 msgid "This field must be a valid date."
-msgstr "This field must be a valid date."
+msgstr "Dieses Feld muss ein gültiges Datum enthalten."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/email/validation_email.php:16
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
@@ -4176,7 +4156,6 @@ msgstr "Sie müssen eine gültige E-Mail Adresse für diese Option angeben."
 msgid ""
 "You must not enter any HTML in this field, all HTML tags have been removed."
 msgstr ""
-"75/5000\n"
 "Sie dürfen in diesem Feld keinen HTML-Code eingeben, alle HTML-Tags wurden "
 "entfernt."
 
@@ -4202,8 +4181,8 @@ msgid ""
 "That URL slug is in use, please choose another. <code>%s</code> is open for "
 "use."
 msgstr ""
-"That URL slug is in use, please choose another. <code>%s</code> is open for "
-"use."
+"Dieser URL Slug ist in Gebrauch, bitte wählen Sie einen anderen. <code>%s</"
+"code> ist zur Verwendung verfügbar. "
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/validation/url/validation_url.php:16
 msgid "You must provide a valid URL for this option."
@@ -4218,12 +4197,13 @@ msgid ""
 "Thank you for updating to the latest version! FusionRedux Framework %s is a "
 "huge step forward in FusionRedux Development. Look at all that's new."
 msgstr ""
-"Thank you for updating to the latest version! FusionRedux Framework %s is a "
-"huge step forward in FusionRedux Development. Look at all that's new."
+"Vielen Dank für das Update auf die neueste Version! FusionRedux Framework %s "
+"ist ein großer Fortschritt in der FusionRedux-Entwicklung. Sieh dir an, was "
+"alles neu ist."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:15
 msgid "What is FusionRedux Framework?"
-msgstr "Was ist FusionRedux Framework?"
+msgstr "Was ist das FusionRedux Framework?"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:17
 msgid ""
@@ -4231,17 +4211,17 @@ msgid ""
 "option framework which developers use to\n"
 "\t\t\tenhance their products."
 msgstr ""
-"FusionRedux Framework is the core of many products on the web. It is an "
-"option framework which developers use to\n"
-"\t\t\tenhance their products."
+"FusionRedux Framework ist das Herzstück vieler Produkte im Web. Es handelt "
+"sich um ein Options-Framework, das von Entwicklern verwendet wird, um\n"
+"\t\t\tihre Produkte zu verbessern."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/about.php:24
 msgid "New in this Release"
-msgstr "New in this Release"
+msgstr "Neu in diesem Release"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:2
 msgid "FusionRedux Framework - Changelog"
-msgstr "FusionRedux Framework - Changelog"
+msgstr "FusionRedux Framework - Änderungsprotokoll"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/changelog.php:5
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:30
@@ -4250,13 +4230,13 @@ msgid ""
 "thousands of instances worldwide, you can be assured that we will take care "
 "of you and your clients."
 msgstr ""
-"Our core mantra at FusionRedux is backwards compatibility. With hundreds of "
-"thousands of instances worldwide, you can be assured that we will take care "
-"of you and your clients."
+"Unser Leitgedanke bei FusionRedux ist die Abwärtskompatibilität. Mit "
+"Hunderttausenden von Installationen weltweit können Sie sicher sein, dass "
+"wir uns um Sie und Ihre Kunden kümmern werden."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:2
 msgid "FusionRedux Framework - A Community Effort"
-msgstr "FusionRedux Framework - A Community Effort"
+msgstr "FusionRedux Framework - Eine Gemeinschaftsarbeit"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:5
 msgid ""
@@ -4264,9 +4244,9 @@ msgid ""
 "all of those who help FusionRedux to be what it is. Thank you for your "
 "involvement."
 msgstr ""
-"We recognize we are nothing without our community. We would like to thank "
-"all of those who help FusionRedux to be what it is. Thank you for your "
-"involvement."
+"Wir erkennen, dass wir ohne unsere Gemeinschaft nichts sind. Wir möchten uns "
+"bei allen bedanken, die FusionRedux helfen, das zu sein, was es ist. Vielen "
+"Dank für Ihr Engagement."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/credits.php:18
 msgid ""
@@ -4274,21 +4254,21 @@ msgid ""
 "your name listed too? <a href=\"%d\" target=\"_blank\">Contribute to "
 "FusionRedux</a>."
 msgstr ""
-"FusionRedux is created by a community of developers world wide. Want to have "
-"your name listed too? <a href=\"%d\" target=\"_blank\">Contribute to "
-"FusionRedux</a>."
+"FusionRedux wird von einer Gemeinschaft von Entwicklern auf der ganzen Welt "
+"entwickelt. Möchten Sie auch Ihren Namen auflisten lassen? <a href=\"%d\" "
+"target=\"_blank\">Beitragen zu FusionRedux</a>."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:73
 msgid "FusionRedux Framework - Extensions"
-msgstr "FusionRedux Framework - Extensions"
+msgstr "FusionRedux Framework - Erweiterungen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:76
 msgid ""
 "Supercharge your FusionRedux experience. Our extensions provide you with "
 "features that will take your products to the next level."
 msgstr ""
-"Supercharge your FusionRedux experience. Our extensions provide you with "
-"features that will take your products to the next level."
+"Erweitern Sie Ihr FusionRedux-Erlebnis. Unsere Erweiterungen bieten Ihnen "
+"Funktionen, die Ihre Produkte auf die nächste Stufe heben."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/extensions.php:89
 msgid ""
@@ -4301,7 +4281,7 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:26
 msgid "FusionRedux Framework - System Status"
-msgstr "FusionRedux Framework - System Status"
+msgstr "FusionRedux Framework - Systemstatus"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:43
 msgid ""
@@ -4313,15 +4293,15 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:48
 msgid "Get System Report"
-msgstr "Systemreport holen"
+msgstr "Systembericht abrufen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:53
 msgid "Understanding the Status Report"
-msgstr "Understanding the Status Report"
+msgstr "Den Statusbericht verstehen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:62
 msgid "Copied!"
-msgstr "Kopiert! "
+msgstr "Kopiert!"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:63
 msgid "Copy for Support"
@@ -4345,7 +4325,7 @@ msgstr "Website URL"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:92
 msgid "The root URL of your site."
-msgstr "Die Root-URL deiner Internetpräsenz."
+msgstr "Die Root-URL Ihrer Website."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:100
 msgid "FusionRedux Version"
@@ -4353,23 +4333,27 @@ msgstr "FusionRedux Version"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:103
 msgid "The version of FusionRedux Framework installed on your site."
-msgstr "The version of FusionRedux Framework installed on your site."
+msgstr ""
+"Die Version des FusionRedux Frameworks, die auf Ihrer Website installiert "
+"ist."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:111
 msgid "FusionRedux Data Directory Writable"
-msgstr "FusionRedux Data Directory Writable"
+msgstr "FusionRedux Datenverzeichnis beschreibbar"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:114
 msgid ""
 "FusionRedux and its extensions write data to the <code>uploads</code> "
 "directory. This directory must be writable."
 msgstr ""
-"FusionRedux and its extensions write data to the <code>uploads</code> "
-"directory. This directory must be writable."
+"FusionRedux und seine Erweiterungen schreiben Daten in das Verzeichnis "
+"<code>uploads</code>. Dieses Verzeichnis muss beschreibbar sein."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:120
 msgid "To allow data saving, make <code>%s</code> writable."
-msgstr "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+"Um die Datenspeicherung zu ermöglichen, machen Sie <code>%s</code> "
+"beschreibbar."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:126
 msgid "WP Content URL"
@@ -4377,7 +4361,7 @@ msgstr "WP Inhalt URL"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:129
 msgid "The location of Wordpress's content URL."
-msgstr "The location of Wordpress's content URL."
+msgstr "Der Speicherort der Wordpress Inhalt-URL."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:137
 msgid "WP Version"
@@ -4385,7 +4369,7 @@ msgstr "WP-Version"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:140
 msgid "The version of WordPress installed on your site."
-msgstr "Die WordPress Version die auf Ihrem Webserver installiert ist."
+msgstr "Die Version von WordPress, die auf Ihrer Website installiert ist."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:148
 msgid "WP Multisite"
@@ -4403,15 +4387,16 @@ msgstr "Permalink Struktur"
 msgid ""
 "The current permalink structure as defined in Wordpress Settings->Permalinks."
 msgstr ""
-"The current permalink structure as defined in Wordpress Settings->Permalinks."
+"Die aktuelle Permalink-Struktur, wie sie in Wordpress Einstellungen -> "
+"Permalinks definiert ist."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:174
 msgid "Front Page Display"
-msgstr "Front Page Anzeige"
+msgstr "Startseite anzeigen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:176
 msgid "The current Reading mode of Wordpress."
-msgstr "The current Reading mode of Wordpress."
+msgstr "Der aktuelle Lesemodus von Wordpress."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:185
 msgid "Front Page"
@@ -4419,15 +4404,15 @@ msgstr "Startseite"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:188
 msgid "The currently selected page which acts as the site's Front Page."
-msgstr "The currently selected page which acts as the site's Front Page."
+msgstr "Die aktuell ausgewählte Seite, die auch als Startseite dient."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:196
 msgid "Posts Page"
-msgstr "Beiträge Seite"
+msgstr "Beitragsseite"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:199
 msgid "The currently selected page in where blog posts are displayed."
-msgstr "The currently selected page in where blog posts are displayed."
+msgstr "Die aktuell ausgewählte Seite, auf der Blog-Einträge angezeigt werden."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:210
 msgid "WP Memory Limit"
@@ -4436,7 +4421,7 @@ msgstr "WP-Speicher-Limit"
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:213
 msgid "The maximum amount of memory (RAM) that your site can use at one time."
 msgstr ""
-"Max. Speicher (RAM) den Ihre Website zu einem bestimmten Zeitpunkt maximal "
+"Die maximale Größe des Arbeitsspeichers (RAM), den Ihre Website gleichzeitig "
 "nutzen darf."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:220
@@ -4444,17 +4429,16 @@ msgid ""
 "%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
 "target=\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
-"%s - Es wird empfohlen, die Speichereinstellung auf mindestens 40 MB zu "
-"setzen. Siehe: <a href=\"%s\" target=\"_blank\">Steigende Speichergröße, die "
-"PHP zugeordnet ist</a>"
+"%s - Wir empfehlen, den Speicher auf mindestens 40 MB zu setzen. Siehe: <a "
+"href=\"%s\" target=\"_blank\">Erhöhen des für PHP zugewiesenen Speichers</a>"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:229
 msgid "Database Table Prefix"
-msgstr "Database Table Prefix"
+msgstr "Präfix der Datenbanktabelle"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:232
 msgid "The prefix structure of the current Wordpress database."
-msgstr "The prefix structure of the current Wordpress database."
+msgstr "Die Präfix-Struktur der aktuellen Wordpress-Datenbank."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:240
 msgid "WP Debug Mode"
@@ -4482,7 +4466,7 @@ msgstr "Browser Info"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:280
 msgid "Information about web browser current in use."
-msgstr "Information about web browser current in use."
+msgstr "Informationen über den aktuell verwendeten Webbrowser."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:297
 msgid "Server Environment"
@@ -4494,15 +4478,16 @@ msgstr "Server Info"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:307
 msgid "Information about the web server that is currently hosting your site."
-msgstr "Informationen über den Webserver der ihrer Website ausliefert."
+msgstr ""
+"Informationen über den Webserver, auf dem Ihre Website derzeit gehostet wird."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:315
 msgid "Localhost Environment"
-msgstr "Localhost Environment"
+msgstr "Localhost Umgebung"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:318
 msgid "Is the server running in a localhost environment."
-msgstr "Is the server running in a localhost environment."
+msgstr "Läuft der Server in einer Localhost-Umgebung."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:332
 msgid "PHP Version"
@@ -4518,11 +4503,11 @@ msgstr "ABSPATH"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:346
 msgid "The ABSPATH variable on the server."
-msgstr "The ABSPATH variable on the server."
+msgstr "Die Variable ABSPATH auf dem Server."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:355
 msgid "PHP Memory Limit"
-msgstr "PHP Memory Limit"
+msgstr "PHP Speicher Limit"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:356
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:361
@@ -4555,20 +4540,20 @@ msgid ""
 "The maximum number of variables your server can use for a single function to "
 "avoid overloads."
 msgstr ""
-"Max. Anzahl an Eingabe-Variablen die der Server für eine einzelne Funktion "
-"nutzen kann."
+"Die maximale Anzahl von Variablen, die Ihr Server für eine einzelne Funktion "
+"verwenden kann, um Überlastungen zu vermeiden."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:375
 msgid "PHP Display Errors"
-msgstr "PHP Display Errors"
+msgstr "PHP-Anzeigefehler"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:376
 msgid "Determines if PHP will display errors within the browser."
-msgstr "Determines if PHP will display errors within the browser."
+msgstr "Legt fest, ob PHP Fehler im Browser anzeigt."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:387
 msgid "SUHOSIN Installed"
-msgstr "SUHOSIN Installed"
+msgstr "SUHOSIN installiert"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:388
 msgid ""
@@ -4579,12 +4564,12 @@ msgid ""
 "If enabled on your server, Suhosin may need to be configured to increase its "
 "data submission limits."
 msgstr ""
-"Suhosin is an advanced protection system for PHP installations. It was "
-"designed to protect your servers on the one hand against a number of well "
-"known problems in PHP applications and on the other hand against potential "
-"unknown vulnerabilities within these applications or the PHP core itself.  "
-"If enabled on your server, Suhosin may need to be configured to increase its "
-"data submission limits."
+"Suhosin ist ein fortschrittliches Schutzsystem für PHP-Installationen. Es "
+"wurde entwickelt, um Ihre Server einerseits vor einer Reihe bekannter "
+"Probleme in PHP-Anwendungen und andererseits vor potenziell unbekannten "
+"Schwachstellen innerhalb dieser Anwendungen oder des PHP-Kerns selbst zu "
+"schützen. Wenn auf Ihrem Server aktiviert, muss Suhosin möglicherweise so "
+"konfiguriert werden, dass die Datenübertragungsgrenzen erhöht werden."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:399
 msgid "MySQL Version"
@@ -4602,7 +4587,7 @@ msgstr "Max. Upload Größe"
 msgid ""
 "The largest filesize that can be uploaded to your WordPress installation."
 msgstr ""
-"Die Dateigröße die max. innerhalb ihrer WordPress Installation hochgeladen "
+"Die maximale Dateigröße, die in Ihre WordPress-Installation hochgeladen "
 "werden kann."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:410
@@ -4619,7 +4604,7 @@ msgstr "Standard Zeitzone ist %s - es sollte UTC sein"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:428
 msgid "Used when communicating with remote services with PHP."
-msgstr "Used when communicating with remote services with PHP."
+msgstr "Wird bei der Kommunikation mit Remote Diensten mit PHP verwendet."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:434
 msgid ""
@@ -4632,19 +4617,20 @@ msgstr ""
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:473
 msgid "Remote Post"
-msgstr "Ãhnliche Beiträge"
+msgstr "Remote Beitrag"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:474
 msgid "Used to send data to remote servers."
-msgstr "Used to send data to remote servers."
+msgstr "Wird verwendet, um Daten an entfernte Server zu senden."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:479
 msgid ""
 "wp_remote_post() failed. Many advanced features may not function. Contact "
 "your hosting provider."
 msgstr ""
-"wp_remote_post() failed. Many advanced features may not function. Contact "
-"your hosting provider."
+"wp_remote_post() ist fehlgeschlagen. Viele erweiterte Funktionen "
+"funktionieren möglicherweise nicht. Wenden Sie sich an Ihren Hosting-"
+"Anbieter."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:482
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:497
@@ -4653,11 +4639,13 @@ msgstr "Fehler: %s"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:489
 msgid "Remote Get"
-msgstr "Remote Get"
+msgstr "Fernabfrage"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:490
 msgid "Used to grab information from remote servers for updates updates."
-msgstr "Used to grab information from remote servers for updates updates."
+msgstr ""
+"Wird verwendet, um Informationen von entfernten Servern für Aktualisierungen "
+"abzurufen."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:495
 msgid ""
@@ -4665,19 +4653,19 @@ msgid ""
 "servers. Contact your hosting provider."
 msgstr ""
 "wp_remote_get() ist fehlgeschlagen. Dies ist notwendig, um Informationen von "
-"Remote-Servern zu erhalten. Kontaktiere Deinen Hosting-Anbieter."
+"entfernten Servern zu erhalten. Wenden Sie sich an Ihren Hosting-Anbieter."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:531
 msgid "Active Plugins"
-msgstr "Aktivierte PlugIns"
+msgstr "Aktive Plugins"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:546
 msgid "Visit plugin homepage"
-msgstr "PlugIn Homepage besuchen"
+msgstr "Besuchen Sie die Plugin-Webseite"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:572
 msgid "FusionRedux Instance: "
-msgstr "FusionRedux Instanz:"
+msgstr "FusionRedux Instanz: "
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:579
 msgid "The opt_name argument for this instance of FusionRedux."
@@ -4696,7 +4684,7 @@ msgstr "Gibt an, ob der Entwicklermodus für diese Redux-Instanz aktiviert ist."
 msgid ""
 "Indicates if ajax based saving is enabled for this instance of FusionRedux."
 msgstr ""
-"Gibt an, ob das AJAX-basiertes Speichern für diese Instanz von FusionRedux "
+"Gibt an, ob die ajax-basierte Speicherung für diese Instanz von FusionRedux "
 "aktiviert ist."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:605
@@ -4704,32 +4692,33 @@ msgid ""
 "The page slug denotes the string used for the options panel page for this "
 "instance of FusionRedux."
 msgstr ""
-"Der Seitenslug bezeichnet den String, der für die Optionsfeldseite für diese "
-"FusionRedux-Instanz verwendet wird."
+"Der Seitenslug gibt die Zeichenkette an, die für die Optionsfeldseite für "
+"diese Instanz von FusionRedux verwendet wird."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:610
 msgid ""
 "The page permissions variable sets the permission level required to access "
 "the options panel for this instance of FusionRedux."
 msgstr ""
-"Die Variable page permissions legt die Berechtigungsstufe fest, die für den "
-"Zugriff auf das Optionsfeld für diese FusionRedux-Instanz erforderlich ist."
+"Die Variable für Seitenberechtigungen legt die Berechtigungsstufe fest, die "
+"erforderlich ist, um auf das Optionsfeld für diese Instanz von FusionRedux "
+"zuzugreifen."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:615
 msgid ""
 "This variable set whether or not the menu is displayed as an admin menu item "
 "for this instance of FusionRedux."
 msgstr ""
-"Diese Variable legt fest, ob das Menü in dieser Instanz von FusionRedux als "
-"Admin-Menü angezeigt wird oder nicht."
+"Diese Variable legt fest, ob das Menü als Admin-Menüeintrag für diese "
+"Instanz von FusionRedux angezeigt wird oder nicht."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:620
 msgid ""
 "The page parent variable sets where the options menu will be placed on the "
 "WordPress admin sidebar for this instance of FusionRedux."
 msgstr ""
-"Diese seitenübergeordnete Variable legt fest, wo das Optionsmenü in der "
-"WordPress Admin-Leiste für diese FusionRedux-Instanz angezeigt wird."
+"Die übergeordnete Variable legt fest, wo das Optionsmenü in der Wordpress "
+"Admin Seitenleiste für diese Instanz von FusionRedux platziert wird."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:626
 msgid ""
@@ -4751,9 +4740,8 @@ msgid ""
 "The output_tag variable sets whether or not dynamic CSS will be generated "
 "for the customizer and Google fonts for this instance of FusionRedux."
 msgstr ""
-"Die output_tag Variable bestimmt, ob dynamisches CSS für die Customizer- und "
-"Google Schriftarten für diese Instanz von FusionRedux erzeugt werden oder "
-"nicht."
+"Die Variable output_tag legt fest, ob dynamisches CSS für den Anpasser und "
+"Google-Fonts für diese Instanz von FusionRedux erzeugt wird oder nicht."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:645
 msgid ""
@@ -4767,18 +4755,19 @@ msgstr ""
 msgid ""
 "List of template files overriding the default FusionRedux template files."
 msgstr ""
-"Liste der Vorlagendateien, die die Standard-Redux-Vorlagendateien "
+"Liste der Vorlagendateien, die die Standard-FusionRedux-Vorlagendateien "
 "überschreiben."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:676
 msgid ""
 "Indicates the installed FusionRedux extensions and their version numbers."
 msgstr ""
-"Zeigt die installierten FusionRedux Erweiterungen und deren Versionsnummern."
+"Zeigt die installierten FusionRedux Erweiterungen und deren Versionsnummern "
+"an."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:705
 msgid "Theme"
-msgstr "Farbschema"
+msgstr "Theme"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:710
 #: shortcodes/fusion-menu-anchor.php:116 shortcodes/fusion-person.php:655
@@ -4808,7 +4797,7 @@ msgstr "URL des Autors"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:729
 msgid "The theme developers URL."
-msgstr "Die Theme Entwickler URL."
+msgstr "Die URL des Design-Entwicklers."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:733
 msgid "Child Theme"
@@ -4877,7 +4866,7 @@ msgstr "Art der Unterstützung auswählen"
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:21
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:87
 msgid "How to Get Support"
-msgstr "Wie du Unterstützung bekommst"
+msgstr "So erhalten Sie Unterstützung"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:27
 msgid "Submit a Support Request"
@@ -4894,14 +4883,14 @@ msgid ""
 "server. To see the type of information sent, please look at the  <a href=\"%s"
 "\">Status tab</a>."
 msgstr ""
-"Das wird den Entwicklern alle Informationen zur Verfügung stellen, die "
-"benötigt werden, um Dein Anliegen zu klären. Der Informationsaustausch "
-"erfolgt sicher über einen Remote-Server. Um zu sehen, welche Informationen "
-"übermittelt werden, schaue bitte auf den <a href=\"%s\">Status Tab</a>."
+"Dies wird dem Entwickler alle Informationen liefern, die er benötigt, um Ihr "
+"Problem zu beheben. Diese Aktion wird Informationen sicher an einen "
+"entfernten Server senden. Um die von Ihnen gesendeten Informationen zu "
+"prüfen, schauen Sie bitte unter <a href=\"%s\">Status Tab</a> nach."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:52
 msgid "Select Your Support Type"
-msgstr "Wählen Sie die Art der Unterstützung"
+msgstr "Wählen Sie Ihren Support-Typ"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:56
 msgid "What type of user are you?"
@@ -4929,9 +4918,9 @@ msgid ""
 "your support URL below. Please also provide any information that will help "
 "us to reproduce your issue."
 msgstr ""
-"Bitte fahren Sie mit dem Redux Framework-Ausgabe-Tracker fort und versorgen "
-"Sie uns mit Ihrer Support-URL unten. Bitte geben Sie auch alle Informationen "
-"an, die uns helfen, Ihr Problem zu reproduzieren."
+"Bitte gehen Sie zum FusionRedux Framework Issue Tracker und geben Sie uns "
+"unten Ihre Support-URL an. Bitte geben Sie auch alle Informationen an, die "
+"uns helfen, Ihr Problem zu reproduzieren."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:101
 msgid ""
@@ -4942,11 +4931,12 @@ msgid ""
 "the products listed below with your support questions."
 msgstr ""
 "Nachfolgend sind diejenigen auf Ihrer Website installierten Wordpress-"
-"Plugins und / oder Themes aufgeführt, die Redux Framework nutzen. Wir bieten "
-"keinen direkten Support für Produkte an, die innerhalb unseres Frameworks "
-"erzeugt werden. Die Entwickler von Plugins oder Themen sind selbst für den "
-"Support Ihrer jeweiligen Produkte verantwortlich. Ihre Supportanfrage "
-"richten Sie daher bitte direkt an den Autor der unten aufgelisteten Produkte."
+"Plugins und / oder Themes aufgeführt, die FusionRedux Framework nutzen. Wir "
+"bieten keinen direkten Support für Produkte an, die innerhalb unseres "
+"Frameworks erzeugt werden. Die Entwickler von Plugins oder Themen sind "
+"selbst für den Support Ihrer jeweiligen Produkte verantwortlich. Ihre "
+"Supportanfrage richten Sie daher bitte direkt an den Autor der unten "
+"aufgelisteten Produkte."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/support.php:105
 msgid ""
@@ -4961,8 +4951,8 @@ msgid ""
 "Should the developer not be responsive, read the <a href=\"%s\" target="
 "\"_blank\">following article</a> before asking for support from us directly."
 msgstr ""
-"Falls Sie den Entwickler nicht erreichen können, lesen Sie bitte den <a "
-"href=„%s“ target=„_blank“>folgenden Artikel</a>, ehe Sie uns eine direkte "
+"Falls Sie den Entwickler nicht erreichen können, lesen Sie bitte den <a href="
+"\"%s\" target=\"_blank\">folgenden Artikel</a>, ehe Sie uns eine direkte "
 "Supportanfrage stellen."
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:104
@@ -5008,7 +4998,7 @@ msgstr "FusionRedux Framework Status"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:308
 msgid "What's New"
-msgstr "What's New"
+msgstr "Was ist neu"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:311
 msgid "Extensions"
@@ -5016,11 +5006,11 @@ msgstr "Erweiterungen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:314
 msgid "Changelog"
-msgstr "Changelog"
+msgstr "Änderungsprotokoll"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:317
 msgid "Credits"
-msgstr "Credits"
+msgstr "Danksagungen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/welcome.php:483
 msgid "View %s"
@@ -5061,7 +5051,7 @@ msgstr "WP_DEBUG ist aktiviert"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:26
 msgid "you are working in a localhost environment"
-msgstr "du arbeitest in einer localhost Umgebung"
+msgstr "Sie arbeiten in einer localhost-Umgebung"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/templates/panel/header.tpl.php:31
 msgid "and"
@@ -5097,11 +5087,11 @@ msgstr "Klicke hier, um die Beispiel Konfiguration zu aktivieren."
 
 #: inc/lib/inc/redux/framework/class.fusionredux-plugin.php:413
 msgid "Docs"
-msgstr "Doks"
+msgstr "Doku"
 
 #: inc/lib/inc/redux/framework/class.fusionredux-plugin.php:414
 msgid "Repo"
-msgstr "Repo  (Quelle)"
+msgstr "Repo (Quelle)"
 
 #: inc/lib/inc/redux/framework/class.fusionredux-plugin.php:421
 msgid "Deactivate Demo Mode"
@@ -5113,16 +5103,11 @@ msgstr "Demo-Modus aktivieren"
 
 #: inc/lib/inc/redux/panel_templates/header_stickybar.tpl.php:20
 msgid "Expand Options"
-msgstr "Aufklapp Optionen"
+msgstr "Optionen erweitern"
 
 #: inc/lib/inc/redux/panel_templates/header_stickybar.tpl.php:24
-#, fuzzy
 msgid "Support Center"
-msgstr ""
-"Dies sind allgemeine, häufig gestellte Fragen, die Ihnen helfen loszulegen. "
-"Bitte besuchen Sie unser <a href=\"%s\" target=\"_blank\">Online Support "
-"Center</a> für detailliertere Informationen, wie Dokumentation, "
-"Wissensdatenbank und Video-Anleitungen."
+msgstr "Support-Center"
 
 #. translators: %1$s: The fallback value. %2$s: The saved value. %3$s:
 #. User-entered value.
@@ -5170,8 +5155,8 @@ msgid ""
 "We could not find a valid unit for %1$s, falling back to \"%2$s\". Valid "
 "units are %3$s. Saved value \"%4$s\" and not \"%5$s.\"."
 msgstr ""
-"Wir konnten keine gültige Einheit für%1$s finden und fallen auf \"%2$s\" "
-"zurück. Gültige Einheiten sind%3$s. Gespeicherter Wert \"%4$s\" und nicht "
+"Wir konnten keine gültige Einheit für %1$s finden und fallen auf \"%2$s\" "
+"zurück. Gültige Einheiten sind %3$s. Gespeicherter Wert \"%4$s\" und nicht "
 "\"%5$s.\"."
 
 #. translators: %1$s: The value. %2$s: Fallback value. %3$s: A list of valid
@@ -5181,18 +5166,18 @@ msgid ""
 "No units were entered for %1$s, falling back to using pixels. Saved value "
 "\"%4$s\" and not \"%5$s\"."
 msgstr ""
-"Es wurden keine Einheiten für%1$s eingegeben und fielen zurück auf Pixel. "
+"Es wurden keine Einheiten für %1$s eingegeben und fielen zurück auf Pixel. "
 "Gespeicherter Wert \"%4$s\" und nicht \"%5$s\"."
 
 #. translators: The saved value and the user-entered value.
 #: inc/lib/inc/redux/validation-functions.php:482
 #: inc/lib/inc/redux/validation-functions.php:518
 msgid "Sanitized value and saved as %1$s instead of %2$s."
-msgstr "Desinfiziert Wert und speichert %1$s anstelle von %2$s."
+msgstr "Wert bereinigt und als %1$s anstelle von %2$s gespeichert."
 
 #: inc/lib/inc/templates/rollover.php:150 shortcodes/fusion-gallery.php:495
 msgid "Gallery"
-msgstr "Responsive Bildergalerie"
+msgstr "Bildergalerie"
 
 #: inc/lib/inc/templates/rollover.php:211
 msgid "View Cart"
@@ -5211,9 +5196,9 @@ msgid ""
 msgstr ""
 "Geben Sie Ihren CSS Code in das nachfolgende Feld ein. Fügen Sie keine Tags "
 "oder HTML in das Feld ein. Das hier eingegebene benutzerdefinierte CSS "
-"überschreibt das CSS des Designs. In einigen Fällen kann der !important Tag "
-"benötigt werden. Keine Bild- oder SVG Pfade encodieren. Der Inhalt dieses "
-"Feldes wird automatisch encodiert."
+"überschreibt das CSS des Designs. In einigen Fällen könnte der !important-"
+"Tag erforderlich sein. Keine Bild- oder SVG Pfade encodieren. Der Inhalt "
+"dieses Feldes wird automatisch encodiert."
 
 #: inc/options/dynamic_css_js.php:17
 msgid "Dynamic CSS & JS"
@@ -5224,13 +5209,12 @@ msgid ""
 "<strong>IMPORTANT NOTE:</strong> JS Compiler is disabled. File does not "
 "exist or access is restricted."
 msgstr ""
-"<strong>WICHTIGER HINWEIS:</strong> JS Compiler ist deaktiviert. Datei ist "
-"nicht vorhanden oder der Zugriff ist beschränkt."
+"<strong>Wichtiger Hinweis:</strong> JS Compiler ist deaktiviert. Datei ist "
+"nicht vorhanden oder der Zugriff ist eingeschränkt."
 
 #: inc/options/dynamic_css_js.php:30
-#, fuzzy
 msgid "Enable JS compiler"
-msgstr "Aktiviere JS Compiler"
+msgstr "JS-Compiler aktivieren"
 
 #: inc/options/dynamic_css_js.php:31
 msgid ""
@@ -5238,7 +5222,7 @@ msgid ""
 "the compiler disabled as that will improve performance of your site by "
 "allowing multiple JS files to be downloaded simultaneously."
 msgstr ""
-"Wir haben festgestellt, dass Ihr Server HTTP / 2 unterstützt. Wir empfehlen "
+"Wir haben festgestellt, dass Ihr Server HTTP/2 unterstützt. Wir empfehlen "
 "Ihnen, den Compiler deaktiviert zu lassen, da die Leistung Ihrer Website "
 "verbessert wird, indem mehrere JS-Dateien gleichzeitig heruntergeladen "
 "werden können."
@@ -5264,10 +5248,11 @@ msgid ""
 "styles folder), \"Database\" mode to cache the CSS in your database, or "
 "select \"Off\" to disable."
 msgstr ""
-"Wählen Sie \"File\" -Modus, um das dynamische CSS in Dateien zu kompilieren "
+"Wählen Sie den Datei-Modus, um das dynamische CSS in Dateien zu kompilieren "
 "(eine separate Datei wird für jede Ihrer Seiten und Beiträge im Ordner "
-"\"Uploads / Fusion-Styles\" erstellt), \"Datenbank\" -Modus zum Cache der "
-"CSS in Ihrer Datenbank oder Wählen Sie \"Deaktiviert\", um zu deaktivieren."
+"uploads/fusion-styles erstellt), den Database-Modus, um das CSS in Ihrer "
+"Datenbank zwischenzuspeichern, oder wählen Sie \"Ausschalten\", um es zu "
+"deaktivieren."
 
 #: inc/options/dynamic_css_js.php:43
 msgid "File"
@@ -5287,13 +5272,14 @@ msgid ""
 "varnish cache. Enter your cache server IP to clear the theme options dynamic "
 "CSS cache. Consult with your server admin for help."
 msgstr ""
-"Für Fälle, in denen Sie Cloud-Flare und einen Cache-Server verwenden, zB: "
-"Lack-Cache. Geben Sie die Cache-Server-IP ein, um den dynamischen CSS-Cache "
-"des Motivs zu löschen. Wenden Sie sich an Ihren Server-Administrator."
+"Für Fälle, in denen Sie Cloud-Flare und einen Cache-Server verwenden, z.B.: "
+"Varnish-Cache. Geben Sie die Cache-Server-IP ein, um den dynamischen CSS-"
+"Cache des Themes zu löschen. Wenden Sie sich an Ihren Server-Administrator, "
+"um Hilfe zu erhalten."
 
 #: inc/options/elements.php:27
 msgid "Animations"
-msgstr "انیمیشن ها"
+msgstr "Animationen"
 
 #: inc/options/elements.php:34
 msgid "Animation Offset"
@@ -5353,35 +5339,32 @@ msgstr "Karussell Element"
 
 #: inc/options/elements.php:55
 msgid "Carousel Navigation Box Color"
-msgstr "Karussell Navigation Box Farben"
+msgstr "Karussell-Navigationsbox Farbe"
 
 #: inc/options/elements.php:56
 msgid "Controls the color of the navigation box for carousel sliders."
-msgstr "Steuert die Farbe für den Navigationskasten für Karussell Slider."
+msgstr "Steuert die Farbe der Navigationsbox des Karussell-Reglers."
 
 #: inc/options/elements.php:63
 msgid "Carousel Hover Navigation Box Color"
-msgstr "Carousel Hover Navigation Box Farbe"
+msgstr "Karussell Hover Navigationsbox Farbe"
 
 #: inc/options/elements.php:64
-#, fuzzy
 msgid "Controls the color of the hover navigation box for carousel sliders."
-msgstr "Steuert die Farbe für den Navigationskasten für Karussell Slider."
+msgstr "Steuert die Farbe der Hover-Navigationsbox des Karussell-Reglers."
 
 #: inc/options/elements.php:71
-#, fuzzy
 msgid "Carousel Speed"
 msgstr "Karussell Geschwindigkeit"
 
 #: inc/options/elements.php:72
 msgid "Controls the speed of all carousel elements. ex: 1000 = 1 second."
 msgstr ""
-"Steuert die Geschwindigkeit aller Karussellelemente. Beispiel: 1000 = 1 "
-"Sekunde."
+"Steuert die Geschwindigkeit aller Karussellelemente. z.B.: 1000 = 1 Sekunde."
 
 #: inc/options/elements.php:86
 msgid "Visibility Size Options"
-msgstr "Sichtbarkeit Größen Optionen"
+msgstr "Optionen für die Anzeigegröße"
 
 #: inc/options/elements.php:93
 msgid "Controls when the small screen visibility should take effect."
@@ -5389,18 +5372,17 @@ msgstr ""
 "Steuert, wann die Sichtbarkeit des kleinen Bildschirms wirksam werden soll."
 
 #: inc/options/elements.php:104
-#, fuzzy
 msgid "Controls when the medium screen visibility should take effect."
 msgstr ""
-"Steuert, wann die Sichtbarkeit des kleinen Bildschirms wirksam werden soll."
+"Steuert, wann die Sichtbarkeit des mittleren Bildschirms wirksam werden soll."
 
 #: inc/options/elements.php:115
 msgid ""
 "Any screen larger than that which is defined as the medium screen will be "
 "counted as a large screen."
 msgstr ""
-"Jeder Bildschirm, der größer als der mittlere Bildschirm ist, wird als "
-"großer Bildschirm gezählt."
+"Jeder Bildschirm, der größer ist als derjenige, der als mittlerer Bildschirm "
+"definiert ist, wird als großer Bildschirm gewertet."
 
 #: inc/options/globals.php:20
 msgid "Global Options"
@@ -5412,12 +5394,11 @@ msgstr "Primäre Farbe"
 
 #: inc/options/globals.php:28
 msgid "Controls the main highlight color throughout Fusion Builder elements."
-msgstr ""
-"Steuert die Farbe das Highlights im gesamten Fusion-Generator-Elemente."
+msgstr "Steuert die Haupthighlight-Farbe in allen Fusion Builder-Elementen."
 
 #: inc/options/globals.php:34
 msgid "Image Placeholders"
-msgstr "Bild"
+msgstr "Bildplatzhalter"
 
 #: inc/options/globals.php:35
 msgid ""
@@ -5425,9 +5406,10 @@ msgid ""
 "image. This allows the post to display on portfolio archives and related "
 "posts/projects carousels."
 msgstr ""
-"Schalten Sie ein, um ein Platzhalter-Bild für Beiträge anzuzeigen, die kein "
-"vorgestelltes Bild haben. Damit kann der Beitrag auf Portfolioarchiven und "
-"verwandten Beiträgen / Projekten Karussells angezeigt werden."
+"Aktivieren Sie das Kontrollkästchen, um ein Platzhalterbild für Beiträge "
+"anzuzeigen, für die kein Bild angezeigt wird. Damit kann der Beitrag auf "
+"Portfolioarchiven und verwandten Beitrags- und Projekt-Karussells angezeigt "
+"werden."
 
 #: inc/options/globals.php:41
 msgid "Google Maps API Key"
@@ -5448,11 +5430,11 @@ msgstr "Google Docs"
 
 #: inc/options/globals.php:56
 msgid "Events Featured Image Hover Type"
-msgstr "Event Beitragsbild Hover Type"
+msgstr "Veranstaltungsbilder Hover Typ"
 
 #: inc/options/globals.php:57
 msgid "Controls the hover type for event featured images."
-msgstr "Steuert den Hover Typ für Event Beitragsbilder."
+msgstr "Steuert den Hover Typ für Veranstaltungsbilder."
 
 #: inc/options/globals.php:63 shortcodes/fusion-column-inner.php:488
 #: shortcodes/fusion-column.php:936 shortcodes/fusion-gallery.php:434
@@ -5484,7 +5466,7 @@ msgstr "Google Map Scripte"
 
 #: inc/options/globals.php:70
 msgid "Turn on to enable google map."
-msgstr "Aktivieren Sie die Google Maps."
+msgstr "Aktivieren Sie diese Option, um Google Map zu aktivieren."
 
 #: inc/options/globals.php:76
 msgid "Social Media Links"
@@ -5495,7 +5477,7 @@ msgid ""
 "Social media links use a repeater field and allow one network per field. "
 "Click the \"Add\" button to add additional fields."
 msgstr ""
-"Social Media Links verwenden ein Repeater-Feld und erlauben ein Netzwerk pro "
+"Social Media Links verwenden ein Wiederholfeld und erlaubt ein Netzwerk pro "
 "Feld. Klicken Sie auf die Schaltfläche \"Hinzufügen\", um weitere Felder "
 "hinzuzufügen."
 
@@ -5530,16 +5512,16 @@ msgstr "Füge \"nofollow\" zu Sozialen Links hinzu"
 #: inc/options/globals.php:111
 msgid "Turn on to add \"nofollow\" attribute to all social links."
 msgstr ""
-"Schalte es ein, um \"nofollow\" Attribut zu allen sozialen Links "
-"hinzuzufügen."
+"Aktivieren, um allen sozialen Links das Attribut \"nofollow\" hinzuzufügen."
 
 #: inc/options/globals.php:117
 msgid "Open Social Icons in a New Window"
-msgstr "Social Icons in neuen Fenster öffnen"
+msgstr "Social Icons in einem neuen Fenster öffnen"
 
 #: inc/options/globals.php:118
 msgid "Turn on to allow social icons to open in a new window."
-msgstr "Aktiviere, um soziale Symbole in einem neuen Fenster zu öffnen."
+msgstr ""
+"Aktivieren, damit Social Icons in einem neuen Fenster geöffnet werden können."
 
 #: inc/options/globals.php:125
 msgid "WooCommerce Product Box Design"
@@ -5547,7 +5529,7 @@ msgstr "WooCommerce Produkt Box Design"
 
 #: inc/options/globals.php:126
 msgid "Controls the design of the product boxes."
-msgstr "Steuert das Design der Produktkästen."
+msgstr "Steuert das Design der Produktboxen."
 
 #: inc/options/globals.php:130 shortcodes/fusion-soundcloud.php:159
 #: shortcodes/fusion-tabs.php:725 shortcodes/fusion-testimonials.php:630
@@ -5561,7 +5543,7 @@ msgstr "Bereinigen"
 
 #: inc/options/globals.php:135
 msgid "Blog Alternate Layout Day Format"
-msgstr "Blog Alternatives Tagesformat Layout"
+msgstr "Blog alternatives Tagesformat Layout"
 
 #: inc/options/globals.php:136
 msgid ""
@@ -5569,25 +5551,25 @@ msgid ""
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">Formatting Date and Time</a>"
 msgstr ""
-"Steuert das Tagesformat für Blog-Alternativlayouts. <a href=\"http://codex."
+"Steuert das Tagesformat für Blog alternative Layouts. <a href=\"http://codex."
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">Formatierung Datum und Uhrzeit</a>"
+"noreferrer\">Formatierung von Datum und Uhrzeit</a>"
 
 #: inc/options/globals.php:142
 msgid "Load More Posts Button Color"
-msgstr "\"Mehr laden\" Beiträge Button Farbe"
+msgstr "Mehr Beiträge laden Schaltflächen Farbe"
 
 #: inc/options/globals.php:143
 msgid ""
 "Controls the background color of the load more button for ajax post loading. "
 "Also works with the blog element."
 msgstr ""
-"Steuert die Hintergrundfarbe der Last mehr Taste für ajax Post loading. "
-"Funktioniert auch mit dem Blog-Element."
+"Steuert die Hintergrundfarbe der mehr laden Schaltfläche für Ajax-Post-"
+"Loading. Funktioniert auch mit dem Blog-Element."
 
 #: inc/options/globals.php:149
 msgid "Blog Alternate Layout Month and Year Format"
-msgstr "Blog Alternatives Monats- und Jahresformat Layout"
+msgstr "Blog alternatives Monats- und Jahresformat Layout"
 
 #: inc/options/globals.php:150
 msgid ""
@@ -5601,7 +5583,7 @@ msgstr ""
 
 #: inc/options/globals.php:156
 msgid "Blog Timeline Layout Date Format"
-msgstr "Blog Zeitplan Layout Datum Format"
+msgstr "Blog Zeitachsen-Layout Datumsformat"
 
 #: inc/options/globals.php:157
 msgid ""
@@ -5609,9 +5591,10 @@ msgid ""
 "\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">Formatting Date</a>"
 msgstr ""
-"Steuert das Timeline-Label-Format für Blog-Timeline-Layouts. <a href="
-"\"http://codex.wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">Formatierungsdatum</a>"
+"Steuert das Format der Zeitachsenbeschriftung für das Blog Zeitachsen-"
+"Layout. <a href=\"http://codex.wordpress.org/Formatting_Datum_und_Zeit\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">Formatierung von Datum und "
+"Uhrzeit</a>"
 
 #: inc/options/globals.php:163
 msgid "Date Format"
@@ -5625,7 +5608,7 @@ msgid ""
 msgstr ""
 "Steuert das Datumsformat für Datumsmetadaten. <a href=\"http://codex."
 "wordpress.org/Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">Formatierung Datum und Uhrzeit</a>"
+"noreferrer\">Formatierung von Datum und Uhrzeit</a>"
 
 #: inc/options/globals.php:170
 msgid "Rich Snippets"
@@ -5634,33 +5617,38 @@ msgstr "Rich Snippets"
 #: inc/options/globals.php:171
 msgid "Turn on to enable rich snippets data site wide."
 msgstr ""
-"Aktivieren Sie diese Option, um Rich Snippets Data Site Wide zu aktivieren."
+"Aktivieren Sie diese Option, um Rich Snippets für die gesamte Website zu "
+"aktivieren."
 
 #: inc/options/globals.php:177
 msgid "Rich Snippets Title"
-msgstr ""
+msgstr "Rich Snippets Titel"
 
 #: inc/options/globals.php:178
 msgid "Turn on to enable title rich snippet data site wide."
 msgstr ""
+"Aktivieren Sie diese Option, um Rich Snippets Titel für die gesamte Website "
+"zu aktivieren."
 
 #: inc/options/globals.php:191
-#, fuzzy
 msgid "Rich Snippets Author Info"
-msgstr "Rich Snippets Autor Info"
+msgstr "Rich Snippets Autorinfo"
 
 #: inc/options/globals.php:192
 msgid "Turn on to enable author rich snippet data site wide."
 msgstr ""
+"Aktivieren Sie diese Option, um Autor Rich Snippets für die gesamte Website "
+"zu aktivieren."
 
 #: inc/options/globals.php:205
 msgid "Rich Snippets Publish Date"
-msgstr "Rich Snippets Veröffentlicht Datum"
+msgstr "Rich Snippets Veröffentlichungsdatum"
 
 #: inc/options/globals.php:206
-#, fuzzy
 msgid "Turn on to enable date rich snippet data site wide."
-msgstr "Aktivieren Sie das Datum reiche Snippet-Datenseite."
+msgstr ""
+"Aktivieren Sie diese Option, um Datum Rich Snippets für die gesamte Website "
+"zu aktivieren."
 
 #: inc/options/globals.php:219
 msgid "Posts Slideshow Images"
@@ -5679,57 +5667,58 @@ msgstr "Auszug [...] Anzeige"
 msgid ""
 "Turn on to display the read more sign [...] on excerpts throughout the site."
 msgstr ""
-"Schalten Sie ein, um das Lesen mehr Zeichen [...] auf Auszügen auf der "
-"ganzen Seite anzuzeigen."
+"Aktivieren Sie diese Option, um das Lesen mehr Zeichen [...] bei Auszügen "
+"für die gesamte Website anzuzeigen."
 
 #: inc/options/globals.php:238
-#, fuzzy
 msgid "Make [...] Link to Single Post Page"
-msgstr "Make [...] Link zur Einzelpost Seite"
+msgstr "Link [...] zu einzelner Beitragsseite"
 
 #: inc/options/globals.php:239
 msgid ""
 "Turn on to have the read more sign [...] on excerpts link to the single post "
 "page."
 msgstr ""
-"Schalten Sie an, um das Lesen mehr Zeichen [...] auf Auszüge Link auf die "
-"einzelne Post-Seite haben."
+"Aktivieren Sie diese Option, um das Lesen mehr Zeichen [...] auf Auszügen "
+"die zu einzelnen Beitragsseiten verlinken anzuzeigen."
 
 #: inc/options/globals.php:252 shortcodes/fusion-blog.php:2552
 msgid "Grid Box Color"
-msgstr "Gitter Box Farbe"
+msgstr "Farbe der Rasterbox"
 
 #: inc/options/globals.php:253 shortcodes/fusion-blog.php:2553
 msgid "Controls the background color for the grid boxes."
-msgstr "Steuert die Hintergrundfarbe für die Gitter Box."
+msgstr "Steuert die Hintergrundfarbe für die Rasterboxen."
 
 #: inc/options/globals.php:259 shortcodes/fusion-blog.php:2582
 msgid "Grid Element Color"
-msgstr "Gitter Element Farbe"
+msgstr "Farbe des Rasterelemente"
 
 #: inc/options/globals.php:260
 msgid ""
 "Controls the color of borders/divider lines/date box/timeline dots and "
 "arrows for the grid boxes."
 msgstr ""
-"Steuert die Farbe der Ränder / Trennlinien / Datumskasten / "
-"Zeitleistenpunkte und Pfeile für die Rasterfelder."
+"Steuert die Farbe der Umrandungen, Trennlinien, Datumsfelder, "
+"Zeitachsenpunkte und Pfeile für die Rasterboxen."
 
 #: inc/options/globals.php:266
 msgid "CSS Animations on Mobiles"
-msgstr "CSS Animationen bei Mobil"
+msgstr "CSS-Animationen auf Mobilgeräten"
 
 #: inc/options/globals.php:267
 msgid "Turn on to enable CSS animations on mobiles."
-msgstr "Aktiviere CSS-Animationen auf Mobiltelefonen."
+msgstr ""
+"Aktivieren Sie diese Option, um CSS-Animationen auf Mobilgeräten zu "
+"aktivieren."
 
 #: inc/options/globals.php:273 shortcodes/fusion-blog.php:2612
 msgid "Grid Separator Style"
-msgstr "Gitter Trennzeichen Style"
+msgstr "Rastertrennzeichen Style"
 
 #: inc/options/globals.php:274
 msgid "Controls the line style of grid separators."
-msgstr ""
+msgstr "Steuert den Linienstil von Rastertrennzeichen."
 
 #: inc/options/globals.php:279 shortcodes/fusion-blog.php:2617
 #: shortcodes/fusion-separator.php:328 shortcodes/fusion-separator.php:416
@@ -5738,9 +5727,8 @@ msgstr "Kein Style"
 
 #: inc/options/globals.php:280 shortcodes/fusion-blog.php:2618
 #: shortcodes/fusion-separator.php:329 shortcodes/fusion-separator.php:417
-#, fuzzy
 msgid "Single Border Solid"
-msgstr "Einzelne Bordüre"
+msgstr "Einzelrand durchgezogen"
 
 #: inc/options/globals.php:281 shortcodes/fusion-blog.php:2619
 #: shortcodes/fusion-separator.php:330 shortcodes/fusion-separator.php:418
@@ -5750,7 +5738,7 @@ msgstr "Doppelrand durchgezogen"
 #: inc/options/globals.php:282 shortcodes/fusion-blog.php:2620
 #: shortcodes/fusion-separator.php:331 shortcodes/fusion-separator.php:419
 msgid "Single Border Dashed"
-msgstr "Einzige Grenze gestrichelt"
+msgstr "Einzelrand gestrichelt"
 
 #: inc/options/globals.php:283 shortcodes/fusion-blog.php:2621
 #: shortcodes/fusion-separator.php:332 shortcodes/fusion-separator.php:420
@@ -5759,9 +5747,8 @@ msgstr "Doppelrand gestrichelt"
 
 #: inc/options/globals.php:284 shortcodes/fusion-blog.php:2622
 #: shortcodes/fusion-separator.php:333 shortcodes/fusion-separator.php:421
-#, fuzzy
 msgid "Single Border Dotted"
-msgstr "Einzelner Rand punktiert"
+msgstr "Einzelrand gepunktet"
 
 #: inc/options/globals.php:285 shortcodes/fusion-blog.php:2623
 #: shortcodes/fusion-separator.php:334 shortcodes/fusion-separator.php:422
@@ -5776,12 +5763,11 @@ msgstr "Schatten"
 
 #: inc/options/globals.php:290 shortcodes/fusion-blog.php:2657
 msgid "Grid Separator Color"
-msgstr "Gitter Trennzeichen Farbe"
+msgstr "Rastertrennzeichen Farbe"
 
 #: inc/options/globals.php:291 shortcodes/fusion-blog.php:2658
-#, fuzzy
 msgid "Controls the line style color of grid separators."
-msgstr "Steuert die Linienstilfarbe von Rastertrennzeichen."
+msgstr "Steuert die Farbe des Rastertrennzeichens."
 
 #: inc/options/lightbox.php:20 inc/options/lightbox.php:27
 #: shortcodes/fusion-lightbox.php:74
@@ -5791,29 +5777,28 @@ msgstr "Lightbox"
 #: inc/options/lightbox.php:28
 msgid "Turn on to enable the lightbox throughout the theme."
 msgstr ""
-"Markiere das, um die Lightbox zu aktivieren im kompletten Theme zu "
+"Aktivieren Sie diese Option, um die Lightbox für die gesamte Website zu "
 "aktivieren."
 
 #: inc/options/lightbox.php:35
 msgid "Lightbox On Single Post Pages"
-msgstr "Lightbox auf einzelnen Beitrag Seiten"
+msgstr "Lightbox auf einzelnen Beitragsseiten"
 
 #: inc/options/lightbox.php:36
-#, fuzzy
 msgid "Turn on to enable the lightbox on single blog and portfolio posts."
 msgstr ""
-"Aktivieren Sie diese Option, um den Leuchtkasten in einzelnen Blog- und "
-"Portfolio-Posts zu aktivieren."
+"Aktivieren Sie diese Option, um die Lightbox für einzelne Blog- und "
+"Portfolio-Beiträge zu aktivieren."
 
 #: inc/options/lightbox.php:50
 msgid "Lightbox Behavior"
-msgstr "Leuchtkasten-Verhalten"
+msgstr "Lightbox-Verhalten"
 
 #: inc/options/lightbox.php:51
 msgid ""
 "Controls what the lightbox displays for single blog and portfolio posts."
 msgstr ""
-"Steuert, was die Lightbox für einzelne Blog- und Portfolio-Beiträge zeigt."
+"Steuert, was die Lightbox für einzelne Blog- und Portfolio-Beiträge anzeigt."
 
 #: inc/options/lightbox.php:57
 msgid "First featured image of every post"
@@ -5825,7 +5810,7 @@ msgstr "Nur Beitragsbilder von individuellen Beiträgen"
 
 #: inc/options/lightbox.php:69
 msgid "Lightbox Skin"
-msgstr "Lightbox Darstellungsarten"
+msgstr "Lightbox-Design"
 
 #: inc/options/lightbox.php:70
 msgid "Controls the lightbox skin design."
@@ -5857,21 +5842,19 @@ msgstr "Parade"
 
 #: inc/options/lightbox.php:82
 msgid "Smooth"
-msgstr "Smooth"
+msgstr "Glatt"
 
 #: inc/options/lightbox.php:93
 msgid "Thumbnails Position"
-msgstr "Thumbnail Position"
+msgstr "Miniaturansichten Position"
 
 #: inc/options/lightbox.php:94
 msgid "Controls the position of the lightbox thumbnails."
-msgstr ""
-"Hier wird die Position der Miniaturanzeigen innerhalb der Galerie-Lightbox "
-"definiert."
+msgstr "Steuert die Position der Miniaturansichten der Lightbox."
 
 #: inc/options/lightbox.php:112 shortcodes/fusion-counters-circle.php:432
 msgid "Animation Speed"
-msgstr "Animation Geschwindigkeit"
+msgstr "Animationsgeschwindigkeit"
 
 #: inc/options/lightbox.php:113
 msgid "Controls the animation speed of the lightbox."
@@ -5887,7 +5870,7 @@ msgstr "Langsam"
 
 #: inc/options/lightbox.php:121
 msgid "Normal"
-msgstr "Normale Priorität"
+msgstr "Normal"
 
 #: inc/options/lightbox.php:132
 msgid "Arrows"
@@ -5895,35 +5878,37 @@ msgstr "Pfeile"
 
 #: inc/options/lightbox.php:133
 msgid "Turn on to display arrows in the lightbox"
-msgstr "Auswählen um die Navigationspfeile anzuzeigen"
+msgstr "Aktivieren Sie diese Option, um Pfeile in der Lightbox anzuzeigen."
 
 #: inc/options/lightbox.php:147
 msgid "Gallery Start/Stop Button"
-msgstr "Galerie Start/Stop Button"
+msgstr "Galerie Start/Stop Schaltfläche"
 
 #: inc/options/lightbox.php:148
 msgid "Turn on to display the gallery start and stop button."
-msgstr "Einschalten um die Start und Stop Taste der Galerie einzublenden."
+msgstr ""
+"Aktivieren Sie diese Option, um die Start- und Stopp-Schaltfläche der "
+"Galerie anzuzeigen."
 
 #: inc/options/lightbox.php:162
-#, fuzzy
 msgid "Autoplay the Lightbox Gallery"
-msgstr "Autoplay der Lightbox-Galerie"
+msgstr "Automatisch starten der Lightbox-Galerie"
 
 #: inc/options/lightbox.php:163
 msgid "Turn on to autoplay the lightbox gallery."
-msgstr "Schalte dich ein, um die lightbox-Galerie zu starten."
+msgstr ""
+"Aktivieren Sie diese Option, um die Lightbox-Galerie automatisch zu starten."
 
 #: inc/options/lightbox.php:177 inc/options/slideshows.php:37
 msgid "Slideshow Speed"
-msgstr "Slideshow Geschwindigkeit"
+msgstr "Diashow Geschwindigkeit"
 
 #: inc/options/lightbox.php:178
 msgid ""
 "Controls the slideshow speed if autoplay is turned on. ex: 1000 = 1 second."
 msgstr ""
-"Steuert die Diashow-Geschwindigkeit, wenn das Autoplay eingeschaltet ist. "
-"Ex: 1000 = 1 Sekunde."
+"Steuert die Geschwindigkeit der Diashow, wenn der automatisch Start "
+"aktiviert ist. z.B.: 1000 = 1 Sekunde."
 
 #: inc/options/lightbox.php:197
 msgid "Background Opacity"
@@ -5931,28 +5916,33 @@ msgstr "Hintergrund Transparenz"
 
 #: inc/options/lightbox.php:198
 msgid "Controls the opacity level for the background behind the lightbox."
-msgstr "Steuert die Deckkraft für den Hintergrund hinter der Lightbox."
+msgstr "Legt die Deckkraft für den Hintergrund hinter der Lightbox fest."
 
 #: inc/options/lightbox.php:218
 msgid "Turn on to display the image title in the lightbox."
-msgstr "Schalten Sie den Bildtitel in Leuchtkasten ein."
+msgstr ""
+"Aktivieren Sie diese Option, um den Bildtitel in der Lightbox anzuzeigen."
 
 #: inc/options/lightbox.php:232 shortcodes/fusion-user-login.php:968
 #: shortcodes/fusion-user-login.php:1118 shortcodes/fusion-user-login.php:1254
 msgid "Caption"
-msgstr "کپشن"
+msgstr "Beschriftung"
 
 #: inc/options/lightbox.php:233
 msgid "Turn on to display the image caption in the lightbox."
-msgstr "Schalten Sie ein, um die Bildunterschrift im Leuchtkasten anzuzeigen."
+msgstr ""
+"Aktivieren Sie diese Option, um die Bildunterschrift in der Lightbox "
+"anzuzeigen."
 
 #: inc/options/lightbox.php:247
 msgid "Social Sharing"
-msgstr "Sozial Teilen"
+msgstr "Social-Sharing"
 
 #: inc/options/lightbox.php:248
 msgid "Turn on to display social sharing buttons on lightbox."
-msgstr "Schalte hier ein, um Social Sharing Buttons auf Lightbox anzuzeigen."
+msgstr ""
+"Aktivieren Sie dieses Option, um die Schaltflächen für Social-Sharing in der "
+"Lightbox anzuzeigen."
 
 #: inc/options/lightbox.php:262
 msgid "Deeplinking"
@@ -5960,11 +5950,11 @@ msgstr "Tiefe Verknüpfung"
 
 #: inc/options/lightbox.php:263
 msgid "Turn on to deeplink images in the lightbox."
-msgstr "Schalte ein für Deeplink Bilder in der Lightbox."
+msgstr "Aktivieren Sie diese Option, um Bilder in der Lightbox zu verknüpfen."
 
 #: inc/options/lightbox.php:277
 msgid "Slideshow Video Dimensions"
-msgstr "Slideshow Video Abmessungen"
+msgstr "Diashow Video Abmessungen"
 
 #: inc/options/lightbox.php:278
 msgid "Controls the width and height for videos inside the lightbox."
@@ -5980,21 +5970,21 @@ msgid ""
 "pagination throughout the site, including the 3rd party plugins that Avada "
 "has design integration with."
 msgstr ""
-"<strong>WICHTIGER HINWEIS:</strong> Die Optionen auf dieser Registerkarte "
-"gelten für alle Paginierungen auf der gesamten Website, einschließlich der "
-"Drittanbieter-Plugins, für die Avada eine Designintegration besitzt."
+"<strong>Wichtiger Hinweis:</strong> Die Optionen auf dieser Registerkarte "
+"gelten für alle Seitenumbrüche auf der gesamten Website, einschließlich der "
+"Plugins von Drittanbietern, mit denen Avada eine Designintegration hat."
 
 #: inc/options/pagination.php:33
 msgid "Pagination Box Padding"
-msgstr "Seitennavigation Box Abstand"
+msgstr "Innerer Abstand Seitenauswahl Box"
 
 #: inc/options/pagination.php:34
 msgid "Controls the padding inside the pagination box."
-msgstr "Steuert den Abstand im Inneren Paginierung Box."
+msgstr "Steuert den Abstand im Inneren der Seitenauswahl Box"
 
 #: inc/options/pagination.php:44
 msgid "Pagination Text Display"
-msgstr "Seitennavigation Text Anzeige"
+msgstr "Seitenumbruch Textanzeige"
 
 #: inc/options/pagination.php:45
 msgid "Turn on to display the \"Previous/Next\" text."
@@ -6006,27 +5996,27 @@ msgstr "Seitennavigation Schriftgröße"
 
 #: inc/options/pagination.php:52
 msgid "Controls the size of the pagination text."
-msgstr "Steuert die Größe des Paginierungstextes."
+msgstr "Steuert die Größe des Seitenumbruch-Textes."
 
 #: inc/options/responsive.php:20
 msgid "Responsive"
-msgstr "Responsiv"
+msgstr "Anpassungsfähig"
 
 #: inc/options/responsive.php:27
 msgid "Responsive Design"
-msgstr "Responsives Design"
+msgstr "Anpassungsfähiges Design"
 
 #: inc/options/responsive.php:28
 msgid ""
 "Turn on to use the responsive design features. If set to off, the fixed "
 "layout is used."
 msgstr ""
-"Markiere dieses Kästchen, wenn das Responsive Design verwendet werden soll. "
-"Ansonsten wird ein festes Layout verwendet."
+"Aktivieren Sie diese Option, um das anpassungsfähig Design zu nutzen. Wenn "
+"auf off gesetzt, wird das feste Layout verwendet."
 
 #: inc/options/responsive.php:39
 msgid "Grid Responsive Breakpoint"
-msgstr "Gitter Responsiver Haltepunkt"
+msgstr "Grid dynamisch umbrechen"
 
 #: inc/options/responsive.php:40
 msgid ""
@@ -6034,60 +6024,58 @@ msgid ""
 "columns. Further breakpoints are auto calculated."
 msgstr ""
 "Steuert, wann Gridlayouts (Blog/Portfolio) beginnen sich in kleinere Spalten "
-"aufzuteilen. Weitere Breakpoints werden automatisch berechnet."
+"aufzuteilen. Weitere Umbrüche werden automatisch berechnet."
 
 #: inc/options/responsive.php:60
 msgid "Site Content Responsive Breakpoint"
-msgstr "Seiteninhalt Responsiver Haltepunkt"
+msgstr "Seiteninhalt dynamisch umbrechen"
 
 #: inc/options/responsive.php:61
 msgid ""
 "Controls when the site content area changes to the mobile layout. This "
 "includes all content below the header including the footer."
 msgstr ""
-"Steuert, wann der Standortinhaltsbereich in das mobile Layout wechselt. Dies "
-"beinhaltet alle Inhalte unterhalb des Headers einschließlich der Fußzeile."
+"Steuert, wann der Seiteninhalt in das mobile Layout wechselt. Dazu gehören "
+"alle Inhalte unterhalb der Kopfzeile einschließlich der Fußzeile."
 
 #: inc/options/responsive.php:81
 msgid "Responsive Heading Typography"
-msgstr "Responsive Überschrift Typografie"
+msgstr "Dynamische Überschrift Typografie"
 
 #: inc/options/responsive.php:82
 msgid "Turn on for headings to change font size responsively."
 msgstr ""
-"Schalten Sie für Überschriften ein, um die Schriftgröße ansprechend zu "
-"ändern."
+"Aktivieren, um die Schriftgröße der Überschriften dynamisch anzupassen."
 
 #: inc/options/responsive.php:100
 msgid "Responsive Typography Sensitivity"
-msgstr "Responsive Typographie Empfindlichkeit"
+msgstr "Dynamische Typografie Empfindlichkeit"
 
 #: inc/options/responsive.php:101
 msgid ""
 "Values below 1 decrease rate of resizing, values above 1 increase rate of "
 "resizing."
 msgstr ""
-"Werte unter 1 Abnahme der Größenänderung, Werte über 1 Erhöhung der "
-"Größenänderung."
+"Werte unter 1 verringern die Veränderungsrate, Werte über 1 erhöhen die "
+"Veränderungsrate."
 
 #: inc/options/responsive.php:124
 msgid "Minimum Font Size Factor"
-msgstr "Min. Schriftgrößenfaktor"
+msgstr "Minimaler Schriftgrößenfaktor"
 
 #: inc/options/responsive.php:125
 msgid ""
 "Minimum font factor is used to determine the minimum distance between "
 "headings and body font by a multiplying value."
 msgstr ""
-"Der Min. Schriftfaktor wird verwendet, um den Mindestabstand zwischen "
-"Überschriften und Text anhand eines Multiplikationswerts zu bestimmen."
+"Der Mindestabstand zwischen Überschriften und Fließtext wird durch einen "
+"Multiplikationswert bestimmt."
 
 #: inc/options/rollover.php:20
 msgid "Featured Image Rollover"
 msgstr "Beitragsbild Rollover"
 
 #: inc/options/rollover.php:27
-#, fuzzy
 msgid "Image Rollover"
 msgstr "Bild-Rollover"
 
@@ -6105,16 +6093,15 @@ msgstr "Bild Rollover Richtung"
 
 #: inc/options/rollover.php:35
 msgid "Controls the direction the rollover starts from."
-msgstr "Steuert die Richtung, in der der Rollover beginnt."
+msgstr "Legt die Richtung fest, in der der Rollover beginnt."
 
 #: inc/options/rollover.php:45
 msgid "Center Horizontal"
-msgstr "Horizontal zentrieren"
+msgstr "Horizontal zentriert"
 
 #: inc/options/rollover.php:46
-#, fuzzy
 msgid "Center Vertical"
-msgstr "Mittig (vertikal)"
+msgstr "Vertikal zentriert"
 
 #: inc/options/rollover.php:57
 msgid "Image Rollover Icon Font Size"
@@ -6130,15 +6117,15 @@ msgstr "Bild Rollover Link Icon"
 
 #: inc/options/rollover.php:72
 msgid "Turn on to display the link icon in the image rollover."
-msgstr "Schalten Sie ein, um das Link-Symbol im Bild-Rollover anzuzeigen."
+msgstr "Aktivieren, um das Link Icon im Bild Rollover anzuzeigen."
 
 #: inc/options/rollover.php:85
 msgid "Image Rollover Zoom Icon"
-msgstr "Bild Rollover Zoom Icon"
+msgstr "Bild Rollover Vergrößern Icon"
 
 #: inc/options/rollover.php:86
 msgid "Turn on to display the zoom icon in the image rollover."
-msgstr "Aktivieren Sie das Zoom-Symbol im Bildüberlauf."
+msgstr "Aktivieren, um das Vergrößern Icon im Bild Rollover anzuzeigen."
 
 #: inc/options/rollover.php:99
 msgid "Image Rollover Title"
@@ -6146,7 +6133,7 @@ msgstr "Bild Rollover Titel"
 
 #: inc/options/rollover.php:100
 msgid "Turn on to display the post title in the image rollover."
-msgstr "Schalten Sie ein, um den Titel im Bildübergang anzuzeigen."
+msgstr "Aktivieren, um den Titel im Bild Rollover anzuzeigen."
 
 #: inc/options/rollover.php:113
 msgid "Image Rollover Categories"
@@ -6154,7 +6141,7 @@ msgstr "Bild Rollover Kategorien"
 
 #: inc/options/rollover.php:114
 msgid "Turn on to display the post categories in the image rollover."
-msgstr "Schalten Sie ein, um die Postkategorien im Image-Rollover anzuzeigen."
+msgstr "Aktivieren, um die Kategorien im Bild Rollover anzuzeigen."
 
 #: inc/options/rollover.php:127
 msgid "Image Rollover Icon Circle"
@@ -6163,7 +6150,7 @@ msgstr "Bild Rollover Icon Kreis"
 #: inc/options/rollover.php:128
 msgid "Turn on to display the icon background circle in the image rollover."
 msgstr ""
-"Schalten Sie ein, um den Icon-Hintergrundkreis im Image-Rollover anzuzeigen."
+"Aktivieren, um den Hintergrundkreis des Icons im Bild Rollover anzuzeigen."
 
 #: inc/options/rollover.php:141
 msgid "Image Rollover Gradient Top Color"
@@ -6189,8 +6176,8 @@ msgstr "Bild Rollover Element Farbe"
 msgid ""
 "Controls the color of image rollover text and icon circular backgrounds."
 msgstr ""
-"Steuert die Farbe des Bildes Rollover Text und Symbol kreisförmigen "
-"Hintergründe."
+"Steuert die Farbe des Bild Rollover Textes und des kreisförmigen Icon "
+"Hintergrundes."
 
 #: inc/options/rollover.php:183
 msgid "Image Rollover Icon Color"
@@ -6198,11 +6185,11 @@ msgstr "Bild Rollover Icon Farbe"
 
 #: inc/options/rollover.php:184
 msgid "Controls the color of the icons in the image rollover."
-msgstr "Steuert die Farbe der Symbole im Bild-Rollover."
+msgstr "Steuert die Farbe des Icon im Bild Rollover."
 
 #: inc/options/slideshows.php:17
 msgid "Slideshows"
-msgstr "Slideshows"
+msgstr "Diashows"
 
 #: inc/options/slideshows.php:23 shortcodes/fusion-image-carousel.php:445
 #: shortcodes/fusion-soundcloud.php:199
@@ -6211,11 +6198,11 @@ msgstr "Automatisch abspielen"
 
 #: inc/options/slideshows.php:24
 msgid "Turn on to autoplay the slideshows."
-msgstr "Schalten Sie die Diashows ein."
+msgstr "Aktivieren, um die Diashows automatisch abzuspielen."
 
 #: inc/options/slideshows.php:30
 msgid "Smooth Height"
-msgstr "Flexible Höhenanpassung"
+msgstr "Gleichmäßige Höhe"
 
 #: inc/options/slideshows.php:31
 msgid ""
@@ -6223,30 +6210,29 @@ msgid ""
 "different heights. Please note, smooth height is disabled on blog grid "
 "layout."
 msgstr ""
-"Aktivieren Sie glatte Höhe auf Diashows, wenn Sie Bilder mit "
-"unterschiedlichen Höhen verwenden. Bitte beachten Sie, dass die glatte Höhe "
-"im Blog-Raster-Layout deaktiviert ist."
+"Aktivieren, um die Höhe der Diashows bei der Verwendung von Bildern mit "
+"unterschiedlichen Höhen zu verringern. Bitte beachten Sie, dass die "
+"gleichmäßige Höhe im Layout des Blog-Rasters deaktiviert ist."
 
 #: inc/options/slideshows.php:38
 msgid ""
 "Controls the speed of slideshows for the slider element and sliders within "
 "posts. ex: 1000 = 1 second."
 msgstr ""
-"Steuert die Geschwindigkeit der Diashows für das Schieberelement und die "
-"Schieberegler in den Pfosten. Ex: 1000 = 1 Sekunde."
+"Steuert die Geschwindigkeit der Diashows für das Sliderelement und die "
+"Slider in den Beiträgen. z.B.: 1000 = 1 Sekunde."
 
 #: inc/options/slideshows.php:49
 msgid "Pagination Circles Below Video Slides"
-msgstr "Seitennavigation Kreise unter Video Folien"
+msgstr "Navigations-Kreise unter Video Folien"
 
 #: inc/options/slideshows.php:50
 msgid ""
 "Turn on to show pagination circles below a video slide for the slider "
 "element. Turn off to hide them on video slides."
 msgstr ""
-"Schalten Sie ein, um Paginierungskreise unterhalb einer Video-Folie für das "
-"Schieberelement anzuzeigen. Schalten Sie sie aus, um sie auf Video-Folien zu "
-"verstecken."
+"Aktivieren, um die Navigations-Kreise unterhalb einer Video-Folie "
+"anzuzeigen. Deaktivieren, um sie auf Video-Folien auszublenden."
 
 #: inc/options/slideshows.php:57
 msgid "Navigation Box Dimensions"
@@ -6258,7 +6244,7 @@ msgstr "Steuert die Breite und Höhe der Navigationsbox."
 
 #: inc/options/slideshows.php:68
 msgid "Navigation Arrow Size"
-msgstr "Grösse des Navigationpfeils"
+msgstr "Navigationspfeil Größe"
 
 #: inc/options/slideshows.php:69
 msgid "Controls the font size of the navigation arrow."
@@ -6298,7 +6284,7 @@ msgstr "%s Tage"
 
 #: inc/templates/previews/fusion-countdown-preview.php:54
 msgid "%s Hrs"
-msgstr "%s Std"
+msgstr "%s Std."
 
 #: inc/templates/previews/fusion-countdown-preview.php:55
 msgid "%s Min"
@@ -6310,27 +6296,25 @@ msgstr "%s Sek."
 
 #: inc/templates/previews/fusion-menu-anchor-preview.php:3
 msgid "menu anchor name = %s"
-msgstr "Menüanker Name = %s"
+msgstr "Menü-Ankername: %s"
 
 #: inc/templates/previews/fusion-modal-preview.php:3
 msgid "modal name = %s"
-msgstr "Modal Name = %s"
+msgstr "Modal Name: %s"
 
 #: inc/templates/previews/fusion-post-slider-preview.php:9
 msgid "category = %s"
-msgstr "Kategorie = %s"
+msgstr "Kategorie: %s"
 
 #: inc/templates/previews/fusion-pricing-table-preview.php:4
 msgid "style = %s"
-msgstr "Stil %s"
+msgstr "Stil: %s"
 
 #: inc/templates/previews/fusion-recent-posts-preview.php:12
-#, fuzzy
 msgid "tags = %s"
-msgstr "Schlagw&ouml;rter: %s"
+msgstr "Schlagwörter: %s"
 
 #: inc/templates/previews/fusion-recent-posts-preview.php:14
-#, fuzzy
 msgid "categories = %s"
 msgstr "Kategorien: %s"
 
@@ -6348,7 +6332,7 @@ msgstr "Allgemeine Hintergrundfarbe"
 
 #: shortcodes/fusion-alert.php:269
 msgid "Set the background color for general alert boxes."
-msgstr "Legen Sie die Hintergrundfarbe für allgemeine Alarm-Boxen."
+msgstr "Legen Sie die Hintergrundfarbe für allgemeine Mitteilungsboxen fest."
 
 #: shortcodes/fusion-alert.php:275
 msgid "Error Background Color"
@@ -6356,11 +6340,11 @@ msgstr "Fehler Hintergrundfarbe"
 
 #: shortcodes/fusion-alert.php:276
 msgid "Set the background color for error alert boxes."
-msgstr "Legen Sie die Hintergrundfarbe für Fehlerwarnungsfelder fest."
+msgstr "Legen Sie die Hintergrundfarbe für Fehlermeldungen fest."
 
 #: shortcodes/fusion-alert.php:282
 msgid "Success Background Color"
-msgstr "Hintergrundfarbe"
+msgstr "Erfolgs Hintergrundfarbe"
 
 #: shortcodes/fusion-alert.php:283
 msgid "Set the background color for success alert boxes."
@@ -6368,11 +6352,11 @@ msgstr "Legen Sie die Hintergrundfarbe für Erfolgsmeldungen fest."
 
 #: shortcodes/fusion-alert.php:289
 msgid "Notice Background Color"
-msgstr "Beachte die Hintergrundfarbe"
+msgstr "Hinweis Hintergrundfarbe"
 
 #: shortcodes/fusion-alert.php:290
 msgid "Set the background color for notice alert boxes."
-msgstr "Legen Sie die Hintergrundfarbe für Benachrichtigungsfelder fest."
+msgstr "Legen Sie die Hintergrundfarbe für Hinweismeldungen fest."
 
 #: shortcodes/fusion-alert.php:296 shortcodes/fusion-alert.php:432
 msgid "Box Shadow"
@@ -6380,7 +6364,7 @@ msgstr "Box Schatten"
 
 #: shortcodes/fusion-alert.php:297 shortcodes/fusion-alert.php:433
 msgid "Display a box shadow below the alert box."
-msgstr "Einen Box-Schatten unterhalb der alert-Box anzuzeigen."
+msgstr "Zeigen Sie einen Schattierungsrahmen unterhalb der Mitteilungsbox an."
 
 #: shortcodes/fusion-alert.php:307 shortcodes/fusion-alert.php:398
 msgid "Border Width"
@@ -6388,7 +6372,7 @@ msgstr "Rahmen Breite"
 
 #: shortcodes/fusion-alert.php:308
 msgid "Set the border width for alert boxes."
-msgstr "Legen Sie die Rahmenbreite für Warnfelder fest.."
+msgstr "Legen Sie die Rahmenbreite für die Mitteilungsbox fest.."
 
 #: shortcodes/fusion-alert.php:347
 msgid "Alert"
@@ -6396,15 +6380,15 @@ msgstr "Warnung"
 
 #: shortcodes/fusion-alert.php:356
 msgid "Alert Type"
-msgstr "Alarm Typ"
+msgstr "Warnungs-Typ"
 
 #: shortcodes/fusion-alert.php:357
 msgid ""
 "Select the type of alert message. Choose custom for advanced color options "
 "below."
 msgstr ""
-"﻿Wählen Sie den Typ der Warnmeldung. Wählen Sie \"Benutzerdefinierte\" für "
-"erweiterte Optionen unten."
+"Wählen Sie den Typ der Mitteilungsbox aus. Wählen Sie Benutzerdefiniert für "
+"erweiterte Farboptionen."
 
 #: shortcodes/fusion-alert.php:361 shortcodes/fusion-checklist.php:454
 #: shortcodes/fusion-checklist.php:462 shortcodes/fusion-column-inner.php:465
@@ -6453,23 +6437,23 @@ msgstr "Fehler"
 
 #: shortcodes/fusion-alert.php:363
 msgid "Success"
-msgstr "Erfolg(e)"
+msgstr "Erfolgreich"
 
 #: shortcodes/fusion-alert.php:364
 msgid "Notice"
-msgstr "Achtung"
+msgstr "Hinweis"
 
 #: shortcodes/fusion-alert.php:370
 msgid "Accent Color"
-msgstr "Akzentfarbe:"
+msgstr "Akzentfarbe"
 
 #: shortcodes/fusion-alert.php:371
 msgid ""
 "Custom setting only. Set the border, text and icon color for custom alert "
 "boxes."
 msgstr ""
-"﻿Benutzerdefinierte Einstellung. Legen Sie die Rahmen-, Text- und Symbol-"
-"Farbe für benutzerdefinierte Alert-Boxen fest."
+"Benutzerdefinierte Einstellungen. Legen Sie die Rahmen-, Text- und Icon-"
+"Farbe für benutzerdefinierte Mitteilungsboxen fest."
 
 #: shortcodes/fusion-alert.php:384 shortcodes/fusion-column-inner.php:538
 #: shortcodes/fusion-column.php:867 shortcodes/fusion-countdown.php:558
@@ -6483,15 +6467,15 @@ msgstr "Hintergrundfarbe"
 #: shortcodes/fusion-alert.php:385
 msgid "Custom setting only. Set the background color for custom alert boxes."
 msgstr ""
-"﻿Benutzerdefinierte Einstellung. Legen Sie die Rahmen-, Text- und Symbol-"
-"Farbe für benutzerdefinierte Alert-Boxen fest."
+"Benutzerdefinierte Einstellungen. Legen Sie die Hintergrundfarbe für "
+"benutzerdefinierte Mitteilungsboxen fest."
 
 #: shortcodes/fusion-alert.php:401
 msgid ""
 "Custom setting only. Set the border width for custom alert boxes. In pixels."
 msgstr ""
-"Benutzerdefinierte Einstellung nur. Legen Sie die Rahmenbreite für "
-"benutzerdefinierte Alarm-Boxen. In Pixeln."
+"Benutzerdefinierte Einstellungen. Legen Sie die Rahmenbreite für "
+"benutzerdefinierte Mitteilungsboxen in Pixeln fest."
 
 #: shortcodes/fusion-alert.php:418
 msgid "Select Custom Icon"
@@ -6503,17 +6487,16 @@ msgstr "Benutzerdefiniertes Icon wählen"
 #: shortcodes/fusion-flip-boxes.php:916 shortcodes/fusion-fontawesome.php:322
 #: shortcodes/fusion-section-separator.php:636
 #: shortcodes/fusion-separator.php:466 shortcodes/fusion-tabs.php:869
-#, fuzzy
 msgid "Click an icon to select, click again to deselect."
-msgstr "Icon zum auswählen/abwählen anklicken"
+msgstr "Icon zum auswählen/abwählen anklicken."
 
 #: shortcodes/fusion-alert.php:444
 msgid "Alert Content"
-msgstr "Alarm Inhalt"
+msgstr "Meldung"
 
 #: shortcodes/fusion-alert.php:445
 msgid "Insert the alert's content."
-msgstr "Geben Sie den Inhalt des Benachrichtigung ein."
+msgstr "Geben Sie den Inhalt der Meldung ein."
 
 #: shortcodes/fusion-alert.php:447 shortcodes/fusion-checklist.php:389
 #: shortcodes/fusion-checklist.php:496 shortcodes/fusion-content-boxes.php:1720
@@ -6541,7 +6524,7 @@ msgstr "Geben Sie den Inhalt des Benachrichtigung ein."
 #: shortcodes/fusion-user-login.php:1121 shortcodes/fusion-user-login.php:1235
 #: shortcodes/fusion-user-login.php:1257
 msgid "Your Content Goes Here"
-msgstr "Ihr Inhalt geht hierher"
+msgstr "Hier kommt der Inhalt hinein"
 
 #: shortcodes/fusion-alert.php:452 shortcodes/fusion-button.php:1213
 #: shortcodes/fusion-column-inner.php:673 shortcodes/fusion-column.php:1038
@@ -6842,8 +6825,7 @@ msgstr "Mehr Beiträge laden"
 
 #: shortcodes/fusion-blog.php:1396
 msgid "Protected"
-msgstr ""
-"Geschützt"
+msgstr "Geschützt"
 
 #: shortcodes/fusion-blog.php:1440
 msgid "Read More"
@@ -7463,42 +7445,42 @@ msgstr "Steuert die Rahmenbreite für Schaltflächen."
 #: shortcodes/fusion-button.php:877 shortcodes/fusion-button.php:961
 #: shortcodes/fusion-tagline.php:665
 msgid "Green"
-msgstr "绿色"
+msgstr "grün"
 
 #: shortcodes/fusion-button.php:878 shortcodes/fusion-button.php:962
 #: shortcodes/fusion-tagline.php:666
 msgid "Dark Green"
-msgstr "Dunkelgrün"
+msgstr "dunkelgrün"
 
 #: shortcodes/fusion-button.php:879 shortcodes/fusion-button.php:963
 #: shortcodes/fusion-tagline.php:667
 msgid "Orange"
-msgstr "Orange"
+msgstr "orange"
 
 #: shortcodes/fusion-button.php:880 shortcodes/fusion-button.php:964
 #: shortcodes/fusion-tagline.php:668
 msgid "Blue"
-msgstr "Blue"
+msgstr "blau"
 
 #: shortcodes/fusion-button.php:881 shortcodes/fusion-button.php:965
 #: shortcodes/fusion-tagline.php:669
 msgid "Red"
-msgstr "红色"
+msgstr "rot"
 
 #: shortcodes/fusion-button.php:882 shortcodes/fusion-button.php:966
 #: shortcodes/fusion-tagline.php:670
 msgid "Pink"
-msgstr "Pink"
+msgstr "pink"
 
 #: shortcodes/fusion-button.php:883 shortcodes/fusion-button.php:967
 #: shortcodes/fusion-tagline.php:671
 msgid "Dark Gray"
-msgstr "Dunkelgrau"
+msgstr "dunkelgrau"
 
 #: shortcodes/fusion-button.php:884 shortcodes/fusion-button.php:968
 #: shortcodes/fusion-tagline.php:672
 msgid "Light Gray"
-msgstr "Hellgrau"
+msgstr "hellgrau"
 
 #: shortcodes/fusion-button.php:888 shortcodes/fusion-content-boxes.php:1642
 #: shortcodes/fusion-content-boxes.php:2024
@@ -7507,12 +7489,11 @@ msgstr "Schaltfläche"
 
 #: shortcodes/fusion-button.php:896
 msgid "Button URL"
-msgstr "Button-Link"
+msgstr "Schaltflächen-URL"
 
 #: shortcodes/fusion-button.php:899
-#, fuzzy
 msgid "Add the button's url ex: http://example.com."
-msgstr "Button-URL hinzufügen z.B. http://example.com"
+msgstr "Schaltflächen-URL hinzufügen z.B. http://example.com"
 
 #: shortcodes/fusion-button.php:903 shortcodes/fusion-button.php:905
 #: shortcodes/fusion-tagline.php:554
@@ -7545,7 +7526,7 @@ msgstr ""
 #: shortcodes/fusion-image.php:687 shortcodes/fusion-person.php:704
 #: shortcodes/fusion-slider.php:516 shortcodes/fusion-tagline.php:572
 msgid "_self"
-msgstr "Fügen Sie hier Ihre selbst gehostetes Video oder Audio ein"
+msgstr "_self"
 
 #: shortcodes/fusion-button.php:923 shortcodes/fusion-column.php:826
 #: shortcodes/fusion-countdown.php:729 shortcodes/fusion-image-carousel.php:595
@@ -12401,8 +12382,9 @@ msgstr ""
 #: shortcodes/fusion-separator.php:347
 msgid "Controls the border size of the separator."
 msgstr "Steuert die Randgröße des Trennzeichens."
-#, fuzzy
+
 #: shortcodes/fusion-separator.php:358
+#, fuzzy
 msgid "Separator Circle"
 msgstr "Separator-Kreis"
 
@@ -12416,8 +12398,9 @@ msgstr ""
 #: shortcodes/fusion-separator.php:365 shortcodes/fusion-separator.php:491
 msgid "Circle Color"
 msgstr "Kreisfarbe"
-#, fuzzy
+
 #: shortcodes/fusion-separator.php:366 shortcodes/fusion-separator.php:492
+#, fuzzy
 msgid "Controls the background color of the circle around the icon."
 msgstr "Steuert die Rahmendicke für den Abschnittstrennbalken."
 
@@ -12454,9 +12437,6 @@ msgstr "Eingekreistes Icon"
 msgid "Choose to have a circle in separator color around the icon."
 msgstr "Wählen Sie einen Kreis in Trennfarbe um das Symbol herum."
 
-#: shortcodes/fusion-separator.php:513
-msgstr ""
-msgstr ""
 msgid "Separator Width"
 msgstr "Trennzeichen-Breite"
 
