@@ -1,20 +1,27 @@
-# Copyright (C) 2016 ThemeFusion
-# This file is distributed under the same license as the Fusion Builder package.
+# Copyright (C) 2018 ThemeFusion
+# This file is distributed under the same license as the Fusion Core package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Fusion Builder 1.0\n"
+"Project-Id-Version: Fusion Builder 1.4.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fusion-builder\n"
 "POT-Creation-Date: 2018-01-26 06:33:55+00:00\n"
-"PO-Revision-Date: 2018-02-21 16:35+0100\n"
-"Last-Translator: Aristeides <aristath@aristeidiss-mbp>\n"
+"PO-Revision-Date: 2018-02-26 08:31+0100\n"
+"Last-Translator: TedBits\n"
 "Language-Team: German\n"
-"Language: de\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
 "X-Poedit-Bookmarks: 1130,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
 
 #: fusion-builder.php:379
 msgid "Go to the Avada plugin installation page"
@@ -994,7 +1001,7 @@ msgstr "Wackeln"
 #: shortcodes/fusion-content-boxes.php:1969
 #: shortcodes/fusion-content-boxes.php:2625 shortcodes/fusion-slider.php:418
 msgid "Slide"
-msgstr "Gleiten"
+msgstr "Folie"
 
 #: inc/helpers.php:150 inc/lib/inc/class-fusion-settings.php:399
 #: shortcodes/fusion-content-boxes.php:2626
@@ -2673,11 +2680,11 @@ msgstr ""
 "auch unseren <a %s>Dokumentationsbeitrag</a> zu verschiedenen "
 "Ausweichmethoden einsehen."
 
-#: inc/lib/inc/class-fusion-scripts.php:657
+#: inc/lib/inc/class-fusion-scripts.php:666
 msgid "Loading the next set of posts..."
 msgstr "Lädt die nächsten Beiträge..."
 
-#: inc/lib/inc/class-fusion-scripts.php:658
+#: inc/lib/inc/class-fusion-scripts.php:667
 msgid "All items displayed."
 msgstr "Alle Elemente angezeigt."
 
@@ -6622,7 +6629,7 @@ msgstr "Animationsgeschwindigkeit"
 #: shortcodes/fusion-image.php:738 shortcodes/fusion-recent-posts.php:910
 #: shortcodes/fusion-tagline.php:752
 msgid "Type in speed of animation in seconds (0.1 - 1)."
-msgstr "Füge eine Animationsgeschwindigkeit in Sekunden ein (0.1 - 1)."
+msgstr "Geben Sie die Geschwindigkeit der Animation in Sekunden (0.1 - 1) ein."
 
 #: shortcodes/fusion-alert.php:501 shortcodes/fusion-button.php:1262
 #: shortcodes/fusion-column-inner.php:722 shortcodes/fusion-column.php:1087
@@ -6634,7 +6641,7 @@ msgstr "Füge eine Animationsgeschwindigkeit in Sekunden ein (0.1 - 1)."
 #: shortcodes/fusion-image.php:755 shortcodes/fusion-recent-posts.php:927
 #: shortcodes/fusion-tagline.php:778
 msgid "Offset of Animation"
-msgstr "Offset der Animation"
+msgstr "Animations-Versatz"
 
 #: shortcodes/fusion-alert.php:522 shortcodes/fusion-blog.php:2727
 #: shortcodes/fusion-button.php:1283 shortcodes/fusion-checklist.php:442
@@ -6690,7 +6697,7 @@ msgid ""
 "can choose more than one at a time."
 msgstr ""
 "Wählen Sie, ob das Element auf kleinen, mittleren oder großen Bildschirmen "
-"angezeigt oder versteckt werden soll. Sie können mehr als eines gleichzeitig "
+"ein- oder ausgeblendet werden soll. Sie können mehrere gleichzeitig "
 "auswählen."
 
 #: shortcodes/fusion-alert.php:530 shortcodes/fusion-blog.php:2735
@@ -6722,7 +6729,7 @@ msgstr ""
 #: shortcodes/fusion-woo-product-slider.php:494
 #: shortcodes/fusion-youtube.php:237
 msgid "CSS Class"
-msgstr "CSS-Klasse"
+msgstr "CSS Klasse"
 
 #: shortcodes/fusion-alert.php:533 shortcodes/fusion-blog.php:2736
 #: shortcodes/fusion-button.php:1294 shortcodes/fusion-checklist.php:451
@@ -6832,25 +6839,24 @@ msgid "Read More"
 msgstr "Weiterlesen"
 
 #: shortcodes/fusion-blog.php:1872
-#, fuzzy
 msgid "Blog Element"
-msgstr "Blog-Element"
+msgstr "Blog Element"
 
 #: shortcodes/fusion-blog.php:1879
 msgid "Blog Date Box Color"
-msgstr "Farbe der Box des Blog-Datums"
+msgstr "Blog Datum Box Farbe"
 
 #: shortcodes/fusion-blog.php:1880
 msgid ""
 "Controls the color of the date box in blog alternate and recent posts "
 "layouts."
 msgstr ""
-"Stellt die Farbe der Box des Blog-Datums im Layout der Blog-Zufallsauswahl "
-"und dem Aktuelle-Beiträge-Layout."
+"Steuert die Farbe des Datumsfeldes in den Layouts von Blog-Zufallsauswahl "
+"und aktuellen Beiträgen."
 
 #: shortcodes/fusion-blog.php:1886
 msgid "Grid Layout Columns"
-msgstr "Gitter Layout Spalten"
+msgstr "Raster Layout Spalten"
 
 #: shortcodes/fusion-blog.php:1887
 msgid ""
@@ -6858,13 +6864,13 @@ msgid ""
 "assigned blog page in \"settings > reading\" or blog archive pages or search "
 "results page."
 msgstr ""
-"Steuert die Anzahl der Spalten für das Raster- und Mauerwerk-Layout, wenn "
-"Sie es für die zugewiesene Blog-Seite in \"Einstellungen> Lesen\" oder Blog-"
-"Archivseiten oder Suchergebnisseiten verwenden."
+"Steuert die Anzahl der Spalten für das Raster-Layout, wenn es für die "
+"zugewiesene Blog-Seite unter \"Einstellungen > Lesen\" oder Blog-"
+"Archivseiten bzw. Suchergebnisseite verwendet wird."
 
 #: shortcodes/fusion-blog.php:1898
 msgid "Grid Layout Column Spacing"
-msgstr "Gitter Layout Spaltenabstand"
+msgstr "Raster Layout Spaltenabstand"
 
 #: shortcodes/fusion-blog.php:1899
 msgid ""
@@ -6872,22 +6878,21 @@ msgid ""
 "using it for the assigned blog page in \"settings > reading\" or blog "
 "archive pages or search results page."
 msgstr ""
-"Steuert den Abstand zwischen den Spalten für das Raster und das "
-"Mauerwerkslayout, wenn es für die zugewiesene Blogseite in \"Einstellungen> "
-"Lesen\" oder Blog-Archivseiten oder Suchergebnisseite verwendet wird."
+"Steuert den Abstand zwischen den Spalten für das Raster-Layout, wenn es für "
+"die zugewiesene Blog-Seite unter \"Einstellungen > Lesen\" oder Blog-"
+"Archivseiten bzw. Suchergebnisseite verwendet wird."
 
 #: shortcodes/fusion-blog.php:1911
 msgid "Blog Grid Text Padding"
-msgstr "Blog Gitter Text Innenabstand"
+msgstr "Blog Raster Text Innenabstand"
 
 #: shortcodes/fusion-blog.php:1912
-#, fuzzy
 msgid ""
 "Controls the top/right/bottom/left padding of the blog text when using "
 "grid / masonry or timeline layout. "
 msgstr ""
-"Steuert die Polsterung oben/rechts/unten/links von der Blog-Text, wenn "
-"Raster / Mauerwerk oder Timeline-Layout."
+"Steuert den oberen, rechten, unteren und linken Innenabstand des Blog-Textes "
+"bei der Verwendung von Raster-/Mauerwerk oder Zeitachsen-Layout. "
 
 #: shortcodes/fusion-blog.php:1930
 msgid "Content Display"
@@ -6903,21 +6908,25 @@ msgstr ""
 "für Blog-Elemente vollständig deaktiviert ist."
 
 #: shortcodes/fusion-blog.php:1936 shortcodes/fusion-blog.php:2369
+#, fuzzy
 msgid "No Text"
 msgstr "Kein Text"
 
 #: shortcodes/fusion-blog.php:1937 shortcodes/fusion-blog.php:2367
 #: shortcodes/fusion-recent-posts.php:835
+#, fuzzy
 msgid "Excerpt"
 msgstr "Auszug"
 
 #: shortcodes/fusion-blog.php:1938 shortcodes/fusion-blog.php:2368
 #: shortcodes/fusion-recent-posts.php:836
+#, fuzzy
 msgid "Full Content"
 msgstr "Kompletter Inhalt"
 
 #: shortcodes/fusion-blog.php:1942 shortcodes/fusion-blog.php:2375
 #: shortcodes/fusion-recent-posts.php:843
+#, fuzzy
 msgid "Excerpt Length"
 msgstr "Beschreibung Länge"
 
@@ -6926,10 +6935,12 @@ msgid "Controls the number of words in the excerpts for blog elements."
 msgstr ""
 
 #: shortcodes/fusion-blog.php:2069
+#, fuzzy
 msgid "Blog"
 msgstr "Blog"
 
 #: shortcodes/fusion-blog.php:2077
+#, fuzzy
 msgid "Blog Layout"
 msgstr "Blog-Layout"
 
@@ -6941,37 +6952,45 @@ msgstr "Wählen Sie das Layout für das Element."
 #: shortcodes/fusion-blog.php:2082 shortcodes/fusion-button.php:727
 #: shortcodes/fusion-button.php:1134 shortcodes/fusion-modal.php:423
 #: shortcodes/fusion-tagline.php:607
+#, fuzzy
 msgid "Large"
 msgstr "Groß"
 
 #: shortcodes/fusion-blog.php:2083 shortcodes/fusion-button.php:726
 #: shortcodes/fusion-button.php:1133 shortcodes/fusion-tagline.php:606
+#, fuzzy
 msgid "Medium"
 msgstr "medium"
 
 #: shortcodes/fusion-blog.php:2084
+#, fuzzy
 msgid "Large Alternate"
 msgstr "Groß Alternativ"
 
 #: shortcodes/fusion-blog.php:2085
+#, fuzzy
 msgid "Medium Alternate"
 msgstr "Mittel Alternativ"
 
 #: shortcodes/fusion-blog.php:2086 shortcodes/fusion-gallery.php:399
 #: shortcodes/fusion-gallery.php:517
+#, fuzzy
 msgid "Grid"
 msgstr "Gitter"
 
 #: shortcodes/fusion-blog.php:2087
+#, fuzzy
 msgid "Timeline"
 msgstr "Zeitleiste"
 
 #: shortcodes/fusion-blog.php:2088 shortcodes/fusion-gallery.php:400
 #: shortcodes/fusion-gallery.php:518
+#, fuzzy
 msgid "Masonry"
 msgstr "Masonry-Raster"
 
 #: shortcodes/fusion-blog.php:2093
+#, fuzzy
 msgid "Grid Layout # of Columns"
 msgstr "Gitter Layout # der Spalten"
 
@@ -6987,14 +7006,17 @@ msgstr "Legen sie die Anzahl der Spalten pro Zeile fest."
 #: shortcodes/fusion-image-carousel.php:466
 #: shortcodes/fusion-woo-featured-products-slider.php:370
 #: shortcodes/fusion-woo-product-slider.php:417
+#, fuzzy
 msgid "Column Spacing"
 msgstr "Spaltenabstand"
 
 #: shortcodes/fusion-blog.php:2131
+#, fuzzy
 msgid "Insert the amount of spacing between blog posts."
 msgstr "Legen Sie die Menge der Abstand zwischen Blog-Posts fest."
 
 #: shortcodes/fusion-blog.php:2167
+#, fuzzy
 msgid "Equal Heights"
 msgstr "Gleiche Höhe"
 
@@ -7003,10 +7025,12 @@ msgid "Set to yes to display grid boxes with equal heights per row."
 msgstr ""
 
 #: shortcodes/fusion-blog.php:2190 shortcodes/fusion-recent-posts.php:610
+#, fuzzy
 msgid "Posts Per Page"
 msgstr "Beiträge pro Seite"
 
 #: shortcodes/fusion-blog.php:2191
+#, fuzzy
 msgid ""
 "Select number of posts per page.  Set to -1 to display all. Set to 0 to use "
 "number of posts from Settings > Reading."
@@ -7016,10 +7040,12 @@ msgstr ""
 "Einstellungen zu übernehmen > Lesen."
 
 #: shortcodes/fusion-blog.php:2200 shortcodes/fusion-recent-posts.php:620
+#, fuzzy
 msgid "Post Offset"
 msgstr "Beitrag Offset"
 
 #: shortcodes/fusion-blog.php:2201 shortcodes/fusion-recent-posts.php:621
+#, fuzzy
 msgid "The number of posts to skip. ex: 1."
 msgstr "Anzahl der Beiträge die übersprungen werden sollen. z.B. 1"
 
@@ -7029,10 +7055,12 @@ msgid "Pull Posts By"
 msgstr "Beiträge von"
 
 #: shortcodes/fusion-blog.php:2218 shortcodes/fusion-recent-posts.php:631
+#, fuzzy
 msgid "Choose to show posts by category or tag."
 msgstr "Beiträge anzeigen nach Kategorien oder Tags."
 
 #: shortcodes/fusion-blog.php:2223 shortcodes/fusion-recent-posts.php:636
+#, fuzzy
 msgid "Tag"
 msgstr "Schlagwort"
 
@@ -7046,34 +7074,42 @@ msgstr "Kategorien: %s"
 #: shortcodes/fusion-blog.php:2229 shortcodes/fusion-events.php:268
 #: shortcodes/fusion-recent-posts.php:642
 #: shortcodes/fusion-woo-product-slider.php:371
+#, fuzzy
 msgid "Select a category or leave blank for all."
 msgstr "Kategorie auswählen oder leer lassen für alle."
 
 #: shortcodes/fusion-blog.php:2243 shortcodes/fusion-recent-posts.php:656
+#, fuzzy
 msgid "Exclude Categories"
 msgstr "Kategorien ausschließen"
 
 #: shortcodes/fusion-blog.php:2244 shortcodes/fusion-recent-posts.php:657
+#, fuzzy
 msgid "Select a category to exclude."
 msgstr "Wählen Sie eine Kategorie zum ausschließen."
 
 #: shortcodes/fusion-blog.php:2258 shortcodes/fusion-recent-posts.php:671
+#, fuzzy
 msgid "Tags"
 msgstr "Stichworte"
 
 #: shortcodes/fusion-blog.php:2259 shortcodes/fusion-recent-posts.php:672
+#, fuzzy
 msgid "Select a tag or leave blank for all."
 msgstr "Schlagwort auswählen oder leer lassen für alle."
 
 #: shortcodes/fusion-blog.php:2273 shortcodes/fusion-recent-posts.php:686
+#, fuzzy
 msgid "Exclude Tags"
 msgstr "Schlagwörter ausschließen"
 
 #: shortcodes/fusion-blog.php:2274 shortcodes/fusion-recent-posts.php:687
+#, fuzzy
 msgid "Select a tag to exclude."
 msgstr "Schlagwort zum ausschließen wählen."
 
 #: shortcodes/fusion-blog.php:2288
+#, fuzzy
 msgid "Order By"
 msgstr "Sortieren nach"
 
@@ -7083,34 +7119,42 @@ msgid "Defines how posts should be ordered."
 msgstr "Definiert, wie Posts geordnet werden sollen."
 
 #: shortcodes/fusion-blog.php:2293
+#, fuzzy
 msgid "Date"
 msgstr "Datum"
 
 #: shortcodes/fusion-blog.php:2294
+#, fuzzy
 msgid "Post Title"
 msgstr "Beitragstitel"
 
 #: shortcodes/fusion-blog.php:2295
+#, fuzzy
 msgid "Post Slug"
 msgstr "Beitrags Kurzlink"
 
 #: shortcodes/fusion-blog.php:2296
+#, fuzzy
 msgid "Author"
 msgstr "Autor"
 
 #: shortcodes/fusion-blog.php:2297
+#, fuzzy
 msgid "Number of Comments"
 msgstr "Anzahl der Kommentare"
 
 #: shortcodes/fusion-blog.php:2298
+#, fuzzy
 msgid "Last Modified"
 msgstr "Zuletzt geändert"
 
 #: shortcodes/fusion-blog.php:2299
+#, fuzzy
 msgid "Random"
 msgstr "Zufällig"
 
 #: shortcodes/fusion-blog.php:2304
+#, fuzzy
 msgid "Order"
 msgstr "Bestellung"
 
@@ -7120,14 +7164,17 @@ msgid "Defines the sorting order of posts."
 msgstr "Definiert die Sortierreihenfolge von Posts."
 
 #: shortcodes/fusion-blog.php:2309
+#, fuzzy
 msgid "Descending"
 msgstr "Absteigend"
 
 #: shortcodes/fusion-blog.php:2310
+#, fuzzy
 msgid "Ascending"
 msgstr "Aufsteigend"
 
 #: shortcodes/fusion-blog.php:2322 shortcodes/fusion-recent-posts.php:701
+#, fuzzy
 msgid "Show Thumbnail"
 msgstr "Thumbnail anzeigen"
 
@@ -7137,23 +7184,28 @@ msgid "Display the post featured image."
 msgstr "Beitragsbild als hervorgehoben anzeigen?"
 
 #: shortcodes/fusion-blog.php:2333 shortcodes/fusion-recent-posts.php:719
+#, fuzzy
 msgid "Show Title"
 msgstr "Titel anzeigen"
 
 #: shortcodes/fusion-blog.php:2334 shortcodes/fusion-recent-posts.php:720
+#, fuzzy
 msgid "Display the post title below the featured image."
 msgstr "Die Post-Titel unter dem vorgestellten Bild anzeigen"
 
 #: shortcodes/fusion-blog.php:2344
+#, fuzzy
 msgid "Link Title To Post"
 msgstr "Link Titel zu Beitrag"
 
 #: shortcodes/fusion-blog.php:2345
+#, fuzzy
 msgid "Choose if the title should be a link to the single post page."
 msgstr ""
 "Auswählen, ob der Titel ein Link zu einem Einzelnen Beitragsseite sein soll."
 
 #: shortcodes/fusion-blog.php:2362 shortcodes/fusion-recent-posts.php:831
+#, fuzzy
 msgid "Text display"
 msgstr "Textdarstellung"
 
@@ -7164,12 +7216,14 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-blog.php:2376 shortcodes/fusion-recent-posts.php:844
+#, fuzzy
 msgid "Insert the number of words/characters you want to show in the excerpt."
 msgstr ""
 "Legen Sie die Anzahl der Wörter fest, die Sie in der Kurzbeschreibung zeigen "
 "möchten."
 
 #: shortcodes/fusion-blog.php:2397
+#, fuzzy
 msgid "Strip HTML from Posts Content"
 msgstr "HTML im Beitrag Inhalt entfernen"
 
@@ -7178,56 +7232,69 @@ msgid "Choose to strip HTML from the post content."
 msgstr ""
 
 #: shortcodes/fusion-blog.php:2420
+#, fuzzy
 msgid "Show Meta Info"
 msgstr "Meta-Information anzeigen"
 
 #: shortcodes/fusion-blog.php:2421 shortcodes/fusion-recent-posts.php:731
+#, fuzzy
 msgid "Choose to show all meta data."
 msgstr "Wählen Sie hier umalle Metadaten zu zeigen."
 
 #: shortcodes/fusion-blog.php:2431 shortcodes/fusion-recent-posts.php:741
+#, fuzzy
 msgid "Show Author Name"
 msgstr "Autorenname anzeigen"
 
 #: shortcodes/fusion-blog.php:2432 shortcodes/fusion-recent-posts.php:742
+#, fuzzy
 msgid "Choose to show the author."
 msgstr "Legen Sie fest ob, der Autor angezeigt wir."
 
 #: shortcodes/fusion-blog.php:2449 shortcodes/fusion-recent-posts.php:759
 #: shortcodes/fusion-woo-featured-products-slider.php:406
 #: shortcodes/fusion-woo-product-slider.php:453
+#, fuzzy
 msgid "Show Categories"
 msgstr "Kategorien anzeigen"
 
 #: shortcodes/fusion-blog.php:2450 shortcodes/fusion-recent-posts.php:760
+#, fuzzy
 msgid "Choose to show the categories."
 msgstr "Auswählen zum Ein- oder Ausblenden der Kategorien."
 
 #: shortcodes/fusion-blog.php:2467 shortcodes/fusion-recent-posts.php:795
+#, fuzzy
 msgid "Show Comment Count"
 msgstr "Anzahl der Kommentare anzeigen"
 
 #: shortcodes/fusion-blog.php:2468 shortcodes/fusion-recent-posts.php:796
+#, fuzzy
 msgid "Choose to show the comments."
 msgstr "Wählen Sie, um die Kommentare zeigen."
 
 #: shortcodes/fusion-blog.php:2485 shortcodes/fusion-recent-posts.php:777
+#, fuzzy
 msgid "Show Date"
 msgstr "Datum anzeigen"
 
 #: shortcodes/fusion-blog.php:2486 shortcodes/fusion-recent-posts.php:778
+#, fuzzy
 msgid "Choose to show the date."
 msgstr "Wählen Sie die Tags zu zeigen."
 
 #: shortcodes/fusion-blog.php:2503
+#, fuzzy
 msgid "Show Read More Link"
 msgstr "„Weiterlesen“ Link anzeigen"
 
 #: shortcodes/fusion-blog.php:2504
+#, fuzzy
 msgid "Choose to show the Read More link."
 msgstr "Auswahl, um Mehr links anzuzeigen."
 
 #: shortcodes/fusion-blog.php:2521 shortcodes/fusion-recent-posts.php:813
+#, fuzzy
 msgid "Show Tags"
 msgstr "Tags anzeigen"
 
@@ -7237,22 +7304,27 @@ msgid "Choose to show the tags."
 msgstr "Wählen Sie die Tags zu zeigen."
 
 #: shortcodes/fusion-blog.php:2539
+#, fuzzy
 msgid "Pagination Type"
 msgstr "Seitennavigation Typ"
 
 #: shortcodes/fusion-blog.php:2540
+#, fuzzy
 msgid "Choose the type of pagination."
 msgstr "Wählen Sie die Art der Seitennavigation."
 
 #: shortcodes/fusion-blog.php:2544
+#, fuzzy
 msgid "No Pagination"
 msgstr "keine Seitennummerierung"
 
 #: shortcodes/fusion-blog.php:2546
+#, fuzzy
 msgid "Infinite Scrolling"
 msgstr "Endlos-Scrolling"
 
 #: shortcodes/fusion-blog.php:2547
+#, fuzzy
 msgid "Load More Button"
 msgstr "„Weitere laden\" Button"
 
@@ -7278,6 +7350,7 @@ msgstr ""
 "wird."
 
 #: shortcodes/fusion-blog.php:2693
+#, fuzzy
 msgid "Blog Grid Text Padding "
 msgstr "Blog Gitter Text Innenabstand "
 
@@ -7288,34 +7361,41 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-button.php:714
+#, fuzzy
 msgid "Button Element"
 msgstr "Schaltflächen-Element"
 
 #: shortcodes/fusion-button.php:719 shortcodes/fusion-button.php:1125
 #: shortcodes/fusion-tagline.php:600
+#, fuzzy
 msgid "Button Size"
 msgstr "Button Größe"
 
 #: shortcodes/fusion-button.php:720
+#, fuzzy
 msgid "Controls the default button size."
 msgstr "Stellt die Schaltflächen-Größe ein."
 
 #: shortcodes/fusion-button.php:725 shortcodes/fusion-button.php:1132
 #: shortcodes/fusion-modal.php:422 shortcodes/fusion-tagline.php:605
+#, fuzzy
 msgid "Small"
 msgstr "Small"
 
 #: shortcodes/fusion-button.php:728 shortcodes/fusion-button.php:1135
+#, fuzzy
 msgid "X-Large"
 msgstr "Extragroß"
 
 #: shortcodes/fusion-button.php:732 shortcodes/fusion-button.php:1140
 #: shortcodes/fusion-user-login.php:990 shortcodes/fusion-user-login.php:1140
 #: shortcodes/fusion-user-login.php:1276
+#, fuzzy
 msgid "Button Span"
 msgstr "Schaltflächen-Spannweite"
 
 #: shortcodes/fusion-button.php:733 shortcodes/fusion-button.php:1141
+#, fuzzy
 msgid "Controls if the button spans the full width of its container."
 msgstr ""
 "Stellt ein, ob die Schaltfläche die ganze Breite des Containers ausfüllen "
@@ -7323,30 +7403,36 @@ msgstr ""
 
 #: shortcodes/fusion-button.php:743 shortcodes/fusion-button.php:1153
 #: shortcodes/fusion-tagline.php:640
+#, fuzzy
 msgid "Button Shape"
 msgstr "Schaltflächen-Form"
 
 #: shortcodes/fusion-button.php:744
+#, fuzzy
 msgid "Controls the default button shape."
 msgstr "Stellt die Standard-Schaltflächen-Form ein."
 
 #: shortcodes/fusion-button.php:749 shortcodes/fusion-button.php:1160
 #: shortcodes/fusion-tagline.php:645
+#, fuzzy
 msgid "Square"
 msgstr "Kästchen"
 
 #: shortcodes/fusion-button.php:750 shortcodes/fusion-button.php:1162
 #: shortcodes/fusion-tagline.php:647
+#, fuzzy
 msgid "Round"
 msgstr "Rund"
 
 #: shortcodes/fusion-button.php:751 shortcodes/fusion-button.php:1161
 #: shortcodes/fusion-tagline.php:646
+#, fuzzy
 msgid "Pill"
 msgstr "Pill"
 
 #: shortcodes/fusion-button.php:755 shortcodes/fusion-button.php:1071
 #: shortcodes/fusion-tagline.php:621
+#, fuzzy
 msgid "Button Type"
 msgstr "Button Typ"
 
@@ -7357,166 +7443,203 @@ msgstr "Stellt die Schaltflächen-Größe ein."
 
 #: shortcodes/fusion-button.php:761 shortcodes/fusion-button.php:1078
 #: shortcodes/fusion-tagline.php:626
+#, fuzzy
 msgid "Flat"
 msgstr "Flat"
 
 #: shortcodes/fusion-button.php:762 shortcodes/fusion-button.php:1079
 #: shortcodes/fusion-tagline.php:627
+#, fuzzy
 msgid "3D"
 msgstr "3D"
 
 #: shortcodes/fusion-button.php:767
+#, fuzzy
 msgid "Button Typography"
 msgstr "Button Typografie"
 
 #: shortcodes/fusion-button.php:768
+#, fuzzy
 msgid "These settings control the typography for all button text."
 msgstr "Diese Einstellungen steuern die Typografie für alle Textkörper."
 
 #: shortcodes/fusion-button.php:782 shortcodes/fusion-button.php:975
+#, fuzzy
 msgid "Button Gradient Top Color"
 msgstr "Button Gradient Obere Farbe"
 
 #: shortcodes/fusion-button.php:783 shortcodes/fusion-button.php:976
+#, fuzzy
 msgid "Controls the top color of the button background."
 msgstr "Steuert die obere Farbe des Schaltflächenhintergrunds."
 
 #: shortcodes/fusion-button.php:789 shortcodes/fusion-button.php:991
+#, fuzzy
 msgid "Button Gradient Bottom Color"
 msgstr "Button Gradient Boden Farbe"
 
 #: shortcodes/fusion-button.php:790 shortcodes/fusion-button.php:992
+#, fuzzy
 msgid "Controls the bottom color of the button background."
 msgstr "Steuert die untere Farbe des Schaltflächenhintergrunds."
 
 #: shortcodes/fusion-button.php:796 shortcodes/fusion-button.php:1007
+#, fuzzy
 msgid "Button Gradient Top Hover Color"
 msgstr "Button Gradient Oben Hover Farbe"
 
 #: shortcodes/fusion-button.php:797 shortcodes/fusion-button.php:1008
+#, fuzzy
 msgid "Controls the top hover color of the button background."
 msgstr "Steuert die obere Schwebefläche des Schaltflächenhintergrunds."
 
 #: shortcodes/fusion-button.php:803 shortcodes/fusion-button.php:1023
+#, fuzzy
 msgid "Button Gradient Bottom Hover Color"
 msgstr "Button Gradient Boden Hover Farbe"
 
 #: shortcodes/fusion-button.php:804 shortcodes/fusion-button.php:1024
+#, fuzzy
 msgid "Controls the bottom hover color of the button background."
 msgstr "Steuert die untere Schwebefläche des Schaltflächenhintergrunds."
 
 #: shortcodes/fusion-button.php:810 shortcodes/fusion-button.php:1039
+#, fuzzy
 msgid "Button Accent Color"
 msgstr "Button Akzentfarbe"
 
 #: shortcodes/fusion-button.php:811 shortcodes/fusion-button.php:1040
+#, fuzzy
 msgid "Controls the color of the button border, divider, text and icon."
 msgstr ""
 "Steuert die Farbe von Schaltflächenrand, Trennzeichen, Text und Symbol."
 
 #: shortcodes/fusion-button.php:817 shortcodes/fusion-button.php:1055
+#, fuzzy
 msgid "Button Accent Hover Color"
 msgstr "Schaltflächenfarbe Hover"
 
 #: shortcodes/fusion-button.php:818 shortcodes/fusion-button.php:1056
+#, fuzzy
 msgid "Controls the hover color of the button border, divider, text and icon."
 msgstr ""
 "Steuert die Schwebefarbe von Schaltflächenrand, Trennzeichen, Text und "
 "Symbol."
 
 #: shortcodes/fusion-button.php:824 shortcodes/fusion-button.php:1084
+#, fuzzy
 msgid "Button Bevel Color For 3D Mode"
 msgstr "Schaltfläche Abschrägungsfarbe für 3D-Modus"
 
 #: shortcodes/fusion-button.php:825
+#, fuzzy
 msgid "Controls the bevel color of the buttons when using 3D button type."
 msgstr ""
 "Steuert die Abschrägungsfarbe der Schaltflächen bei Verwendung des 3D-"
 "Schaltflächentyps."
 
 #: shortcodes/fusion-button.php:831 shortcodes/fusion-button.php:1105
+#, fuzzy
 msgid "Button Border Width"
 msgstr "Rahmendicke"
 
 #: shortcodes/fusion-button.php:832
+#, fuzzy
 msgid "Controls the border width for buttons."
 msgstr "Steuert die Rahmenbreite für Schaltflächen."
 
 #: shortcodes/fusion-button.php:877 shortcodes/fusion-button.php:961
 #: shortcodes/fusion-tagline.php:665
+#, fuzzy
 msgid "Green"
 msgstr "grün"
 
 #: shortcodes/fusion-button.php:878 shortcodes/fusion-button.php:962
 #: shortcodes/fusion-tagline.php:666
+#, fuzzy
 msgid "Dark Green"
 msgstr "dunkelgrün"
 
 #: shortcodes/fusion-button.php:879 shortcodes/fusion-button.php:963
 #: shortcodes/fusion-tagline.php:667
+#, fuzzy
 msgid "Orange"
 msgstr "orange"
 
 #: shortcodes/fusion-button.php:880 shortcodes/fusion-button.php:964
 #: shortcodes/fusion-tagline.php:668
+#, fuzzy
 msgid "Blue"
 msgstr "blau"
 
 #: shortcodes/fusion-button.php:881 shortcodes/fusion-button.php:965
 #: shortcodes/fusion-tagline.php:669
+#, fuzzy
 msgid "Red"
 msgstr "rot"
 
 #: shortcodes/fusion-button.php:882 shortcodes/fusion-button.php:966
 #: shortcodes/fusion-tagline.php:670
+#, fuzzy
 msgid "Pink"
 msgstr "pink"
 
 #: shortcodes/fusion-button.php:883 shortcodes/fusion-button.php:967
 #: shortcodes/fusion-tagline.php:671
+#, fuzzy
 msgid "Dark Gray"
 msgstr "dunkelgrau"
 
 #: shortcodes/fusion-button.php:884 shortcodes/fusion-button.php:968
 #: shortcodes/fusion-tagline.php:672
+#, fuzzy
 msgid "Light Gray"
 msgstr "hellgrau"
 
 #: shortcodes/fusion-button.php:888 shortcodes/fusion-content-boxes.php:1642
 #: shortcodes/fusion-content-boxes.php:2024
+#, fuzzy
 msgid "Button"
 msgstr "Schaltfläche"
 
 #: shortcodes/fusion-button.php:896
+#, fuzzy
 msgid "Button URL"
 msgstr "Schaltflächen-URL"
 
 #: shortcodes/fusion-button.php:899
+#, fuzzy
 msgid "Add the button's url ex: http://example.com."
 msgstr "Schaltflächen-URL hinzufügen z.B. http://example.com"
 
 #: shortcodes/fusion-button.php:903 shortcodes/fusion-button.php:905
 #: shortcodes/fusion-tagline.php:554
+#, fuzzy
 msgid "Button Text"
 msgstr "Schaltflächentext"
 
 #: shortcodes/fusion-button.php:906
+#, fuzzy
 msgid "Add the text that will display on button."
 msgstr "Fügen Sie den Text, der auf der Schaltfläche angezeigt wird hinzu."
 
 #: shortcodes/fusion-button.php:910
+#, fuzzy
 msgid "Button Title Attribute"
 msgstr "Schaltflächen Titel Einstellungen"
 
 #: shortcodes/fusion-button.php:913
+#, fuzzy
 msgid "Set a title attribute for the button link."
 msgstr "Fügt einen Titel-Attribut auf den Schaltflächen-Link."
 
 #: shortcodes/fusion-button.php:917
+#, fuzzy
 msgid "Button Target"
 msgstr "Button Ziel"
 
 #: shortcodes/fusion-button.php:918 shortcodes/fusion-column.php:821
+#, fuzzy
 msgid "_self = open in same browser tab, _blank = open in new browser tab."
 msgstr ""
 "_self = Im selben Fenster öffnen, _blank = In einem neuen Fenster öffnen."
@@ -7525,6 +7648,7 @@ msgstr ""
 #: shortcodes/fusion-countdown.php:728 shortcodes/fusion-image-carousel.php:594
 #: shortcodes/fusion-image.php:687 shortcodes/fusion-person.php:704
 #: shortcodes/fusion-slider.php:516 shortcodes/fusion-tagline.php:572
+#, fuzzy
 msgid "_self"
 msgstr "_self"
 
@@ -7532,14 +7656,17 @@ msgstr "_self"
 #: shortcodes/fusion-countdown.php:729 shortcodes/fusion-image-carousel.php:595
 #: shortcodes/fusion-image.php:688 shortcodes/fusion-person.php:705
 #: shortcodes/fusion-slider.php:517 shortcodes/fusion-tagline.php:573
+#, fuzzy
 msgid "_blank"
 msgstr "_blank"
 
 #: shortcodes/fusion-button.php:928
+#, fuzzy
 msgid "Button Additional Attributes"
 msgstr "Schaltfläche \"zusätzliche Einstellungen\""
 
 #: shortcodes/fusion-button.php:931
+#, fuzzy
 msgid ""
 "Add additional attributes to the anchor tag. Separate attributes with a "
 "whitespace and use single quotes on the values, doubles don't work. If you "
@@ -7556,10 +7683,12 @@ msgstr ""
 #: shortcodes/fusion-button.php:935 shortcodes/fusion-fontawesome.php:436
 #: shortcodes/fusion-separator.php:523 shortcodes/fusion-social-links.php:754
 #: shortcodes/fusion-vimeo.php:186 shortcodes/fusion-youtube.php:187
+#, fuzzy
 msgid "Alignment"
 msgstr "Ausrichtung"
 
 #: shortcodes/fusion-button.php:936
+#, fuzzy
 msgid "Select the button's alignment."
 msgstr "Button Ausrichtung auswählen."
 
@@ -7568,6 +7697,7 @@ msgstr "Button Ausrichtung auswählen."
 #: shortcodes/fusion-user-login.php:882 shortcodes/fusion-user-login.php:939
 #: shortcodes/fusion-user-login.php:1089 shortcodes/fusion-user-login.php:1225
 #: shortcodes/fusion-vimeo.php:191 shortcodes/fusion-youtube.php:192
+#, fuzzy
 msgid "Text Flow"
 msgstr "Textfluss"
 
@@ -7588,10 +7718,12 @@ msgstr ""
 "Wissensdatenbank und Video-Anleitungen."
 
 #: shortcodes/fusion-button.php:948 shortcodes/fusion-tagline.php:586
+#, fuzzy
 msgid "Modal Window Anchor"
 msgstr "Modaler Fensteranker"
 
 #: shortcodes/fusion-button.php:951 shortcodes/fusion-tagline.php:587
+#, fuzzy
 msgid ""
 "Add the class name of the modal window you want to open on button click."
 msgstr ""
@@ -7599,10 +7731,12 @@ msgstr ""
 "das Menüelement öffnen möchten."
 
 #: shortcodes/fusion-button.php:955
+#, fuzzy
 msgid "Button Style"
 msgstr "Button Style"
 
 #: shortcodes/fusion-button.php:956
+#, fuzzy
 msgid ""
 "Select the button's color. Select default or color name for theme options, "
 "or select custom to use advanced color options below."
@@ -7649,10 +7783,12 @@ msgstr ""
 #: shortcodes/fusion-separator.php:519 shortcodes/fusion-separator.php:532
 #: shortcodes/fusion-tabs.php:721 shortcodes/fusion-testimonials.php:626
 #: shortcodes/fusion-tooltip.php:175 shortcodes/fusion-tooltip.php:187
+#, fuzzy
 msgid "Design"
 msgstr "Design"
 
 #: shortcodes/fusion-button.php:1072
+#, fuzzy
 msgid "Controls the button type."
 msgstr "Steuert den Button typ."
 
@@ -7685,11 +7821,13 @@ msgstr "Stellt die Standard-Schaltflächen-Form ein."
 #: shortcodes/fusion-flip-boxes.php:913
 #: shortcodes/fusion-section-separator.php:633 shortcodes/fusion-tabs.php:785
 #: shortcodes/fusion-tabs.php:866
+#, fuzzy
 msgid "Icon"
 msgstr "Symbol"
 
 #: shortcodes/fusion-button.php:1175 shortcodes/fusion-tabs.php:633
 #: shortcodes/fusion-tabs.php:791
+#, fuzzy
 msgid "Icon Position"
 msgstr "Position Symbol"
 
@@ -7698,6 +7836,7 @@ msgid "Choose the position of the icon on the button."
 msgstr ""
 
 #: shortcodes/fusion-button.php:1194
+#, fuzzy
 msgid "Icon Divider"
 msgstr "Icon Trenner"
 
@@ -7706,10 +7845,12 @@ msgid "Choose to display a divider between icon and text."
 msgstr ""
 
 #: shortcodes/fusion-checklist.php:318
+#, fuzzy
 msgid "Checklist Element"
 msgstr "Checkliste Element"
 
 #: shortcodes/fusion-checklist.php:324 shortcodes/fusion-checklist.php:400
+#, fuzzy
 msgid "Checklist Icon Color"
 msgstr "Checkliste Icon Farbe"
 
@@ -7719,24 +7860,29 @@ msgid "Controls the color of the checklist icon."
 msgstr "Steuert die Farbe des Symbol Hintergrunds."
 
 #: shortcodes/fusion-checklist.php:331 shortcodes/fusion-checklist.php:408
+#, fuzzy
 msgid "Checklist Circle"
 msgstr "Checklisten Kreis"
 
 #: shortcodes/fusion-checklist.php:332
+#, fuzzy
 msgid "Turn on if you want to display a circle background for checklists."
 msgstr ""
 "Schalten Sie hier ein, wenn Sie einen Kreis Hintergrund für Checklisten "
 "anzeigen möchten."
 
 #: shortcodes/fusion-checklist.php:338 shortcodes/fusion-checklist.php:420
+#, fuzzy
 msgid "Checklist Circle Color"
 msgstr "Checklisten Kreis Farbe"
 
 #: shortcodes/fusion-checklist.php:339
+#, fuzzy
 msgid "Controls the color of the checklist circle background."
 msgstr "Steuert die Farbe des Hintergrundes, des Checklisten Kreises."
 
 #: shortcodes/fusion-checklist.php:376
+#, fuzzy
 msgid "Checklist"
 msgstr "Checkliste"
 
@@ -7749,6 +7895,7 @@ msgstr "Checkliste"
 #: shortcodes/fusion-tabs.php:714 shortcodes/fusion-testimonials.php:619
 #: shortcodes/fusion-text.php:73 shortcodes/fusion-toggle.php:594
 #: shortcodes/fusion-tooltip.php:158
+#, fuzzy
 msgid "Content"
 msgstr "Inhalt"
 
@@ -7758,15 +7905,18 @@ msgstr "Inhalt"
 #: shortcodes/fusion-image-carousel.php:406 shortcodes/fusion-slider.php:347
 #: shortcodes/fusion-tabs.php:715 shortcodes/fusion-testimonials.php:620
 #: shortcodes/fusion-toggle.php:595
+#, fuzzy
 msgid "Enter some content for this contentbox."
 msgstr "Geben Sie einen Inhalt für diesen Inhaltsblock ein."
 
 #: shortcodes/fusion-checklist.php:393 shortcodes/fusion-checklist.php:486
 #: shortcodes/fusion-fontawesome.php:319 shortcodes/fusion-separator.php:463
+#, fuzzy
 msgid "Select Icon"
 msgstr "Icon auswählen"
 
 #: shortcodes/fusion-checklist.php:396
+#, fuzzy
 msgid ""
 "Global setting for all list items, this can be overridden individually. "
 "Click an icon to select, click again to deselect."
@@ -7776,6 +7926,7 @@ msgstr ""
 "Sie erneut, um die Auswahl aufzuheben."
 
 #: shortcodes/fusion-checklist.php:401
+#, fuzzy
 msgid ""
 "Global setting for all list items.  Controls the color of the checklist icon."
 msgstr ""
@@ -7783,6 +7934,7 @@ msgstr ""
 "Checklisten-Symbols."
 
 #: shortcodes/fusion-checklist.php:409
+#, fuzzy
 msgid ""
 "Global setting for all list items. Turn on if you want to display a circle "
 "background for checklists."
@@ -7791,6 +7943,7 @@ msgstr ""
 "einen Kreishintergrund für Checklisten anzeigen möchten."
 
 #: shortcodes/fusion-checklist.php:421
+#, fuzzy
 msgid ""
 "Global setting for all list items.  Controls the color of the checklist "
 "circle background."
@@ -7799,47 +7952,58 @@ msgstr ""
 "Hintergrunds des Checklisten Kreises."
 
 #: shortcodes/fusion-checklist.php:435
+#, fuzzy
 msgid "Item Size"
 msgstr "Artikel Größe"
 
 #: shortcodes/fusion-checklist.php:436
+#, fuzzy
 msgid "Select the list item's size. In pixels (px), ex: 13px."
 msgstr "Wählen Sie die Größe des Artikels. In Pixel (px) z.B.: 13px."
 
 #: shortcodes/fusion-checklist.php:478
+#, fuzzy
 msgid "List Item"
 msgstr "Artikel hinzufügen"
 
 #: shortcodes/fusion-checklist.php:479 shortcodes/fusion-content-boxes.php:2260
 #: shortcodes/fusion-flip-boxes.php:793
+#, fuzzy
 msgid "Enter some content for this textblock"
 msgstr "Geben Sie einen Inhalt für diesen Textblock ein"
 
 #: shortcodes/fusion-checklist.php:489
+#, fuzzy
 msgid "This setting will override the global setting. "
 msgstr "Diese Einstellung überschreibt die globalen Einstellungen. "
 
 #: shortcodes/fusion-checklist.php:493
+#, fuzzy
 msgid "List Item Content"
 msgstr "Artikel Listen Inhalt"
 
 #: shortcodes/fusion-checklist.php:494
+#, fuzzy
 msgid "Add list item content."
 msgstr "Artikel Listen Inhalt hinzufügen."
 
 #: shortcodes/fusion-code-block.php:64
+#, fuzzy
 msgid "Code Block"
 msgstr "Codeblock"
 
 #: shortcodes/fusion-code-block.php:71
+#, fuzzy
 msgid "Code"
 msgstr "Code"
 
 #: shortcodes/fusion-code-block.php:72
+#, fuzzy
 msgid "Enter some content for this codeblock."
 msgstr "Geben Sie einen Inhalt für diesen Codeblock ein."
 
 #: shortcodes/fusion-column-inner.php:456
+#, fuzzy
 msgid "Nested Column"
 msgstr "Verschachtelte Spalte"
 
@@ -7851,6 +8015,7 @@ msgstr ""
 
 #: shortcodes/fusion-column-inner.php:470 shortcodes/fusion-column.php:801
 #: shortcodes/fusion-container.php:739
+#, fuzzy
 msgid "Center Content"
 msgstr "Inhalt zentriert"
 
@@ -7868,10 +8033,12 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:432 shortcodes/fusion-image.php:557
 #: shortcodes/fusion-person.php:738 shortcodes/fusion-recent-posts.php:587
 #: shortcodes/fusion-slider.php:362
+#, fuzzy
 msgid "Hover Type"
 msgstr "Hover Typ"
 
 #: shortcodes/fusion-column-inner.php:483
+#, fuzzy
 msgid ""
 "Select the hover effect type. This will disable links and hover effects on "
 "elements inside the column."
@@ -7881,16 +8048,19 @@ msgstr ""
 
 #: shortcodes/fusion-column-inner.php:495 shortcodes/fusion-column.php:813
 #: shortcodes/fusion-countdown.php:683
+#, fuzzy
 msgid "Link URL"
 msgstr "Link URL"
 
 #: shortcodes/fusion-column-inner.php:496
+#, fuzzy
 msgid "Add the URL the column will link to, ex: http://example.com."
 msgstr ""
 "Fügen Sie die URL hinzu, mit der die Spalte verknüpft wird, z. B. http://"
 "example.com."
 
 #: shortcodes/fusion-column-inner.php:502 shortcodes/fusion-column.php:831
+#, fuzzy
 msgid "Ignore Equal Heights"
 msgstr "Ignorieren von Equal Heights"
 
@@ -7919,91 +8089,109 @@ msgstr ""
 "auswählen."
 
 #: shortcodes/fusion-column-inner.php:539 shortcodes/fusion-column.php:868
+#, fuzzy
 msgid "Controls the background color."
 msgstr "Steuert die Hintergrundfarbe."
 
 #: shortcodes/fusion-column-inner.php:546 shortcodes/fusion-column.php:875
 #: shortcodes/fusion-container.php:824 shortcodes/fusion-countdown.php:567
+#, fuzzy
 msgid "Background Image"
 msgstr "Hintergrund-Bild"
 
 #: shortcodes/fusion-column-inner.php:547 shortcodes/fusion-column.php:876
 #: shortcodes/fusion-container.php:825 shortcodes/fusion-countdown.php:568
+#, fuzzy
 msgid "Upload an image to display in the background."
 msgstr "Laden Sie ein Bild hoch das im Hintergrund angezeigt wird."
 
 #: shortcodes/fusion-column-inner.php:555 shortcodes/fusion-column.php:884
 #: shortcodes/fusion-container.php:833
+#, fuzzy
 msgid "Choose the postion of the background image."
 msgstr "Wählen Sie die Position des Hintergrundbildes."
 
 #: shortcodes/fusion-column-inner.php:567 shortcodes/fusion-column.php:896
 #: shortcodes/fusion-container.php:836 shortcodes/fusion-countdown.php:580
+#, fuzzy
 msgid "Left Top"
 msgstr "Links oben"
 
 #: shortcodes/fusion-column-inner.php:568 shortcodes/fusion-column.php:897
 #: shortcodes/fusion-container.php:837 shortcodes/fusion-countdown.php:581
+#, fuzzy
 msgid "Left Center"
 msgstr "Links zentriert"
 
 #: shortcodes/fusion-column-inner.php:569 shortcodes/fusion-column.php:898
 #: shortcodes/fusion-container.php:838 shortcodes/fusion-countdown.php:582
+#, fuzzy
 msgid "Left Bottom"
 msgstr "Links unten"
 
 #: shortcodes/fusion-column-inner.php:570 shortcodes/fusion-column.php:899
 #: shortcodes/fusion-container.php:839 shortcodes/fusion-countdown.php:583
+#, fuzzy
 msgid "Right Top"
 msgstr "Rechts oben"
 
 #: shortcodes/fusion-column-inner.php:571 shortcodes/fusion-column.php:900
 #: shortcodes/fusion-container.php:840 shortcodes/fusion-countdown.php:584
+#, fuzzy
 msgid "Right Center"
 msgstr "Rechts zentriert"
 
 #: shortcodes/fusion-column-inner.php:572 shortcodes/fusion-column.php:901
 #: shortcodes/fusion-container.php:841 shortcodes/fusion-countdown.php:585
+#, fuzzy
 msgid "Right Bottom"
 msgstr "Rechts unten"
 
 #: shortcodes/fusion-column-inner.php:573 shortcodes/fusion-column.php:902
 #: shortcodes/fusion-container.php:842 shortcodes/fusion-countdown.php:586
+#, fuzzy
 msgid "Center Top"
 msgstr "Mitte oben"
 
 #: shortcodes/fusion-column-inner.php:574 shortcodes/fusion-column.php:903
 #: shortcodes/fusion-container.php:843 shortcodes/fusion-countdown.php:587
+#, fuzzy
 msgid "Center Center"
 msgstr "Mitte zentriert"
 
 #: shortcodes/fusion-column-inner.php:575 shortcodes/fusion-column.php:904
 #: shortcodes/fusion-container.php:844 shortcodes/fusion-countdown.php:588
+#, fuzzy
 msgid "Center Bottom"
 msgstr "Mitte unten"
 
 #: shortcodes/fusion-column-inner.php:581 shortcodes/fusion-column.php:910
 #: shortcodes/fusion-container.php:859 shortcodes/fusion-countdown.php:603
+#, fuzzy
 msgid "Choose how the background image repeats."
 msgstr "Steuert, wie sich das Hintergrundbild wiederholt."
 
 #: shortcodes/fusion-column-inner.php:584 shortcodes/fusion-column.php:922
 #: shortcodes/fusion-container.php:862 shortcodes/fusion-countdown.php:607
+#, fuzzy
 msgid "No Repeat"
 msgstr "Nicht wiederholen"
 
 #: shortcodes/fusion-column-inner.php:585 shortcodes/fusion-column.php:923
 #: shortcodes/fusion-container.php:863 shortcodes/fusion-countdown.php:608
+#, fuzzy
 msgid "Repeat Vertically and Horizontally"
 msgstr "Vertikal und horizontal wiederholen"
 
 #: shortcodes/fusion-column-inner.php:586 shortcodes/fusion-column.php:924
 #: shortcodes/fusion-container.php:864 shortcodes/fusion-countdown.php:609
+#, fuzzy
 msgid "Repeat Horizontally"
 msgstr "Horizontal wiederholen"
 
 #: shortcodes/fusion-column-inner.php:587 shortcodes/fusion-column.php:925
 #: shortcodes/fusion-container.php:865 shortcodes/fusion-countdown.php:610
+#, fuzzy
 msgid "Repeat Vertically"
 msgstr "Vertikal wiederholen"
 
@@ -8011,6 +8199,7 @@ msgstr "Vertikal wiederholen"
 #: shortcodes/fusion-flip-boxes.php:880 shortcodes/fusion-image.php:570
 #: shortcodes/fusion-separator.php:346 shortcodes/fusion-separator.php:451
 #: shortcodes/fusion-tagline.php:497
+#, fuzzy
 msgid "Border Size"
 msgstr "Rahmengröße"
 
@@ -8020,15 +8209,18 @@ msgstr "Rahmengröße"
 #: shortcodes/fusion-section-separator.php:686
 #: shortcodes/fusion-section-separator.php:687 shortcodes/fusion-tabs.php:777
 #: shortcodes/fusion-tagline.php:506
+#, fuzzy
 msgid "Border Color"
 msgstr "Rahmenfarbe"
 
 #: shortcodes/fusion-column-inner.php:613 shortcodes/fusion-column.php:956
+#, fuzzy
 msgid "Controls the border color."
 msgstr "Steuert die Rahmenfarbe."
 
 #: shortcodes/fusion-column-inner.php:627 shortcodes/fusion-column.php:970
 #: shortcodes/fusion-container.php:1147
+#, fuzzy
 msgid "Border Style"
 msgstr "Rahmen Style"
 
@@ -8039,26 +8231,31 @@ msgstr ""
 
 #: shortcodes/fusion-column-inner.php:640 shortcodes/fusion-column.php:983
 #: shortcodes/fusion-container.php:1151
+#, fuzzy
 msgid "Solid"
 msgstr "Solid"
 
 #: shortcodes/fusion-column-inner.php:641 shortcodes/fusion-column.php:984
 #: shortcodes/fusion-container.php:1152
+#, fuzzy
 msgid "Dashed"
 msgstr "Gestrichelt"
 
 #: shortcodes/fusion-column-inner.php:642 shortcodes/fusion-column.php:985
 #: shortcodes/fusion-container.php:1153
+#, fuzzy
 msgid "Dotted"
 msgstr "Gepunktet"
 
 #: shortcodes/fusion-column-inner.php:648 shortcodes/fusion-column.php:1013
 #: shortcodes/fusion-container.php:1181 shortcodes/fusion-widget-area.php:274
+#, fuzzy
 msgid "Padding"
 msgstr "Innenabstand"
 
 #: shortcodes/fusion-column-inner.php:649 shortcodes/fusion-column.php:1014
 #: shortcodes/fusion-column.php:1028
+#, fuzzy
 msgid "In pixels (px), ex: 10px."
 msgstr "In Pixel (px), z.B.: 10px."
 
@@ -8067,27 +8264,33 @@ msgstr "In Pixel (px), z.B.: 10px."
 #: shortcodes/fusion-content-boxes.php:2207
 #: shortcodes/fusion-fontawesome.php:370 shortcodes/fusion-separator.php:439
 #: shortcodes/fusion-tagline.php:710 shortcodes/fusion-title.php:478
+#, fuzzy
 msgid "Margin"
 msgstr "Spanne"
 
 #: shortcodes/fusion-column-inner.php:663
+#, fuzzy
 msgid "Spacing above and below the column. In px, em or %, e.g. 10px."
 msgstr ""
 "Abstand oberhalb und unterhalb der Spalte. In px, Em oder %, z.B. 10px."
 
 #: shortcodes/fusion-column.php:710
+#, fuzzy
 msgid "Column Element"
 msgstr "Spalten Element"
 
 #: shortcodes/fusion-column.php:717
+#, fuzzy
 msgid "Column Margins"
 msgstr "Spalten Außenabstand"
 
 #: shortcodes/fusion-column.php:718
+#, fuzzy
 msgid "Controls the top/bottom margins for all column sizes."
 msgstr "Steuert die oberen / unteren Ränder für alle Spaltengrößen."
 
 #: shortcodes/fusion-column.php:794
+#, fuzzy
 msgid ""
 "Controls the column spacing between one column to the next. Enter value "
 "including any valid CSS unit, ex: 4%."
@@ -8106,6 +8309,7 @@ msgstr ""
 #: shortcodes/fusion-image.php:683 shortcodes/fusion-person.php:700
 #: shortcodes/fusion-slider.php:512 shortcodes/fusion-tagline.php:568
 #: shortcodes/fusion-testimonials.php:772
+#, fuzzy
 msgid "Link Target"
 msgstr "Link Ziel"
 
@@ -8121,14 +8325,17 @@ msgstr ""
 "Links und Hover-Effekte auf Elemente innerhalb der Spalte deaktiviert."
 
 #: shortcodes/fusion-column.php:945
+#, fuzzy
 msgid "Controls the border size of the column. In pixels."
 msgstr "Steuert die Grenze Größe der Spalte. In Pixeln."
 
 #: shortcodes/fusion-column.php:990
+#, fuzzy
 msgid "Border Position"
 msgstr "Rahmenposition"
 
 #: shortcodes/fusion-column.php:991
+#, fuzzy
 msgid "Choose the postion of the border."
 msgstr "Wählen Sie die Postion des Rahmens."
 
@@ -8138,6 +8345,7 @@ msgid "Container Element"
 msgstr "Behälterelement."
 
 #: shortcodes/fusion-container.php:539
+#, fuzzy
 msgid "Container Padding for Default Template"
 msgstr "Containerauffüllung für Standardvorlage"
 
@@ -8151,10 +8359,12 @@ msgstr ""
 "100 % Breite Seitenvorlage verwenden."
 
 #: shortcodes/fusion-container.php:558
+#, fuzzy
 msgid "Container Padding for 100% Width Template"
 msgstr "Behälterauflage für 100% Breiten-Template"
 
 #: shortcodes/fusion-container.php:559
+#, fuzzy
 msgid ""
 "Controls the top/right/bottom/left padding of the container element when "
 "using the 100% width page template."
@@ -8163,14 +8373,17 @@ msgstr ""
 "100 % Breite Seitenvorlage verwenden."
 
 #: shortcodes/fusion-container.php:577 shortcodes/fusion-container.php:815
+#, fuzzy
 msgid "Container Background Color"
 msgstr "Container Hintergrundfarbe"
 
 #: shortcodes/fusion-container.php:578 shortcodes/fusion-container.php:818
+#, fuzzy
 msgid "Controls the background color of the container element."
 msgstr "Steuert die Hintergrundfarbe des Container Elements."
 
 #: shortcodes/fusion-container.php:584 shortcodes/fusion-container.php:1120
+#, fuzzy
 msgid "Container Border Size"
 msgstr "Container Rahmengröße"
 
@@ -8180,10 +8393,12 @@ msgid "Controls the top and bottom border size of the container element."
 msgstr "Steuert die Rahmengröße des Containerelements."
 
 #: shortcodes/fusion-container.php:596 shortcodes/fusion-container.php:1131
+#, fuzzy
 msgid "Container Border Color"
 msgstr "Container Rahmenfarbe"
 
 #: shortcodes/fusion-container.php:597 shortcodes/fusion-container.php:1132
+#, fuzzy
 msgid "Controls the border color of the container element."
 msgstr "Steuert die Rahmenfarbe des Containerelements."
 
@@ -8227,18 +8442,22 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-container.php:685
+#, fuzzy
 msgid " on default template. "
 msgstr " auf Standardvorlage. "
 
 #: shortcodes/fusion-container.php:687
+#, fuzzy
 msgid " on 100% width template."
 msgstr "Für 100% Breiten-Template"
 
 #: shortcodes/fusion-container.php:696
+#, fuzzy
 msgid "Interior Content Width"
 msgstr "Innere Breite Inhalte"
 
 #: shortcodes/fusion-container.php:697
+#, fuzzy
 msgid ""
 "Select if the interior content is contained to site width or 100% width."
 msgstr ""
@@ -8246,10 +8465,12 @@ msgstr ""
 "Breite."
 
 #: shortcodes/fusion-container.php:700
+#, fuzzy
 msgid "100% Width"
 msgstr "100% Width"
 
 #: shortcodes/fusion-container.php:701
+#, fuzzy
 msgid "Site Width"
 msgstr "Seitenbreite"
 
@@ -8292,10 +8513,12 @@ msgid ""
 msgstr "Wert \"Ja\" um Zentrum der Inhalt vertikal auf 100 % Höhe Behälter."
 
 #: shortcodes/fusion-container.php:758
+#, fuzzy
 msgid "Set Columns to Equal Height"
 msgstr "Spalten auf gleiche Höhe einstellen"
 
 #: shortcodes/fusion-container.php:759
+#, fuzzy
 msgid ""
 "Select to set all columns that are used inside the container to have equal "
 "height."
@@ -8304,20 +8527,24 @@ msgstr ""
 "verwendet werden, auf dieselbe Höhe zu setzen."
 
 #: shortcodes/fusion-container.php:770
+#, fuzzy
 msgid "Name Of Menu Anchor"
 msgstr "Name des Menü Anker"
 
 #: shortcodes/fusion-container.php:771 shortcodes/fusion-menu-anchor.php:119
+#, fuzzy
 msgid "This name will be the id you will have to use in your one page menu."
 msgstr ""
 "Dieser Name wird die ID sein, die Sie in Ihrem Ein-Seiten-Menü verwenden "
 "müssen."
 
 #: shortcodes/fusion-container.php:778
+#, fuzzy
 msgid "Container Visibility"
 msgstr "Container Sichtbarkeit"
 
 #: shortcodes/fusion-container.php:782
+#, fuzzy
 msgid ""
 "Choose to show or hide the section on small, medium or large screens. You "
 "can choose more than one at a time."
@@ -8336,6 +8563,7 @@ msgstr ""
 #: shortcodes/fusion-container.php:1062 shortcodes/fusion-container.php:1093
 #: shortcodes/fusion-countdown.php:563 shortcodes/fusion-countdown.php:571
 #: shortcodes/fusion-countdown.php:591 shortcodes/fusion-countdown.php:613
+#, fuzzy
 msgid "Background"
 msgstr "Hintergrund"
 
@@ -8351,10 +8579,12 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-container.php:898
+#, fuzzy
 msgid "Background Parallax"
 msgstr "Hintergrund-Parallax"
 
 #: shortcodes/fusion-container.php:899
+#, fuzzy
 msgid ""
 "Choose how the background image scrolls and responds. This does not work for "
 "videos and must be set to \"No Parallax\" for the video to show."
@@ -8364,34 +8594,42 @@ msgstr ""
 "zu zeigen."
 
 #: shortcodes/fusion-container.php:902
+#, fuzzy
 msgid "No Parallax (no effects)"
 msgstr "Kein Parallax (keine Effekte)"
 
 #: shortcodes/fusion-container.php:903
+#, fuzzy
 msgid "Fixed (fixed on desktop, non-fixed on mobile)"
 msgstr "Fixiert (auf Desktop fixiert, nicht fixiert auf Mobil)"
 
 #: shortcodes/fusion-container.php:904
+#, fuzzy
 msgid "Up (moves up on desktop and mobile)"
 msgstr "Oben (bewegt sich auf Desktop und Mobile)"
 
 #: shortcodes/fusion-container.php:905
+#, fuzzy
 msgid "Down (moves down on desktop and mobile)"
 msgstr "Unten (bewegt sich nach unten auf Desktop & Mobile)"
 
 #: shortcodes/fusion-container.php:906
+#, fuzzy
 msgid "Left (moves left on desktop and mobile)"
 msgstr "Links (bewegt sich nach links auf Desktop und mobile)"
 
 #: shortcodes/fusion-container.php:907
+#, fuzzy
 msgid "Right (moves right on desktop and mobile)"
 msgstr "Recht (bewegt sich direkt am desktop und mobile)"
 
 #: shortcodes/fusion-container.php:921
+#, fuzzy
 msgid "Enable Parallax on Mobile"
 msgstr "Parallax auf Mobil aktivieren"
 
 #: shortcodes/fusion-container.php:922
+#, fuzzy
 msgid ""
 "Works for up/down/left/right only. Parallax effects would most probably "
 "cause slowdowns when your site is viewed in mobile devices. If the device "
@@ -8405,10 +8643,12 @@ msgstr ""
 "angezeigt wird."
 
 #: shortcodes/fusion-container.php:940
+#, fuzzy
 msgid "Parallax Speed"
 msgstr "Parallax Geschwindigkeit"
 
 #: shortcodes/fusion-container.php:941
+#, fuzzy
 msgid ""
 "The movement speed, value should be between 0.1 and 1.0. A lower number "
 "means slower scrolling speed. Higher scrolling speeds will enlarge the image "
@@ -8419,10 +8659,12 @@ msgstr ""
 "scrollen, vergrößern Sie das Bild mehr."
 
 #: shortcodes/fusion-container.php:958
+#, fuzzy
 msgid "Video MP4 Upload"
 msgstr "Video MP4 hochladen"
 
 #: shortcodes/fusion-container.php:959 shortcodes/fusion-container.php:967
+#, fuzzy
 msgid ""
 "Video must be in a 16:9 aspect ratio. Add your WebM video file. WebM and MP4 "
 "format must be included to render your video with cross browser "
@@ -8433,22 +8675,27 @@ msgstr ""
 "kompatibel zu machen. OGV ist freiwillig."
 
 #: shortcodes/fusion-container.php:966
+#, fuzzy
 msgid "Video WebM Upload"
 msgstr "WebM Video hochladen"
 
 #: shortcodes/fusion-container.php:974
+#, fuzzy
 msgid "Video OGV Upload"
 msgstr "OGV Video hochladen"
 
 #: shortcodes/fusion-container.php:975
+#, fuzzy
 msgid "Add your OGV video file. This is optional."
 msgstr "OGV Videodatei hinzufügen. Dies ist optional."
 
 #: shortcodes/fusion-container.php:982
+#, fuzzy
 msgid "YouTube/Vimeo Video URL or ID"
 msgstr "﻿YouTube/Vimeo Video URL oder ID"
 
 #: shortcodes/fusion-container.php:983
+#, fuzzy
 msgid ""
 "Enter the URL to the video or the video ID of your YouTube or Vimeo video "
 "you want to use as your background. If your URL isn't showing a video, try "
@@ -8460,10 +8707,12 @@ msgstr ""
 "Video angezeigt, wenn sie vorhanden sind."
 
 #: shortcodes/fusion-container.php:990
+#, fuzzy
 msgid "Video Aspect Ratio"
 msgstr "Video Seitenverhältnis"
 
 #: shortcodes/fusion-container.php:991
+#, fuzzy
 msgid ""
 "The video will be resized to maintain this aspect ratio, this is to prevent "
 "the video from showing any black bars. Enter an aspect ratio here such as: "
@@ -8475,6 +8724,7 @@ msgstr ""
 "ist \"16: 9\""
 
 #: shortcodes/fusion-container.php:1021
+#, fuzzy
 msgid "Loop Video"
 msgstr "Video wiederholen"
 
@@ -8484,10 +8734,12 @@ msgid "Mute Video"
 msgstr "Video stummschalten"
 
 #: shortcodes/fusion-container.php:1089
+#, fuzzy
 msgid "Video Preview Image"
 msgstr "Video Vorschaubild"
 
 #: shortcodes/fusion-container.php:1090
+#, fuzzy
 msgid ""
 "IMPORTANT: This field must be used for self hosted videos. Self hosted "
 "videos do not work correctly on mobile devices. The preview image will be "
@@ -8499,10 +8751,12 @@ msgstr ""
 "Geräten angezeigt."
 
 #: shortcodes/fusion-container.php:1121
+#, fuzzy
 msgid "Controls the border size of the container element. In pixels."
 msgstr "Steuert die Rahmengröße des Containerelements."
 
 #: shortcodes/fusion-container.php:1175
+#, fuzzy
 msgid ""
 "Spacing above and below the section. In pixels. Use a number without px."
 msgstr ""
@@ -8510,65 +8764,80 @@ msgstr ""
 "ohne px."
 
 #: shortcodes/fusion-container.php:1182 shortcodes/fusion-widget-area.php:275
+#, fuzzy
 msgid "In pixels or percentage, ex: 10px or 10%."
 msgstr "In Pixeln oder Prozent, z.B: 10% oder 10px."
 
 #: shortcodes/fusion-content-boxes.php:1457
+#, fuzzy
 msgid "Content Box Element"
 msgstr "Content-Box Element"
 
 #: shortcodes/fusion-content-boxes.php:1462
 #: shortcodes/fusion-content-boxes.php:1774
 #: shortcodes/fusion-content-boxes.php:2275
+#, fuzzy
 msgid "Content Box Background Color"
 msgstr "Hintergrundfarbe des Inhaltsfensters"
 
 #: shortcodes/fusion-content-boxes.php:1463
+#, fuzzy
 msgid "Controls the background color for content boxes."
 msgstr "Steuert die Hintergrundfarbe für Inhalt Boxen."
 
 #: shortcodes/fusion-content-boxes.php:1469
+#, fuzzy
 msgid "Content Box Title Font Size"
 msgstr "Inhalt Box Titel Schriftgröße"
 
 #: shortcodes/fusion-content-boxes.php:1470
+#, fuzzy
 msgid "Controls the size of the title text. in pixels"
 msgstr "Steuert die Größe des Titeltexts. in Pixel"
 
 #: shortcodes/fusion-content-boxes.php:1476
+#, fuzzy
 msgid "Content Box Title Font Color"
 msgstr "Inhalt Box Titel Schriftfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1477
+#, fuzzy
 msgid "Controls the color of the title font."
 msgstr "Steuert die Farbe der Titelschriftart."
 
 #: shortcodes/fusion-content-boxes.php:1483
+#, fuzzy
 msgid "Content Box Body Font Color"
 msgstr "Inhalt Box Body Schriftfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1484
+#, fuzzy
 msgid "Controls the color of the body font."
 msgstr "Steuert die Farbe des Body Schriftart."
 
 #: shortcodes/fusion-content-boxes.php:1490
+#, fuzzy
 msgid "Content Box Icon Font Size"
 msgstr "Inhalt Box Icon Schriftgröße"
 
 #: shortcodes/fusion-content-boxes.php:1491
 #: shortcodes/fusion-counters-box.php:446
+#, fuzzy
 msgid "Controls the size of the icon."
 msgstr "Steuert die Größe des Menü-Symbols."
 
 #: shortcodes/fusion-content-boxes.php:1502
+#, fuzzy
 msgid "Content Box Icon Color"
 msgstr "Inhalt Box Icon Farbe"
 
 #: shortcodes/fusion-content-boxes.php:1503
+#, fuzzy
 msgid "Controls the color of the content box icon."
 msgstr "Steuert die Farbe des Inhaltsfeldsymbols."
 
 #: shortcodes/fusion-content-boxes.php:1509
+#, fuzzy
 msgid "Content Box Icon Background"
 msgstr "Inhalts-Box Hintergrund"
 
@@ -8583,6 +8852,7 @@ msgid "Content Box Icon Background Radius"
 msgstr "Inhalts-Box Hintergrund"
 
 #: shortcodes/fusion-content-boxes.php:1521
+#, fuzzy
 msgid "Controls the border radius of the icon background."
 msgstr "Steuert die Ramen Radius von Symbol-Hintergrund."
 
@@ -8592,18 +8862,22 @@ msgid "Content Box Icon Background Color"
 msgstr "Hintergrundfarbe des Inhaltsfensters"
 
 #: shortcodes/fusion-content-boxes.php:1535
+#, fuzzy
 msgid "Controls the color of the icon background."
 msgstr "Steuert die Farbe des Symbol Hintergrunds."
 
 #: shortcodes/fusion-content-boxes.php:1548
+#, fuzzy
 msgid "Content Box Icon Background Inner Border Color"
 msgstr "Content Box Icon  innerer Rahmen größe"
 
 #: shortcodes/fusion-content-boxes.php:1549
+#, fuzzy
 msgid "Controls the inner border color of the icon background."
 msgstr "Innerer Rahmenfarbe vom Icon Hintergrund"
 
 #: shortcodes/fusion-content-boxes.php:1562
+#, fuzzy
 msgid "Content Box Icon Background Inner Border Size"
 msgstr "Content Box Icon  innerer Rahmen größe"
 
@@ -8613,6 +8887,7 @@ msgid "Controls the inner border size of the icon background."
 msgstr "Innerer Rahmenfarbe vom Icon Hintergrund"
 
 #: shortcodes/fusion-content-boxes.php:1581
+#, fuzzy
 msgid "Content Box Icon Background Outer Border Color"
 msgstr "Icon Hintergrund Außenrandfarbe"
 
@@ -8622,32 +8897,39 @@ msgid "Controls the outer border color of the icon background."
 msgstr "Steuert die Größe der äußeren Grenze des Hintergrunds Symbol."
 
 #: shortcodes/fusion-content-boxes.php:1595
+#, fuzzy
 msgid "Content Box Icon Background Outer Border Size"
 msgstr "Inhalt Box Icon Hintergrund Äußere Randgröße"
 
 #: shortcodes/fusion-content-boxes.php:1596
+#, fuzzy
 msgid "Controls the outer border size of the icon background."
 msgstr "Steuert die Größe der äußeren Grenze des Hintergrunds Symbol."
 
 #: shortcodes/fusion-content-boxes.php:1614
+#, fuzzy
 msgid "Content Box Hover Animation Type"
 msgstr "Inhaltsfeld Hover Animationstyp"
 
 #: shortcodes/fusion-content-boxes.php:1615
+#, fuzzy
 msgid "Controls the hover effect of the icon."
 msgstr "Steuert den Hover-Effekt des Symbols."
 
 #: shortcodes/fusion-content-boxes.php:1623
 #: shortcodes/fusion-content-boxes.php:1970
+#, fuzzy
 msgid "Pulsate"
 msgstr "Pulsieren"
 
 #: shortcodes/fusion-content-boxes.php:1627
+#, fuzzy
 msgid "Content Box Hover Accent Color"
 msgstr "Content Box Hover Akzentfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1628
 #: shortcodes/fusion-content-boxes.php:1977
+#, fuzzy
 msgid "Controls the accent color on hover."
 msgstr "Steuert die Akzentfarbe auf schweben."
 
@@ -8657,11 +8939,13 @@ msgid "Content Box Link Type"
 msgstr "Link Inhaltsbox"
 
 #: shortcodes/fusion-content-boxes.php:1635
+#, fuzzy
 msgid "Controls the type of link that displays in the content box."
 msgstr "Steuert den Typ der Verknüpfung, die im Inhaltsfeld angezeigt wird."
 
 #: shortcodes/fusion-content-boxes.php:1640
 #: shortcodes/fusion-content-boxes.php:2022
+#, fuzzy
 msgid "Text"
 msgstr "Text"
 
@@ -8677,91 +8961,112 @@ msgid "Content Box Link Area"
 msgstr "Link Inhaltsbox"
 
 #: shortcodes/fusion-content-boxes.php:1647
+#, fuzzy
 msgid "Controls which area the link will be assigned to."
 msgstr "Steuert, welcher Bereich der Link zugewiesen wird."
 
 #: shortcodes/fusion-content-boxes.php:1652
+#, fuzzy
 msgid "Link + Icon"
 msgstr "Link + Icon"
 
 #: shortcodes/fusion-content-boxes.php:1653
 #: shortcodes/fusion-content-boxes.php:2036
+#, fuzzy
 msgid "Entire Content Box"
 msgstr "Gesamte Content-Box"
 
 #: shortcodes/fusion-content-boxes.php:1657
+#, fuzzy
 msgid "Content Box Link Target"
 msgstr "Inhalt Box Link Target"
 
 #: shortcodes/fusion-content-boxes.php:1658 shortcodes/fusion-countdown.php:469
+#, fuzzy
 msgid "Controls how the link will open."
 msgstr "Steuert, wie der Link geöffnet wird."
 
 #: shortcodes/fusion-content-boxes.php:1663
 #: shortcodes/fusion-content-boxes.php:2047
 #: shortcodes/fusion-content-boxes.php:2592 shortcodes/fusion-countdown.php:474
+#, fuzzy
 msgid "Same Window"
 msgstr "Selbes Fenster"
 
 #: shortcodes/fusion-content-boxes.php:1664
 #: shortcodes/fusion-content-boxes.php:2048
 #: shortcodes/fusion-content-boxes.php:2593
+#, fuzzy
 msgid "New Window/Tab"
 msgstr "Neues Fenster/Tab"
 
 #: shortcodes/fusion-content-boxes.php:1668
+#, fuzzy
 msgid "Content Box Top/Bottom Margins"
 msgstr "Content Box obere / untere Ränder"
 
 #: shortcodes/fusion-content-boxes.php:1669
+#, fuzzy
 msgid "Controls the top/bottom margin for content boxes."
 msgstr "Steuert die obere/untere Marge für Content-Boxen."
 
 #: shortcodes/fusion-content-boxes.php:1707
+#, fuzzy
 msgid "Content Boxes"
 msgstr "Inhalts Boxen"
 
 #: shortcodes/fusion-content-boxes.php:1718
+#, fuzzy
 msgid "Enter some content for this contentbox"
 msgstr "Geben Sie einen Inhalt für diesen Inhaltsblock ein"
 
 #: shortcodes/fusion-content-boxes.php:1724
+#, fuzzy
 msgid "Box Layout"
 msgstr "Box-Layout"
 
 #: shortcodes/fusion-content-boxes.php:1725
+#, fuzzy
 msgid "Select the layout for the content box"
 msgstr "Wählen Sie das Layout für die Content-box"
 
 #: shortcodes/fusion-content-boxes.php:1729
+#, fuzzy
 msgid "Classic Icon With Title"
 msgstr "Klassische Icon mit Titel"
 
 #: shortcodes/fusion-content-boxes.php:1730
+#, fuzzy
 msgid "Classic Icon On Top"
 msgstr "Klassisches Symbol oben"
 
 #: shortcodes/fusion-content-boxes.php:1731
+#, fuzzy
 msgid "Classic Icon On Side"
 msgstr "Klassisches Symbol auf Seite"
 
 #: shortcodes/fusion-content-boxes.php:1732
+#, fuzzy
 msgid "Classic Icon Boxed"
 msgstr "Klassisches Icon eingerahmt"
 
 #: shortcodes/fusion-content-boxes.php:1733
+#, fuzzy
 msgid "Clean Layout Vertical"
 msgstr "Layout säubern"
 
 #: shortcodes/fusion-content-boxes.php:1734
+#, fuzzy
 msgid "Clean Layout Horizontal"
 msgstr "Sauberes Layout Horizontal"
 
 #: shortcodes/fusion-content-boxes.php:1735
+#, fuzzy
 msgid "Timeline Vertical"
 msgstr "Zeitleiste Vertikal"
 
 #: shortcodes/fusion-content-boxes.php:1736
+#, fuzzy
 msgid "Timeline Horizontal"
 msgstr "Zeitleiste Horizontal"
 
@@ -8769,26 +9074,32 @@ msgstr "Zeitleiste Horizontal"
 #: shortcodes/fusion-counters-box.php:522 shortcodes/fusion-flip-boxes.php:634
 #: shortcodes/fusion-gallery.php:406 shortcodes/fusion-gallery.php:543
 #: shortcodes/fusion-table.php:85
+#, fuzzy
 msgid "Number of Columns"
 msgstr "Anzahl der Spalten"
 
 #: shortcodes/fusion-content-boxes.php:1751
+#, fuzzy
 msgid "Title Size"
 msgstr "Titel Größe"
 
 #: shortcodes/fusion-content-boxes.php:1752
+#, fuzzy
 msgid "Controls the size of the title.  In pixels ex: 18px."
 msgstr "Steuert die Größe des Titels.  In Pixel ab: 18px."
 
 #: shortcodes/fusion-content-boxes.php:1758
+#, fuzzy
 msgid "Title Font Color"
 msgstr "Titel Schriftfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1759
+#, fuzzy
 msgid "Controls the color of the title font.  ex: #000."
 msgstr "Steuert die Farbe der Schriftart Titel.  Ex: #000."
 
 #: shortcodes/fusion-content-boxes.php:1766
+#, fuzzy
 msgid "Body Font Color"
 msgstr "Body Schriftfarbe"
 
@@ -8819,6 +9130,7 @@ msgstr "Flip-Symbol"
 #: shortcodes/fusion-content-boxes.php:2298
 #: shortcodes/fusion-flip-boxes.php:687 shortcodes/fusion-flip-boxes.php:995
 #: shortcodes/fusion-fontawesome.php:334
+#, fuzzy
 msgid "Choose to flip the icon."
 msgstr "Wählen Sie das Symbol aus."
 
@@ -8826,6 +9138,7 @@ msgstr "Wählen Sie das Symbol aus."
 #: shortcodes/fusion-content-boxes.php:2303
 #: shortcodes/fusion-flip-boxes.php:691 shortcodes/fusion-flip-boxes.php:1000
 #: shortcodes/fusion-fontawesome.php:338 shortcodes/fusion-tabs.php:736
+#, fuzzy
 msgid "Horizontal"
 msgstr "Horizontal"
 
@@ -8833,6 +9146,7 @@ msgstr "Horizontal"
 #: shortcodes/fusion-content-boxes.php:2304
 #: shortcodes/fusion-flip-boxes.php:692 shortcodes/fusion-flip-boxes.php:1001
 #: shortcodes/fusion-fontawesome.php:339 shortcodes/fusion-tabs.php:737
+#, fuzzy
 msgid "Vertical"
 msgstr "Vertikal"
 
@@ -8840,6 +9154,7 @@ msgstr "Vertikal"
 #: shortcodes/fusion-content-boxes.php:2322
 #: shortcodes/fusion-flip-boxes.php:698 shortcodes/fusion-flip-boxes.php:1014
 #: shortcodes/fusion-fontawesome.php:345
+#, fuzzy
 msgid "Rotate Icon"
 msgstr "Icon Rotation"
 
@@ -8854,6 +9169,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2348
 #: shortcodes/fusion-flip-boxes.php:711 shortcodes/fusion-flip-boxes.php:1035
 #: shortcodes/fusion-fontawesome.php:358
+#, fuzzy
 msgid "Spinning Icon"
 msgstr "Spinnendes Icon"
 
@@ -8861,6 +9177,7 @@ msgstr "Spinnendes Icon"
 #: shortcodes/fusion-content-boxes.php:2349
 #: shortcodes/fusion-flip-boxes.php:712 shortcodes/fusion-flip-boxes.php:1036
 #: shortcodes/fusion-fontawesome.php:359
+#, fuzzy
 msgid "Choose to let the icon spin."
 msgstr "Wählen Sie, um das Symbol drehen zu lassen."
 
@@ -8869,10 +9186,12 @@ msgstr "Wählen Sie, um das Symbol drehen zu lassen."
 #: shortcodes/fusion-flip-boxes.php:651 shortcodes/fusion-flip-boxes.php:920
 #: shortcodes/fusion-fontawesome.php:271 shortcodes/fusion-fontawesome.php:395
 #: shortcodes/fusion-section-separator.php:647
+#, fuzzy
 msgid "Icon Color"
 msgstr "Symbol-Farbe"
 
 #: shortcodes/fusion-content-boxes.php:1833
+#, fuzzy
 msgid "Icon Background"
 msgstr "Icon Hintergrund"
 
@@ -8888,6 +9207,7 @@ msgid "Icon Background Radius"
 msgstr "Icon Hintergrund Radius"
 
 #: shortcodes/fusion-content-boxes.php:1847
+#, fuzzy
 msgid ""
 "Choose the border radius of the icon background.  In pixels (px), ex: 1px, "
 "or \"round\"."
@@ -8897,42 +9217,51 @@ msgstr ""
 
 #: shortcodes/fusion-content-boxes.php:1860
 #: shortcodes/fusion-content-boxes.php:2392
+#, fuzzy
 msgid "Icon Background Color"
 msgstr "Icon Hintergrundfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1875
 #: shortcodes/fusion-content-boxes.php:2417
+#, fuzzy
 msgid "Icon Background Inner Border Size"
 msgstr "Icon Hintergrund Innenrand Größe"
 
 #: shortcodes/fusion-content-boxes.php:1893
 #: shortcodes/fusion-content-boxes.php:2445
+#, fuzzy
 msgid "Icon Background Inner Border Color"
 msgstr "Icon Hintergrund Innenrand Farbe"
 
 #: shortcodes/fusion-content-boxes.php:1913
 #: shortcodes/fusion-content-boxes.php:2475
+#, fuzzy
 msgid "Icon Background Outer Border Size"
 msgstr "Icon Hintergrund Außenrand Größe"
 
 #: shortcodes/fusion-content-boxes.php:1931
 #: shortcodes/fusion-content-boxes.php:2503
+#, fuzzy
 msgid "Icon Background Outer Border Color"
 msgstr "Icon Hintergrund Außenrandfarbe"
 
 #: shortcodes/fusion-content-boxes.php:1951
+#, fuzzy
 msgid "Icon Size"
 msgstr "Symbol-Größe"
 
 #: shortcodes/fusion-content-boxes.php:1952
+#, fuzzy
 msgid "Controls the size of the icon. In pixels."
 msgstr "Steuert die Größe des Menü-Symbols. In Px."
 
 #: shortcodes/fusion-content-boxes.php:1962
+#, fuzzy
 msgid "Icon Hover Animation Type"
 msgstr "Icon Hover Animationstyp"
 
 #: shortcodes/fusion-content-boxes.php:1963
+#, fuzzy
 msgid ""
 "Select the animation type for icon on hover. Select default for theme option "
 "selection."
@@ -8948,12 +9277,14 @@ msgstr "Hover Accent Farbe"
 #: shortcodes/fusion-content-boxes.php:1984
 #: shortcodes/fusion-content-boxes.php:2533
 #: shortcodes/fusion-flip-boxes.php:722 shortcodes/fusion-flip-boxes.php:1054
+#, fuzzy
 msgid "Icon Image"
 msgstr "Icon Bild"
 
 #: shortcodes/fusion-content-boxes.php:1985
 #: shortcodes/fusion-content-boxes.php:2534
 #: shortcodes/fusion-flip-boxes.php:723 shortcodes/fusion-flip-boxes.php:1055
+#, fuzzy
 msgid ""
 "To upload your own icon image, deselect the icon above and then upload your "
 "icon image."
@@ -8964,12 +9295,14 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:1991
 #: shortcodes/fusion-content-boxes.php:2540
 #: shortcodes/fusion-flip-boxes.php:729 shortcodes/fusion-flip-boxes.php:1061
+#, fuzzy
 msgid "Icon Image Width"
 msgstr "Icon Bildbreite"
 
 #: shortcodes/fusion-content-boxes.php:1992
 #: shortcodes/fusion-content-boxes.php:2541
 #: shortcodes/fusion-flip-boxes.php:730 shortcodes/fusion-flip-boxes.php:1062
+#, fuzzy
 msgid ""
 "If using an icon image, specify the image width in pixels but do not add px, "
 "ex: 35."
@@ -8980,6 +9313,7 @@ msgstr ""
 #: shortcodes/fusion-content-boxes.php:2004
 #: shortcodes/fusion-content-boxes.php:2553
 #: shortcodes/fusion-flip-boxes.php:743 shortcodes/fusion-flip-boxes.php:1075
+#, fuzzy
 msgid "Icon Image Height"
 msgstr "Icon Bildhöhe"
 
@@ -8995,10 +9329,12 @@ msgstr ""
 "fügen Sie keinen px hinzu, z. B. 35."
 
 #: shortcodes/fusion-content-boxes.php:2017
+#, fuzzy
 msgid "Link Type"
 msgstr "Link Typ"
 
 #: shortcodes/fusion-content-boxes.php:2018
+#, fuzzy
 msgid ""
 "Select the type of link that should show in the content box. Select default "
 "for theme option selection."
@@ -9007,10 +9343,12 @@ msgstr ""
 "soll. Wählen Sie Standard für die Auswahl der Designoptionen."
 
 #: shortcodes/fusion-content-boxes.php:2030
+#, fuzzy
 msgid "Link Area"
 msgstr "Link Bereich"
 
 #: shortcodes/fusion-content-boxes.php:2031
+#, fuzzy
 msgid ""
 "Select which area the link will be assigned to. Select default for theme "
 "option selection."
@@ -9019,16 +9357,19 @@ msgstr ""
 "für Thema Optionsauswahl."
 
 #: shortcodes/fusion-content-boxes.php:2035
+#, fuzzy
 msgid "Link+Icon"
 msgstr "Link + Icon"
 
 #: shortcodes/fusion-content-boxes.php:2043 shortcodes/fusion-person.php:701
+#, fuzzy
 msgid "_self = open in same window <br />_blank = open in new window"
 msgstr ""
 "_self = Im selben Fenster öffnen <br />_blank = In einem neuen Fenster öffnen"
 
 #: shortcodes/fusion-content-boxes.php:2054 shortcodes/fusion-person.php:766
 #: shortcodes/fusion-tagline.php:535
+#, fuzzy
 msgid "Content Alignment"
 msgstr "Inhalt Ausrichtung"
 
@@ -9039,6 +9380,7 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-content-boxes.php:2085
+#, fuzzy
 msgid "Animation Delay"
 msgstr "Animationsverzögerung"
 
@@ -9058,40 +9400,49 @@ msgstr ""
 "Abstand oberhalb und unterhalb der Spalte. In px, Em oder %, z.B. 10px."
 
 #: shortcodes/fusion-content-boxes.php:2259
+#, fuzzy
 msgid "Content Box"
 msgstr "Bild-Box"
 
 #: shortcodes/fusion-content-boxes.php:2268
+#, fuzzy
 msgid "The box title."
 msgstr "Der Box Titel."
 
 #: shortcodes/fusion-content-boxes.php:2373
 #: shortcodes/fusion-flip-boxes.php:652 shortcodes/fusion-flip-boxes.php:921
 #: shortcodes/fusion-fontawesome.php:396
+#, fuzzy
 msgid "Controls the color of the icon. "
 msgstr "Steuert die Farbe des Symbol Hintergrunds. "
 
 #: shortcodes/fusion-content-boxes.php:2393
+#, fuzzy
 msgid "Choose to show a background behind the icon."
 msgstr "Wählen Sie einen Hintergrund der hinter dem Symbol angezeigt wir."
 
 #: shortcodes/fusion-content-boxes.php:2566
+#, fuzzy
 msgid "Read More Link Url"
 msgstr "Mehr Link Url"
 
 #: shortcodes/fusion-content-boxes.php:2567
+#, fuzzy
 msgid "Add the link's url ex: http://example.com."
 msgstr "URL hinzufügen z.B. http://example.com"
 
 #: shortcodes/fusion-content-boxes.php:2573
+#, fuzzy
 msgid "Read More Link Text"
 msgstr "Mehr Link Text"
 
 #: shortcodes/fusion-content-boxes.php:2574
+#, fuzzy
 msgid "Insert the text to display as the link."
 msgstr "Fügen Sie den Text als Link angezeigt."
 
 #: shortcodes/fusion-content-boxes.php:2587
+#, fuzzy
 msgid "Read More Link Target"
 msgstr "Mehr Link Ziel"
 
@@ -9101,10 +9452,12 @@ msgid "Default = use option selected in parent."
 msgstr "Standard = Verwenden Sie die Option, die in Parent ausgewählt wurde."
 
 #: shortcodes/fusion-content-boxes.php:2606
+#, fuzzy
 msgid "Content Box Content"
 msgstr "Inhaltsbox Inhalt"
 
 #: shortcodes/fusion-content-boxes.php:2607
+#, fuzzy
 msgid "Add content for content box."
 msgstr "Inhalt für die Inhalt Box hinzufügen."
 
@@ -9129,6 +9482,7 @@ msgid "ConvertPlus"
 msgstr "ConvertPlus"
 
 #: shortcodes/fusion-convertplus.php:172
+#, fuzzy
 msgid "Select Module"
 msgstr "Modul auswählen"
 
@@ -9138,6 +9492,7 @@ msgid "Select the module you want to use."
 msgstr "Wählen Sie das Modul aus, das Sie verwenden möchten."
 
 #: shortcodes/fusion-convertplus.php:179
+#, fuzzy
 msgid "Select Modal"
 msgstr "Modal auswählen"
 
@@ -9152,6 +9507,7 @@ msgstr ""
 "\"Live\" zu machen."
 
 #: shortcodes/fusion-convertplus.php:193
+#, fuzzy
 msgid "Select Slide In"
 msgstr "Slide In auswählen"
 
@@ -9166,6 +9522,7 @@ msgstr ""
 "machen."
 
 #: shortcodes/fusion-convertplus.php:207
+#, fuzzy
 msgid "Select Info Bar"
 msgstr "Info Leiste auswählen"
 
@@ -9190,6 +9547,7 @@ msgid "Controls how the module will be launched."
 msgstr "Steuert, wie das Modul gestartet wird."
 
 #: shortcodes/fusion-convertplus.php:226
+#, fuzzy
 msgid "Manual Trigger"
 msgstr "Manuelle Auslösung"
 
@@ -9201,54 +9559,67 @@ msgstr "Inline-Anzeige"
 #: shortcodes/fusion-convertplus.php:233
 #: shortcodes/fusion-image-carousel.php:562 shortcodes/fusion-slider.php:419
 #: shortcodes/fusion-text.php:74
+#, fuzzy
 msgid "Enter some content for this textblock."
 msgstr "Geben Sie einen Inhalt für diesen Textblock ein."
 
 #: shortcodes/fusion-convertplus.php:235 shortcodes/fusion-text.php:76
+#, fuzzy
 msgid "Click edit button to change this text."
 msgstr "Klicken Sie auf den Bearbeiten Button, um diesen Text zu ändern."
 
 #: shortcodes/fusion-countdown.php:110 shortcodes/fusion-countdown.php:111
+#, fuzzy
 msgid "Weeks"
 msgstr "Wochen"
 
 #: shortcodes/fusion-countdown.php:116 shortcodes/fusion-countdown.php:117
+#, fuzzy
 msgid "Days"
 msgstr "Tage"
 
 #: shortcodes/fusion-countdown.php:122
+#, fuzzy
 msgid "Hrs"
 msgstr "Stunden"
 
 #: shortcodes/fusion-countdown.php:123
+#, fuzzy
 msgid "Hours"
 msgstr "Stunden"
 
 #: shortcodes/fusion-countdown.php:128
+#, fuzzy
 msgid "Min"
 msgstr "Min"
 
 #: shortcodes/fusion-countdown.php:129
+#, fuzzy
 msgid "Minutes"
 msgstr "Minuten"
 
 #: shortcodes/fusion-countdown.php:134
+#, fuzzy
 msgid "Sec"
 msgstr "Sek."
 
 #: shortcodes/fusion-countdown.php:135
+#, fuzzy
 msgid "Seconds"
 msgstr "Sekunden"
 
 #: shortcodes/fusion-countdown.php:360
+#, fuzzy
 msgid "Countdown Element"
 msgstr "Countdown Element"
 
 #: shortcodes/fusion-countdown.php:365
+#, fuzzy
 msgid "Countdown Timezone"
 msgstr "Countdown Zeitzone"
 
 #: shortcodes/fusion-countdown.php:366
+#, fuzzy
 msgid "Controls the timezone that is used for the countdown calculation."
 msgstr "Steuert die Zeitzone, die für die Countdown-Berechnung verwendet wird."
 
@@ -9258,160 +9629,199 @@ msgid "Site Timezone"
 msgstr "Seiten Zeitzone"
 
 #: shortcodes/fusion-countdown.php:372
+#, fuzzy
 msgid "User Timezone"
 msgstr "User Zeitzone"
 
 #: shortcodes/fusion-countdown.php:376
+#, fuzzy
 msgid "Countdown Show Weeks"
 msgstr "Countdown Wochen anzeigen"
 
 #: shortcodes/fusion-countdown.php:377
+#, fuzzy
 msgid "Turn on to display the number of weeks in the countdown."
 msgstr ""
 "Schalten Sie sich ein, um die Anzahl der Wochen in den Countdown anzuzeigen."
 
 #: shortcodes/fusion-countdown.php:387
+#, fuzzy
 msgid "Countdown Background Color"
 msgstr "Countdown Hintergrundfarbe"
 
 #: shortcodes/fusion-countdown.php:388
+#, fuzzy
 msgid "Controls the background color for the countdown box."
 msgstr "Steuert die Hintergrundfarbe für die Countdown Box."
 
 #: shortcodes/fusion-countdown.php:394
+#, fuzzy
 msgid "Countdown Background Image"
 msgstr "Countdown Hintergrundbild"
 
 #: shortcodes/fusion-countdown.php:395
+#, fuzzy
 msgid "Select an image for the countdown box background."
 msgstr "Wählen Sie ein Bild für den Countdown-Box-Hintergrund."
 
 #: shortcodes/fusion-countdown.php:402
+#, fuzzy
 msgid "Countdown Background Repeat"
 msgstr "Countdown Hintergrund Wiederholung"
 
 #: shortcodes/fusion-countdown.php:403
+#, fuzzy
 msgid "Controls how the background image repeats."
 msgstr "Steuert, wie sich das Hintergrundbild wiederholt."
 
 #: shortcodes/fusion-countdown.php:408
+#, fuzzy
 msgid "Repeat All"
 msgstr "Alle wiederholen"
 
 #: shortcodes/fusion-countdown.php:409
+#, fuzzy
 msgid "Repeat Horizontal"
 msgstr "Horizontal wiederholen"
 
 #: shortcodes/fusion-countdown.php:410
+#, fuzzy
 msgid "Repeat Vertical"
 msgstr "Vertikal wiederholen"
 
 #: shortcodes/fusion-countdown.php:411
+#, fuzzy
 msgid "Repeat None"
 msgstr "Nicht wiederholen"
 
 #: shortcodes/fusion-countdown.php:415
+#, fuzzy
 msgid "Countdown Background Position"
 msgstr "Countdown Hintergrundposition"
 
 #: shortcodes/fusion-countdown.php:416
+#, fuzzy
 msgid "Controls how the background image is positioned."
 msgstr "Steuert wie der Hintergrundbild positioniert wird."
 
 #: shortcodes/fusion-countdown.php:421
+#, fuzzy
 msgid "top left"
 msgstr "oben links"
 
 #: shortcodes/fusion-countdown.php:422
+#, fuzzy
 msgid "top center"
 msgstr "oben mitte"
 
 #: shortcodes/fusion-countdown.php:423
+#, fuzzy
 msgid "top right"
 msgstr "oben rechts"
 
 #: shortcodes/fusion-countdown.php:424
+#, fuzzy
 msgid "center left"
 msgstr "Mitte links"
 
 #: shortcodes/fusion-countdown.php:425
+#, fuzzy
 msgid "center center"
 msgstr "mitte mitte"
 
 #: shortcodes/fusion-countdown.php:426
+#, fuzzy
 msgid "center right"
 msgstr "Mitte rechts"
 
 #: shortcodes/fusion-countdown.php:427
+#, fuzzy
 msgid "bottom left"
 msgstr "unten links"
 
 #: shortcodes/fusion-countdown.php:428
+#, fuzzy
 msgid "bottom center"
 msgstr "unten Mitte"
 
 #: shortcodes/fusion-countdown.php:429
+#, fuzzy
 msgid "bottom right"
 msgstr "unten rechts"
 
 #: shortcodes/fusion-countdown.php:433
+#, fuzzy
 msgid "Countdown Counter Box Color"
 msgstr "Countdown Box-Farbe"
 
 #: shortcodes/fusion-countdown.php:434
+#, fuzzy
 msgid "Controls the background color for the counter boxes."
 msgstr "Steuert die Hintergrundfarbe für die Rasterfelder."
 
 #: shortcodes/fusion-countdown.php:440
+#, fuzzy
 msgid "Countdown Counter Text Color"
 msgstr "Countdown Text-Farbe"
 
 #: shortcodes/fusion-countdown.php:441
+#, fuzzy
 msgid "Controls the color for the countdown timer text."
 msgstr "Steuert die Farbe für den Countdown Timer Text"
 
 #: shortcodes/fusion-countdown.php:447
+#, fuzzy
 msgid "Countdown Heading Text Color"
 msgstr "Countdown Überschrift Textfarbe"
 
 #: shortcodes/fusion-countdown.php:448
+#, fuzzy
 msgid "Controls the color for the countdown headings."
 msgstr "Steuert die Farbe für die Countdown Überschriften."
 
 #: shortcodes/fusion-countdown.php:454
+#, fuzzy
 msgid "Countdown Subheading Text Color"
 msgstr "Countdown Untertitel Textfarbe"
 
 #: shortcodes/fusion-countdown.php:455
+#, fuzzy
 msgid "Controls the color for the countdown subheadings."
 msgstr "Steuert die Farbe für die Countdown Untertitel."
 
 #: shortcodes/fusion-countdown.php:461
+#, fuzzy
 msgid "Countdown Link Text Color"
 msgstr "Countdown Link Text Farbe"
 
 #: shortcodes/fusion-countdown.php:462
+#, fuzzy
 msgid "Controls the color for the countdown link text."
 msgstr "Steuert die Farbe für den Countdown Link Text."
 
 #: shortcodes/fusion-countdown.php:468
+#, fuzzy
 msgid "Countdown Link Target"
 msgstr "Countdown Link Ziel"
 
 #: shortcodes/fusion-countdown.php:475
+#, fuzzy
 msgid "New Window"
 msgstr "Neues Fenster"
 
 #: shortcodes/fusion-countdown.php:519
 #: shortcodes/fusion-counters-circle.php:421
+#, fuzzy
 msgid "Countdown"
 msgstr "Countdown"
 
 #: shortcodes/fusion-countdown.php:527
+#, fuzzy
 msgid "Countdown Timer End"
 msgstr "Countdown Abgeleaufen"
 
 #: shortcodes/fusion-countdown.php:528
+#, fuzzy
 msgid ""
 "Set the end date and time for the countdown time. Click the calendar icon to "
 "use the date picker. Use SQL time format: YYYY-MM-DD HH:MM:SS. E.g: "
@@ -9422,6 +9832,7 @@ msgstr ""
 "Uhrzeit-Format: JJJJ-MM-DD HH:MM:SS. zB: 2016-05-10 12:30."
 
 #: shortcodes/fusion-countdown.php:534
+#, fuzzy
 msgid "Timezone"
 msgstr "Zeitzone"
 
@@ -9430,18 +9841,22 @@ msgid "Choose which timezone should be used for the countdown calculation."
 msgstr ""
 
 #: shortcodes/fusion-countdown.php:539
+#, fuzzy
 msgid "Timezone of Site"
 msgstr "Zeitzone der Seite"
 
 #: shortcodes/fusion-countdown.php:540
+#, fuzzy
 msgid "Timezone of User"
 msgstr "Zeitzone des User"
 
 #: shortcodes/fusion-countdown.php:546
+#, fuzzy
 msgid "Show Weeks"
 msgstr "Wochen anzeigen"
 
 #: shortcodes/fusion-countdown.php:547
+#, fuzzy
 msgid "Select \"yes\" to show weeks for longer countdowns."
 msgstr "Wählen Sie „Ja“, um Wochen für längere Countdowns zu zeigen."
 
@@ -9451,11 +9866,13 @@ msgid "Choose a background color for the countdown wrapping box."
 msgstr "Wählen Sie eine Hintergrundfarbe für die Formularumhüllungsbox aus."
 
 #: shortcodes/fusion-countdown.php:576
+#, fuzzy
 msgid "Choose the position of the background image."
 msgstr "Wählen Sie die Position des Hintergrundbildes."
 
 #: shortcodes/fusion-countdown.php:624 shortcodes/fusion-flip-boxes.php:906
 #: shortcodes/fusion-image.php:596 shortcodes/fusion-testimonials.php:743
+#, fuzzy
 msgid "Border Radius"
 msgstr "Rahmen Radius"
 
@@ -9476,50 +9893,62 @@ msgid "Choose a background color for the countdown."
 msgstr "Wählen Sie eine Hintergrundfarbe für den Countdown."
 
 #: shortcodes/fusion-countdown.php:640
+#, fuzzy
 msgid "Countdown Text Color"
 msgstr "Countdown Textfarbe"
 
 #: shortcodes/fusion-countdown.php:641
+#, fuzzy
 msgid "Choose a text color for the countdown timer."
 msgstr "Wählen Sie eine Textfarbe für den Countdown Timer."
 
 #: shortcodes/fusion-countdown.php:649
+#, fuzzy
 msgid "Heading Text"
 msgstr "Überschrift Text"
 
 #: shortcodes/fusion-countdown.php:650
+#, fuzzy
 msgid "Choose a heading text for the countdown."
 msgstr "Wählen Sie eine Überschrift für den Countdown."
 
 #: shortcodes/fusion-countdown.php:657
+#, fuzzy
 msgid "Heading Text Color"
 msgstr "Überschrift Text Farbe"
 
 #: shortcodes/fusion-countdown.php:658
+#, fuzzy
 msgid "Choose a text color for the countdown heading."
 msgstr "Wählen Sie eine Textfarbe für die Countdown Überschrift."
 
 #: shortcodes/fusion-countdown.php:666
+#, fuzzy
 msgid "Subheading Text"
 msgstr "Untertitel Text"
 
 #: shortcodes/fusion-countdown.php:667
+#, fuzzy
 msgid "Choose a subheading text for the countdown."
 msgstr "Wählen Sie einen Untertitel Text für den Countdown."
 
 #: shortcodes/fusion-countdown.php:674
+#, fuzzy
 msgid "Subheading Text Color"
 msgstr "Untertitel Text Farbe"
 
 #: shortcodes/fusion-countdown.php:675
+#, fuzzy
 msgid "Choose a text color for the countdown subheading."
 msgstr "Wählen Sie eine Textfarbe für den Countdown Untertitel."
 
 #: shortcodes/fusion-countdown.php:684
+#, fuzzy
 msgid "Add a url for the link. E.g: http://example.com."
 msgstr "Fügen Sie eine URL für den Link ein. z.B.: http://example.com"
 
 #: shortcodes/fusion-countdown.php:690
+#, fuzzy
 msgid "Link Text"
 msgstr "Link Text"
 
@@ -9529,14 +9958,17 @@ msgid "Choose a link text for the countdown."
 msgstr "Wählen Sie einen Untertitel Text für den Countdown."
 
 #: shortcodes/fusion-countdown.php:704
+#, fuzzy
 msgid "Link Text Color"
 msgstr "Link Textfarbe"
 
 #: shortcodes/fusion-countdown.php:705
+#, fuzzy
 msgid "Choose a text color for the countdown link."
 msgstr "Wählen Sie eine Textfarbe für den Countdown Link."
 
 #: shortcodes/fusion-countdown.php:721
+#, fuzzy
 msgid ""
 "_self = open in same window\n"
 "    \t\t\t\t                                      _blank = open in new window"
@@ -9555,6 +9987,7 @@ msgid "Counter Box Speed"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:420
+#, fuzzy
 msgid "Controls the speed of all counter box elements. ex: 1000 = 1 second."
 msgstr ""
 "Steuert die Geschwindigkeit aller Counter Boxen Elemente. Ex: 1000 = 1 "
@@ -9605,6 +10038,7 @@ msgstr ""
 
 #: shortcodes/fusion-counters-box.php:466
 #: shortcodes/fusion-counters-box.php:588
+#, fuzzy
 msgid "Counter Box Border Color"
 msgstr "Counter-Box-Rahmenfarbe"
 
@@ -9654,6 +10088,7 @@ msgstr ""
 "Sie erneut, um die Auswahl aufzuheben."
 
 #: shortcodes/fusion-counters-box.php:555
+#, fuzzy
 msgid ""
 "Controls the size of the icon. Enter the font size without 'px'. Default is "
 "50. Leave blank for theme option styling."
@@ -9668,6 +10103,7 @@ msgid "Counter Box Icon Top"
 msgstr "Zähler-Symbol oben"
 
 #: shortcodes/fusion-counters-box.php:562
+#, fuzzy
 msgid ""
 "Controls the position of the icon. Select Default for theme option styling."
 msgstr ""
@@ -9698,15 +10134,18 @@ msgid "Controls the color of the border."
 msgstr "Stellt die Farbe der Reiter-Umrandung ein."
 
 #: shortcodes/fusion-counters-box.php:643
+#, fuzzy
 msgid "Counter Box"
 msgstr "Zähler-Box"
 
 #: shortcodes/fusion-counters-box.php:644
 #: shortcodes/fusion-counters-circle.php:374
+#, fuzzy
 msgid "Enter some content for this block."
 msgstr "Geben Sie einen Inhalt für diese Textblock ein."
 
 #: shortcodes/fusion-counters-box.php:650
+#, fuzzy
 msgid "Counter Value"
 msgstr "Zähler Wert"
 
@@ -9724,6 +10163,7 @@ msgid "Delimiter Digit"
 msgstr ""
 
 #: shortcodes/fusion-counters-box.php:658
+#, fuzzy
 msgid "Insert a delimiter digit for better readability. ex: ,"
 msgstr "Trennzeichen für Ziffern für bessere Lesbarkeit festlegen. Bsp: ,"
 
@@ -9733,14 +10173,17 @@ msgid "Counter Box Unit"
 msgstr "Zähler-Box"
 
 #: shortcodes/fusion-counters-box.php:665
+#, fuzzy
 msgid "Insert a unit for the counter. ex %"
 msgstr "Fügen Sie eine Einheit für den Zähler ein. Ex %"
 
 #: shortcodes/fusion-counters-box.php:671
+#, fuzzy
 msgid "Unit Position"
 msgstr "Währungsposition"
 
 #: shortcodes/fusion-counters-box.php:672
+#, fuzzy
 msgid "Choose the positioning of the unit."
 msgstr "Wählen Sie die Positionierung des Elements aus."
 
@@ -9755,6 +10198,7 @@ msgid "Before Counter"
 msgstr "Vor dem Zähler"
 
 #: shortcodes/fusion-counters-box.php:689
+#, fuzzy
 msgid "Counter Direction"
 msgstr "Zähler Richtung"
 
@@ -9764,10 +10208,12 @@ msgid "Choose to count up or down."
 msgstr "Wählen Sie aus, ob Sie hoch oder runter zählen möchten."
 
 #: shortcodes/fusion-counters-box.php:693
+#, fuzzy
 msgid "Count Up"
 msgstr "Aufwärtszählen"
 
 #: shortcodes/fusion-counters-box.php:694
+#, fuzzy
 msgid "Count Down"
 msgstr "Runterzählen"
 
@@ -9777,14 +10223,17 @@ msgid "Counter Box Text"
 msgstr "Zähler-Box"
 
 #: shortcodes/fusion-counters-box.php:701
+#, fuzzy
 msgid "Insert text for counter box."
 msgstr "Geben Sie den Text für die Zähler Box ein."
 
 #: shortcodes/fusion-counters-circle.php:233
+#, fuzzy
 msgid "Counter Circle Element"
 msgstr "Zähler Kreis Element"
 
 #: shortcodes/fusion-counters-circle.php:239
+#, fuzzy
 msgid "Counter Circle Filled Color"
 msgstr "Zähler Kreis gefüllte Farbe"
 
@@ -9794,18 +10243,22 @@ msgid "Controls the color of the filled circle."
 msgstr "Steuert die Farbe des Kreises."
 
 #: shortcodes/fusion-counters-circle.php:246
+#, fuzzy
 msgid "Counter Circle Unfilled Color"
 msgstr "Zähler Kreis ungefüllte Farbe"
 
 #: shortcodes/fusion-counters-circle.php:247
+#, fuzzy
 msgid "Controls the color of the unfilled circle."
 msgstr "Steuert die Farbe des Kreises."
 
 #: shortcodes/fusion-counters-circle.php:308
+#, fuzzy
 msgid "Counter Circles"
 msgstr "Zähler Kreise"
 
 #: shortcodes/fusion-counters-circle.php:373
+#, fuzzy
 msgid "Counter Circle"
 msgstr "Zähler Kreis"
 
@@ -9815,22 +10268,27 @@ msgid "Filled Area Percentage"
 msgstr "Gefüllter Flächenanteil"
 
 #: shortcodes/fusion-counters-circle.php:381 shortcodes/fusion-progress.php:418
+#, fuzzy
 msgid "From 1% to 100%."
 msgstr "Von 1% bis 100%."
 
 #: shortcodes/fusion-counters-circle.php:387 shortcodes/fusion-progress.php:424
+#, fuzzy
 msgid "Filled Color"
 msgstr "Gefüllte Farbe"
 
 #: shortcodes/fusion-counters-circle.php:391 shortcodes/fusion-progress.php:425
+#, fuzzy
 msgid "Controls the color of the filled in area. "
 msgstr "Steuert die Farbe des ausgefüllten Bereichs. "
 
 #: shortcodes/fusion-counters-circle.php:395 shortcodes/fusion-progress.php:458
+#, fuzzy
 msgid "Unfilled Color"
 msgstr "Ungefüllte Farbe"
 
 #: shortcodes/fusion-counters-circle.php:399 shortcodes/fusion-progress.php:459
+#, fuzzy
 msgid "Controls the color of the unfilled in area. "
 msgstr "Steuert die Farbe des Bereichs der ungefüllt in. "
 
@@ -9875,6 +10333,7 @@ msgid "Insert text for counter circle box, keep it short."
 msgstr "Fügen Sie den Text für den Zähler-Kreis ein, halten Sie ihn kurz."
 
 #: shortcodes/fusion-dropcap.php:135
+#, fuzzy
 msgid "Dropcap Element"
 msgstr "Dropcap Element"
 
@@ -9888,10 +10347,12 @@ msgid ""
 msgstr ""
 
 #: shortcodes/fusion-dropcap.php:169
+#, fuzzy
 msgid "Dropcap"
 msgstr "DropCap"
 
 #: shortcodes/fusion-dropcap.php:176
+#, fuzzy
 msgid "Dropcap Letter"
 msgstr "Dropcap Buchstabe"
 
@@ -9901,6 +10362,7 @@ msgid "Add the letter to be used as dropcap."
 msgstr "Fügen Sie den Buchstaben hinzu, der als Dropcap verwendet werden soll."
 
 #: shortcodes/fusion-dropcap.php:183 shortcodes/fusion-soundcloud.php:210
+#, fuzzy
 msgid "Color"
 msgstr "Farbe"
 
@@ -9924,6 +10386,7 @@ msgid "Choose to get a boxed dropcap."
 msgstr "Entscheide dich für eine Boxed Dropcap."
 
 #: shortcodes/fusion-dropcap.php:203
+#, fuzzy
 msgid "Box Radius"
 msgstr "Box Radius"
 
@@ -9936,6 +10399,7 @@ msgstr ""
 "Wähle den Radius der Boxed Dropcap. In Pixeln (px), ex: 1px oder \"rund\"."
 
 #: shortcodes/fusion-events.php:275
+#, fuzzy
 msgid "Number of Events"
 msgstr "Anzahl der Events"
 
@@ -9947,12 +10411,14 @@ msgstr "Wählen Sie die Anzahl der anzuzeigenden Ereignisse aus."
 #: shortcodes/fusion-events.php:282 shortcodes/fusion-image-carousel.php:456
 #: shortcodes/fusion-woo-featured-products-slider.php:360
 #: shortcodes/fusion-woo-product-slider.php:407
+#, fuzzy
 msgid "Maximum Columns"
 msgstr "Maximale Spalten"
 
 #: shortcodes/fusion-events.php:283 shortcodes/fusion-image-carousel.php:457
 #: shortcodes/fusion-woo-featured-products-slider.php:361
 #: shortcodes/fusion-woo-product-slider.php:408
+#, fuzzy
 msgid "Select the number of max columns to display."
 msgstr "Wählen Sie Anzahl Spalte aus, die angezeigt werden sollen."
 
@@ -9960,6 +10426,7 @@ msgstr "Wählen Sie Anzahl Spalte aus, die angezeigt werden sollen."
 #: shortcodes/fusion-gallery.php:524 shortcodes/fusion-image-carousel.php:421
 #: shortcodes/fusion-woo-featured-products-slider.php:327
 #: shortcodes/fusion-woo-product-slider.php:359
+#, fuzzy
 msgid "Picture Size"
 msgstr "Bildgröße"
 
@@ -9973,6 +10440,7 @@ msgstr ""
 "Breite und Höhe werden an das Bild angepasst."
 
 #: shortcodes/fusion-events.php:301
+#, fuzzy
 msgid "Cover"
 msgstr "Einband"
 
@@ -9980,14 +10448,17 @@ msgstr "Einband"
 #: shortcodes/fusion-gallery.php:530 shortcodes/fusion-image-carousel.php:426
 #: shortcodes/fusion-woo-featured-products-slider.php:332
 #: shortcodes/fusion-woo-product-slider.php:364
+#, fuzzy
 msgid "Auto"
 msgstr "Auto"
 
 #: shortcodes/fusion-flip-boxes.php:500
+#, fuzzy
 msgid "Flip Boxes Element"
 msgstr "Flip Boxen Element"
 
 #: shortcodes/fusion-flip-boxes.php:506
+#, fuzzy
 msgid "Flip Box Background Color Frontside"
 msgstr "Flip Box Hintergrund Farbe Vorderseite"
 
@@ -9997,6 +10468,7 @@ msgid "Controls the color of the frontside background."
 msgstr "Steuert die Farbe des Vorderseiten Text."
 
 #: shortcodes/fusion-flip-boxes.php:513
+#, fuzzy
 msgid "Flip Box Heading Color Frontside"
 msgstr "Flip Box Überschrift Farbe Vorderseite"
 
@@ -10006,10 +10478,12 @@ msgid "Controls the color of the frontside heading."
 msgstr "Steuert die Farbe des Vorderseiten Text."
 
 #: shortcodes/fusion-flip-boxes.php:520
+#, fuzzy
 msgid "Flip Box Text Color Frontside"
 msgstr "Flip Box Text Farbe Vorderseite"
 
 #: shortcodes/fusion-flip-boxes.php:521
+#, fuzzy
 msgid "Controls the color of the frontside text."
 msgstr "Steuert die Farbe des Vorderseiten Text."
 
@@ -10024,22 +10498,27 @@ msgid "Controls the color of the backside background."
 msgstr "Steuert die Farbe des Rückseiten Text."
 
 #: shortcodes/fusion-flip-boxes.php:534
+#, fuzzy
 msgid "Flip Box Heading Color Backside"
 msgstr "Flip Box Überschrift Farbe Rückseite"
 
 #: shortcodes/fusion-flip-boxes.php:535
+#, fuzzy
 msgid "Controls the color of the backside heading."
 msgstr "Steuert die Farbe der Überschrift der Rückseite."
 
 #: shortcodes/fusion-flip-boxes.php:541
+#, fuzzy
 msgid "Flip Box Text Color Backside"
 msgstr "Flip Box Text Farbe Rückseite"
 
 #: shortcodes/fusion-flip-boxes.php:542
+#, fuzzy
 msgid "Controls the color of the backside text."
 msgstr "Steuert die Farbe des Rückseiten Text."
 
 #: shortcodes/fusion-flip-boxes.php:548
+#, fuzzy
 msgid "Flip Box Border Size"
 msgstr "Flip Box Rahmen Größe"
 
@@ -10049,6 +10528,7 @@ msgid "Controls the border size of the flip box background."
 msgstr "Steuert die Rahmengröße des Flipbox-Hintergrunds."
 
 #: shortcodes/fusion-flip-boxes.php:560
+#, fuzzy
 msgid "Flip Box Border Color"
 msgstr "Flip Box Rahmen Farbe"
 
@@ -10058,6 +10538,7 @@ msgid "Controls the border color of flip box background."
 msgstr "Steuert die Randfarbe des Flipbox-Hintergrunds."
 
 #: shortcodes/fusion-flip-boxes.php:567
+#, fuzzy
 msgid "Flip Box Border Radius"
 msgstr "Flip Box Rahmen Radius"
 
@@ -10067,10 +10548,12 @@ msgid "Controls the border radius of the flip box background."
 msgstr "Steuert die Ramen Radius von Symbol-Hintergrund."
 
 #: shortcodes/fusion-flip-boxes.php:617
+#, fuzzy
 msgid "Flip Boxes"
 msgstr "Flip Boxen"
 
 #: shortcodes/fusion-flip-boxes.php:659 shortcodes/fusion-flip-boxes.php:935
+#, fuzzy
 msgid "Icon Circle"
 msgstr "Icon Kreis"
 
@@ -10081,29 +10564,35 @@ msgstr "Wählen Sie einen umkreisten Hintergrund für das Symbol aus."
 
 #: shortcodes/fusion-flip-boxes.php:670 shortcodes/fusion-flip-boxes.php:954
 #: shortcodes/fusion-fontawesome.php:257 shortcodes/fusion-fontawesome.php:404
+#, fuzzy
 msgid "Icon Circle Background Color"
 msgstr "Icon Kreis Hintergrundfarbe"
 
 #: shortcodes/fusion-flip-boxes.php:671 shortcodes/fusion-flip-boxes.php:955
 #: shortcodes/fusion-fontawesome.php:405
+#, fuzzy
 msgid "Controls the color of the circle. "
 msgstr "Steuert die Farbe des Kreises. "
 
 #: shortcodes/fusion-flip-boxes.php:678 shortcodes/fusion-flip-boxes.php:974
 #: shortcodes/fusion-fontawesome.php:264 shortcodes/fusion-fontawesome.php:420
+#, fuzzy
 msgid "Icon Circle Border Color"
 msgstr "Icon Kreis Rand Farbe"
 
 #: shortcodes/fusion-flip-boxes.php:679 shortcodes/fusion-flip-boxes.php:975
 #: shortcodes/fusion-fontawesome.php:421
+#, fuzzy
 msgid "Controls the color of the circle border. "
 msgstr "Stellt die Farbe der Reiter-Umrandung ein. "
 
 #: shortcodes/fusion-flip-boxes.php:792
+#, fuzzy
 msgid "Flip Box"
 msgstr "Flip Box"
 
 #: shortcodes/fusion-flip-boxes.php:800
+#, fuzzy
 msgid "Flip Box Frontside Heading"
 msgstr "Flip Box Vorderseite Überschrift"
 
@@ -10123,6 +10612,7 @@ msgid "Add a heading for the backside of the flip box."
 msgstr "Fügen Sie eine Überschrift für die Rückseite der Flip-Box hinzu."
 
 #: shortcodes/fusion-flip-boxes.php:816
+#, fuzzy
 msgid "Flip Box Frontside Content"
 msgstr "Flip Box Vorderseite Inhalt"
 
@@ -10132,6 +10622,7 @@ msgid "Add content for the frontside of the flip box."
 msgstr "Fügen Sie Inhalte für die Vorderseite der Flip-Box hinzu."
 
 #: shortcodes/fusion-flip-boxes.php:824
+#, fuzzy
 msgid "Flip Box Backside Content"
 msgstr "Flip Box Rückseite Inhalt"
 
@@ -10155,10 +10646,12 @@ msgstr ""
 "Hintergrundfarben haben, damit sie in allen Browsern korrekt funktionieren."
 
 #: shortcodes/fusion-flip-boxes.php:840
+#, fuzzy
 msgid "Heading Color Frontside"
 msgstr "Überschrift Farbe Vorderseite"
 
 #: shortcodes/fusion-flip-boxes.php:841
+#, fuzzy
 msgid "Controls the heading color of the frontside. "
 msgstr "Steuert die Farbe der Überschrift von der Vorderseite."
 
@@ -10168,6 +10661,7 @@ msgid "Text Color Frontside"
 msgstr "Textfarbe Vorderseite"
 
 #: shortcodes/fusion-flip-boxes.php:849
+#, fuzzy
 msgid "Controls the text color of the frontside. "
 msgstr "Steuert die Farbe des Textes von der Vorderseite."
 
@@ -10186,10 +10680,12 @@ msgstr ""
 "Hintergrundfarben haben, damit sie in allen Browsern korrekt funktionieren."
 
 #: shortcodes/fusion-flip-boxes.php:864
+#, fuzzy
 msgid "Heading Color Backside"
 msgstr "Überschrift Farbe Rückseite"
 
 #: shortcodes/fusion-flip-boxes.php:865
+#, fuzzy
 msgid "Controls the heading color of the backside. "
 msgstr "Steuert die Farbe der Überschrift von der Rückseite."
 
@@ -10199,16 +10695,19 @@ msgid "Text Color Backside"
 msgstr "Textfarbe Rückseite"
 
 #: shortcodes/fusion-flip-boxes.php:873
+#, fuzzy
 msgid "Controls the text color of the backside. "
 msgstr "Steuert die Farbe des Textes von der Rückseite."
 
 #: shortcodes/fusion-flip-boxes.php:892 shortcodes/fusion-image.php:582
 #: shortcodes/fusion-section-separator.php:688
 #: shortcodes/fusion-tagline.php:507
+#, fuzzy
 msgid "Controls the border color. "
 msgstr "Steuert die Rahmenfarbe. "
 
 #: shortcodes/fusion-flip-boxes.php:907
+#, fuzzy
 msgid ""
 "Controls the flip box border radius. In pixels (px), ex: 1px, or \"round\". "
 msgstr ""
@@ -10230,14 +10729,17 @@ msgid "Controls the border color of the circle background."
 msgstr "Steuert die Randfarbe des Kreishintergrunds."
 
 #: shortcodes/fusion-fontawesome.php:272
+#, fuzzy
 msgid "Controls the color of the icon."
 msgstr "Steuert die Farbe des Symbol Hintergrunds."
 
 #: shortcodes/fusion-fontawesome.php:326
+#, fuzzy
 msgid "Size of Icon"
 msgstr "Icon Größe"
 
 #: shortcodes/fusion-fontawesome.php:327 shortcodes/fusion-toggle.php:712
+#, fuzzy
 msgid "Set the size of the icon. In pixels (px), ex: 13px."
 msgstr "Legt die Größe des Icon fest. In Pixeln (px), z.B.: 13px."
 
@@ -10253,6 +10755,7 @@ msgstr ""
 "basierend auf der Ausrichtung und Symbol Größe leer."
 
 #: shortcodes/fusion-fontawesome.php:383
+#, fuzzy
 msgid "Icon in Circle"
 msgstr "Icon im Kreis"
 
@@ -10267,10 +10770,12 @@ msgid "Select the icon's alignment."
 msgstr "Wählen Sie die Ausrichtung des Symbols aus."
 
 #: shortcodes/fusion-gallery.php:378
+#, fuzzy
 msgid "Gallery Element"
 msgstr "Galerie Element"
 
 #: shortcodes/fusion-gallery.php:385
+#, fuzzy
 msgid ""
 "Fixed = width and height will be fixed<br/>Auto = width and height will "
 "adjust to the image."
@@ -10282,14 +10787,17 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:425
 #: shortcodes/fusion-woo-featured-products-slider.php:331
 #: shortcodes/fusion-woo-product-slider.php:363
+#, fuzzy
 msgid "Fixed"
 msgstr "Fixiert"
 
 #: shortcodes/fusion-gallery.php:395 shortcodes/fusion-gallery.php:512
+#, fuzzy
 msgid "Gallery Layout"
 msgstr "Galerie Layout"
 
 #: shortcodes/fusion-gallery.php:396 shortcodes/fusion-gallery.php:513
+#, fuzzy
 msgid "Select the gallery layout type."
 msgstr "Layout-Typ auswählen"
 
@@ -10307,18 +10815,22 @@ msgstr "Steuert den Spaltenabstand für Galerieelemente."
 #: shortcodes/fusion-image-carousel.php:433 shortcodes/fusion-image.php:558
 #: shortcodes/fusion-person.php:739 shortcodes/fusion-recent-posts.php:588
 #: shortcodes/fusion-slider.php:363
+#, fuzzy
 msgid "Select the hover effect type."
 msgstr "Den Hover Effekt Typ auswählen."
 
 #: shortcodes/fusion-gallery.php:442 shortcodes/fusion-gallery.php:597
+#, fuzzy
 msgid "Lightbox Content"
 msgstr "Lightbox Inhalt"
 
 #: shortcodes/fusion-gallery.php:447 shortcodes/fusion-gallery.php:602
+#, fuzzy
 msgid "Titles"
 msgstr "Titel"
 
 #: shortcodes/fusion-gallery.php:448
+#, fuzzy
 msgid "Titles & Captions"
 msgstr "Titel & Bildunterschriften"
 
@@ -10330,6 +10842,7 @@ msgstr ""
 "sollen."
 
 #: shortcodes/fusion-gallery.php:504
+#, fuzzy
 msgid "Gallery Images"
 msgstr "Galerie Bilder"
 
@@ -10339,6 +10852,7 @@ msgid "Upload or select images from media library."
 msgstr "Wählen Sie Bilder aus der Medienbibliothek."
 
 #: shortcodes/fusion-gallery.php:525
+#, fuzzy
 msgid ""
 "Fixed = width and height will be fixed.<br/>Auto = width and height will "
 "adjust to the image.<br/>"
@@ -10354,6 +10868,7 @@ msgstr "Fügen Sie den Abstand zwischen Galeriebildern ohne \"px\" ein. ex: 7."
 
 #: shortcodes/fusion-gallery.php:586 shortcodes/fusion-image-carousel.php:516
 #: shortcodes/fusion-image.php:623
+#, fuzzy
 msgid "Image lightbox"
 msgstr "Bild Lightbox"
 
@@ -10373,14 +10888,17 @@ msgid "Titles and Captions"
 msgstr "Titel und Bildunterschriften"
 
 #: shortcodes/fusion-google-map.php:386
+#, fuzzy
 msgid "No location found for the entered address."
 msgstr "Die angegebene Adresse wurde nicht gefunden."
 
 #: shortcodes/fusion-google-map.php:388
+#, fuzzy
 msgid "Invalid request. Did you enter an address?"
 msgstr "Ungültige Anfrage. Haben Sie eine Adresse eingegeben?"
 
 #: shortcodes/fusion-google-map.php:390
+#, fuzzy
 msgid ""
 "Something went wrong while retrieving your map, please ensure you have "
 "entered the short code correctly."
@@ -10389,18 +10907,22 @@ msgstr ""
 "dass Sie den Shortcode korrekt eingegeben haben."
 
 #: shortcodes/fusion-google-map.php:393
+#, fuzzy
 msgid "Unable to contact Google API service."
 msgstr "Kann Google API-Dienst nicht erreichen."
 
 #: shortcodes/fusion-google-map.php:454
+#, fuzzy
 msgid "Google Map"
 msgstr "Google Map"
 
 #: shortcodes/fusion-google-map.php:462
+#, fuzzy
 msgid "Address"
 msgstr "Adresse"
 
 #: shortcodes/fusion-google-map.php:463
+#, fuzzy
 msgid ""
 "Add the address to the location you wish to display. Single address example: "
 "775 New York Ave, Brooklyn, Kings, New York 11203. If the location is off, "
@@ -10416,6 +10938,7 @@ msgstr ""
 "Adresse 3."
 
 #: shortcodes/fusion-google-map.php:469
+#, fuzzy
 msgid "Map Type"
 msgstr "Karten Typ"
 
@@ -10425,22 +10948,27 @@ msgid "Select the type of google map to display."
 msgstr "Wählen Sie den Typ der Google-Karte aus, die angezeigt werden soll."
 
 #: shortcodes/fusion-google-map.php:473
+#, fuzzy
 msgid "Roadmap"
 msgstr "Straßenkarte"
 
 #: shortcodes/fusion-google-map.php:474
+#, fuzzy
 msgid "Satellite"
 msgstr "Satellit"
 
 #: shortcodes/fusion-google-map.php:475
+#, fuzzy
 msgid "Hybrid"
 msgstr "Hybrid"
 
 #: shortcodes/fusion-google-map.php:476
+#, fuzzy
 msgid "Terrain"
 msgstr "Gelände"
 
 #: shortcodes/fusion-google-map.php:483
+#, fuzzy
 msgid "Map Dimensions"
 msgstr "Kartenabmessungen"
 
@@ -10454,10 +10982,12 @@ msgstr ""
 "keinen Prozentwert."
 
 #: shortcodes/fusion-google-map.php:493
+#, fuzzy
 msgid "Zoom Level"
 msgstr "Zoom Stufe"
 
 #: shortcodes/fusion-google-map.php:494
+#, fuzzy
 msgid "Higher number will be more zoomed in."
 msgstr "Höhere Zahlen werden stärker eingezoomt."
 
@@ -10496,6 +11026,7 @@ msgid "Displays pan control button."
 msgstr "Zeigt die Schwenksteuerungsschaltfläche an."
 
 #: shortcodes/fusion-google-map.php:536
+#, fuzzy
 msgid "Address Pin Animation"
 msgstr "Adresse Pin Animation"
 
@@ -10524,6 +11055,7 @@ msgid "Select the Map Styling Switch"
 msgstr "Wählen Sie den Kartenstil-Schalter"
 
 #: shortcodes/fusion-google-map.php:559
+#, fuzzy
 msgid ""
 "Choose default styling for classic google map styles. Choose theme styling "
 "for our custom style. Choose custom styling to make your own with the "
@@ -10535,14 +11067,17 @@ msgstr ""
 "Optionen."
 
 #: shortcodes/fusion-google-map.php:562
+#, fuzzy
 msgid "Default Styling"
 msgstr "Standard Styling"
 
 #: shortcodes/fusion-google-map.php:563
+#, fuzzy
 msgid "Theme Styling"
 msgstr "Theme-Stil"
 
 #: shortcodes/fusion-google-map.php:564
+#, fuzzy
 msgid "Custom Styling"
 msgstr "Benutzerdefiniertes Style"
 
@@ -10562,6 +11097,7 @@ msgstr ""
 "mit \"Roadmap\" -Typ."
 
 #: shortcodes/fusion-google-map.php:584
+#, fuzzy
 msgid "Infobox Content"
 msgstr "Infobox Inhalt"
 
@@ -10578,6 +11114,7 @@ msgstr ""
 "InfoBox 1 | InfoBox 2 | InfoBox 3"
 
 #: shortcodes/fusion-google-map.php:598
+#, fuzzy
 msgid "Infobox Styling"
 msgstr "Infobox Styling"
 
@@ -10586,14 +11123,17 @@ msgid "Custom styling setting only. Choose between default or custom info box."
 msgstr ""
 
 #: shortcodes/fusion-google-map.php:602
+#, fuzzy
 msgid "Default Infobox"
 msgstr "Standard Infobox"
 
 #: shortcodes/fusion-google-map.php:603
+#, fuzzy
 msgid "Custom Infobox"
 msgstr "Benutzerdefinierte Infobox"
 
 #: shortcodes/fusion-google-map.php:616
+#, fuzzy
 msgid "Info Box Text Color"
 msgstr "Info Box Textfarbe"
 
@@ -10617,10 +11157,12 @@ msgstr ""
 "für die Info-Box."
 
 #: shortcodes/fusion-google-map.php:654
+#, fuzzy
 msgid "Custom Marker Icon"
 msgstr "Benutzerdefinierter Marker Icon"
 
 #: shortcodes/fusion-google-map.php:655
+#, fuzzy
 msgid ""
 "Custom styling setting only. Use full image urls for custom marker icons or "
 "input \"theme\" for our custom marker. For multiple addresses, separate "
@@ -10632,10 +11174,12 @@ msgstr ""
 "einen für alle. z.B.: Icon 1|Icon 2|Icon 3"
 
 #: shortcodes/fusion-highlight.php:120
+#, fuzzy
 msgid "Highlight"
 msgstr "Highlight"
 
 #: shortcodes/fusion-highlight.php:127
+#, fuzzy
 msgid "Highlight Color"
 msgstr "Highlight Farbe"
 
@@ -10660,6 +11204,7 @@ msgid "Enter some text to highlight."
 msgstr "Geben Sie einen Text ein, der hervorgehoben werden soll."
 
 #: shortcodes/fusion-image-carousel.php:395
+#, fuzzy
 msgid "Image Carousel"
 msgstr "Bild Karussell"
 
@@ -10681,6 +11226,7 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:422
 #: shortcodes/fusion-woo-featured-products-slider.php:328
 #: shortcodes/fusion-woo-product-slider.php:360
+#, fuzzy
 msgid ""
 "fixed = width and height will be fixed <br />auto = width and height will "
 "adjust to the image."
@@ -10691,6 +11237,7 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:446
 #: shortcodes/fusion-woo-featured-products-slider.php:350
 #: shortcodes/fusion-woo-product-slider.php:397
+#, fuzzy
 msgid "Choose to autoplay the carousel."
 msgstr "Auswählen, um das Karussell automatisch abzuspielen."
 
@@ -10702,12 +11249,14 @@ msgstr "Füge den Abstand ohne 'px' zwischen Elementen ein. z.B. 13."
 #: shortcodes/fusion-image-carousel.php:476
 #: shortcodes/fusion-woo-featured-products-slider.php:377
 #: shortcodes/fusion-woo-product-slider.php:424
+#, fuzzy
 msgid "Scroll Items"
 msgstr "Artikel durchsuchen"
 
 #: shortcodes/fusion-image-carousel.php:477
 #: shortcodes/fusion-woo-featured-products-slider.php:378
 #: shortcodes/fusion-woo-product-slider.php:425
+#, fuzzy
 msgid ""
 "Insert the amount of items to scroll. Leave empty to scroll number of "
 "visible items."
@@ -10718,18 +11267,21 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:483
 #: shortcodes/fusion-woo-featured-products-slider.php:384
 #: shortcodes/fusion-woo-product-slider.php:431
+#, fuzzy
 msgid "Show Navigation"
 msgstr "Navigation anzeigen"
 
 #: shortcodes/fusion-image-carousel.php:484
 #: shortcodes/fusion-woo-featured-products-slider.php:385
 #: shortcodes/fusion-woo-product-slider.php:432
+#, fuzzy
 msgid "Choose to show navigation buttons on the carousel."
 msgstr "Navigations-Tasten im Karussell anzeigen."
 
 #: shortcodes/fusion-image-carousel.php:494
 #: shortcodes/fusion-woo-featured-products-slider.php:395
 #: shortcodes/fusion-woo-product-slider.php:442
+#, fuzzy
 msgid "Mouse Scroll"
 msgstr "Mausrad"
 
@@ -10748,6 +11300,7 @@ msgstr ""
 #: shortcodes/fusion-image-carousel.php:505
 #: shortcodes/fusion-section-separator.php:667
 #: shortcodes/fusion-section-separator.php:668
+#, fuzzy
 msgid "Border"
 msgstr "Rahmen"
 
@@ -10761,6 +11314,7 @@ msgstr "Wählen Sie aus, ob Sie einen Rahmen um die Bilder aktivieren möchten."
 #: shortcodes/fusion-image.php:514 shortcodes/fusion-lightbox.php:87
 #: shortcodes/fusion-slider.php:438 shortcodes/fusion-slider.php:445
 #: shortcodes/fusion-testimonials.php:722
+#, fuzzy
 msgid "Image"
 msgstr "Bild"
 
@@ -10771,10 +11325,12 @@ msgid "Upload an image to display."
 msgstr "Laden Sie ein Bild hoch, das angezeigt werden soll."
 
 #: shortcodes/fusion-image-carousel.php:575 shortcodes/fusion-image.php:521
+#, fuzzy
 msgid "Image ID"
 msgstr "Bild ID"
 
 #: shortcodes/fusion-image-carousel.php:576 shortcodes/fusion-image.php:522
+#, fuzzy
 msgid "Image ID from Media Library."
 msgstr "Bild ID aus der Medienbibliothek."
 
@@ -10795,12 +11351,14 @@ msgstr ""
 
 #: shortcodes/fusion-image-carousel.php:591 shortcodes/fusion-slider.php:513
 #: shortcodes/fusion-tagline.php:569 shortcodes/fusion-testimonials.php:773
+#, fuzzy
 msgid "_self = open in same window <br />_blank = open in new window."
 msgstr ""
 "_self = Im selben Fenster öffnen <br />_blank = In einem neuen Fenster "
 "öffnen."
 
 #: shortcodes/fusion-image-carousel.php:601 shortcodes/fusion-image.php:662
+#, fuzzy
 msgid "Image Alt Text"
 msgstr "Bild Alt Text"
 
@@ -10815,10 +11373,12 @@ msgstr ""
 "nicht angezeigt werden kann."
 
 #: shortcodes/fusion-image.php:433
+#, fuzzy
 msgid "Image Element"
 msgstr "Bild Element"
 
 #: shortcodes/fusion-image.php:439
+#, fuzzy
 msgid "Image Border Color"
 msgstr "Bild Rahmen Farbe"
 
@@ -10828,6 +11388,7 @@ msgid "Controls the border color of the image."
 msgstr "Steuert die Rahmenfarbe für FAQ Artikel."
 
 #: shortcodes/fusion-image.php:446
+#, fuzzy
 msgid "Image Border Size"
 msgstr "Bild Rahmen Größe"
 
@@ -10837,6 +11398,7 @@ msgid "Controls the border size of the image."
 msgstr "Steuert die Rahmengröße für FAQ Artikel."
 
 #: shortcodes/fusion-image.php:458
+#, fuzzy
 msgid "Image Border Radius"
 msgstr "Bild Rahmen Radius"
 
@@ -10845,6 +11407,7 @@ msgid "Controls the border radius of the image."
 msgstr ""
 
 #: shortcodes/fusion-image.php:466
+#, fuzzy
 msgid "Image Style Color"
 msgstr "Bild Style Farbe"
 
@@ -10858,26 +11421,32 @@ msgstr ""
 "shadow Stil."
 
 #: shortcodes/fusion-image.php:529
+#, fuzzy
 msgid "Style Type"
 msgstr "Style Typ"
 
 #: shortcodes/fusion-image.php:530
+#, fuzzy
 msgid "Select the style type."
 msgstr "Style Typ auswählen."
 
 #: shortcodes/fusion-image.php:534 shortcodes/fusion-person.php:723
+#, fuzzy
 msgid "Glow"
 msgstr "Glow"
 
 #: shortcodes/fusion-image.php:535 shortcodes/fusion-person.php:724
+#, fuzzy
 msgid "Drop Shadow"
 msgstr "Schlagschatten hinzufügen"
 
 #: shortcodes/fusion-image.php:536 shortcodes/fusion-person.php:725
+#, fuzzy
 msgid "Bottom Shadow"
 msgstr "Schatten Unten"
 
 #: shortcodes/fusion-image.php:542
+#, fuzzy
 msgid "Style Color"
 msgstr "Style Farbe"
 
@@ -10894,6 +11463,7 @@ msgstr ""
 "Steuert die Flip-Box Rahmenradius. In Pixel (px) z. B.: 1px, oder \"runden\"."
 
 #: shortcodes/fusion-image.php:610
+#, fuzzy
 msgid "Align"
 msgstr "Ausrichtung"
 
@@ -10903,6 +11473,7 @@ msgid "Choose how to align the image."
 msgstr "Wählen Sie, wie das Bild ausgerichtet werden soll."
 
 #: shortcodes/fusion-image.php:634
+#, fuzzy
 msgid "Gallery ID"
 msgstr "Galerie ID"
 
@@ -10914,39 +11485,47 @@ msgstr ""
 "gehören soll."
 
 #: shortcodes/fusion-image.php:648
+#, fuzzy
 msgid "Lightbox Image"
 msgstr "Lightbox Bild"
 
 #: shortcodes/fusion-image.php:649 shortcodes/fusion-lightbox.php:94
+#, fuzzy
 msgid "Upload an image that will show up in the lightbox."
 msgstr "Laden Sie ein Bild hoch das in der Lightbox angezeigt wird."
 
 #: shortcodes/fusion-image.php:669 shortcodes/fusion-person.php:686
+#, fuzzy
 msgid "Picture Link URL"
 msgstr "Bild Link URL"
 
 #: shortcodes/fusion-image.php:670 shortcodes/fusion-person.php:687
+#, fuzzy
 msgid "Add the URL the picture will link to, ex: http://example.com."
 msgstr ""
 "Fügen Sie die URL hinzu, mit der das Bild verknüpft wird, z.B.: http://"
 "example.com"
 
 #: shortcodes/fusion-image.php:684
+#, fuzzy
 msgid "_self = open in same window<br />_blank = open in new window."
 msgstr ""
 "_self = Im selben Fenster öffnen<br />_blank = In einem neuen Fenster öffnen."
 
 #: shortcodes/fusion-layer-slider.php:22
 #: shortcodes/fusion-revolution-slider.php:20
+#, fuzzy
 msgid "Select Slider"
 msgstr "Slider auswählen"
 
 #: shortcodes/fusion-layer-slider.php:23
 #: shortcodes/fusion-revolution-slider.php:21
+#, fuzzy
 msgid "Select a slider group."
 msgstr "Wählen Sie eine Slider Gruppe aus."
 
 #: shortcodes/fusion-lightbox.php:82
+#, fuzzy
 msgid "Content Type"
 msgstr "Inhalt Typ"
 
@@ -10956,14 +11535,17 @@ msgid "Select what you want to display in the lightbox."
 msgstr "Wählen Sie aus, was Sie in der Lightbox anzeigen möchten."
 
 #: shortcodes/fusion-lightbox.php:88 shortcodes/fusion-slider.php:439
+#, fuzzy
 msgid "Video"
 msgstr "Video"
 
 #: shortcodes/fusion-lightbox.php:93
+#, fuzzy
 msgid "Full Image"
 msgstr "Bild mit voller Breite"
 
 #: shortcodes/fusion-lightbox.php:107
+#, fuzzy
 msgid "YouTube or Vimeo Video url"
 msgstr "YouTube oder Vimeo Video URL"
 
@@ -10974,6 +11556,7 @@ msgstr ""
 "Geben Sie die vollständige Video-URL ein, die in der Lightbox angezeigt wird."
 
 #: shortcodes/fusion-lightbox.php:121
+#, fuzzy
 msgid "Thumbnail Image"
 msgstr "Thumbnail Bild"
 
@@ -10983,10 +11566,12 @@ msgid "Clicking this image will show lightbox."
 msgstr "Wenn Sie auf dieses Bild klicken, wird Lightbox angezeigt."
 
 #: shortcodes/fusion-lightbox.php:128
+#, fuzzy
 msgid "Alt Text"
 msgstr "Alt-Text"
 
 #: shortcodes/fusion-lightbox.php:135
+#, fuzzy
 msgid "Lightbox Description"
 msgstr "Lightbox Beschreibung"
 
@@ -10996,6 +11581,7 @@ msgid "This will show up in the lightbox as a description below the image."
 msgstr "Dies wird in der Lightbox als Beschreibung unter dem Bild angezeigt."
 
 #: shortcodes/fusion-menu-anchor.php:108
+#, fuzzy
 msgid "Menu Anchor"
 msgstr "Menüanker"
 
@@ -11025,6 +11611,7 @@ msgid "Controls the border color of the modal popup box."
 msgstr "Steuert die Rahmenfarbe der modalen Popup-Box."
 
 #: shortcodes/fusion-modal.php:394
+#, fuzzy
 msgid "Modal"
 msgstr "Layer"
 
@@ -11049,6 +11636,7 @@ msgid "Modal Heading"
 msgstr "Modale Überschrift"
 
 #: shortcodes/fusion-modal.php:411
+#, fuzzy
 msgid "Heading text for the modal."
 msgstr "Überschrift Text für das Modal."
 
@@ -11073,6 +11661,7 @@ msgid "Controls the modal border color. "
 msgstr "Steuert die modale Rahmenfarbe."
 
 #: shortcodes/fusion-modal.php:445
+#, fuzzy
 msgid "Show Footer"
 msgstr "Footer anzeigen"
 
@@ -11143,6 +11732,7 @@ msgstr ""
 "wird verwendet, um das Scrollen zum Anker auszulösen."
 
 #: shortcodes/fusion-person.php:540
+#, fuzzy
 msgid "Person Element"
 msgstr "Personen Element"
 
@@ -11169,6 +11759,7 @@ msgid "Controls the background color of the person area."
 msgstr "Steuert die Hintergrundfarbe des Personenbereichs."
 
 #: shortcodes/fusion-person.php:559
+#, fuzzy
 msgid "Person Border Color"
 msgstr "Person Rahmenfarbe"
 
@@ -11178,6 +11769,7 @@ msgid "Controls the border color of the person image."
 msgstr "Steuert die Randfarbe des Personenbilds."
 
 #: shortcodes/fusion-person.php:566
+#, fuzzy
 msgid "Person Border Size"
 msgstr "Person Rahmengröße"
 
@@ -11187,6 +11779,7 @@ msgid "Controls the border size of the person image."
 msgstr "Steuert die Rahmengröße des Personenbilds."
 
 #: shortcodes/fusion-person.php:578
+#, fuzzy
 msgid "Person Border Radius"
 msgstr "Person Rahmenradius"
 
@@ -11196,6 +11789,7 @@ msgid "Controls the border radius of the person image."
 msgstr "Steuert den Randradius des Personenbilds."
 
 #: shortcodes/fusion-person.php:586
+#, fuzzy
 msgid "Person Style Color"
 msgstr "Person Style Farbe"
 
@@ -11205,6 +11799,7 @@ msgid "Controls the style color for all style types except border."
 msgstr "Steuert die Stilfarbe für alle Stiltypen außer Rahmen."
 
 #: shortcodes/fusion-person.php:593
+#, fuzzy
 msgid "Person Content Alignment"
 msgstr "Person Inhalt Ausrichtung"
 
@@ -11224,34 +11819,42 @@ msgid "Controls the position of the social icons."
 msgstr "Steuert die Position der sozialen Symbole."
 
 #: shortcodes/fusion-person.php:647
+#, fuzzy
 msgid "Person"
 msgstr "Person"
 
 #: shortcodes/fusion-person.php:656 shortcodes/fusion-testimonials.php:709
+#, fuzzy
 msgid "Insert the name of the person."
 msgstr "Sie den Namen der Person ein."
 
 #: shortcodes/fusion-person.php:664
+#, fuzzy
 msgid "Insert the title of the person"
 msgstr "Fügen Sie den Titel der Person ein."
 
 #: shortcodes/fusion-person.php:671
+#, fuzzy
 msgid "Profile Description"
 msgstr "Profilbeschreibung"
 
 #: shortcodes/fusion-person.php:672
+#, fuzzy
 msgid "Enter the content to be displayed"
 msgstr "Geben Sie den Inhalt ein, der angezeigt werden soll."
 
 #: shortcodes/fusion-person.php:679
+#, fuzzy
 msgid "Picture"
 msgstr "Abbildung"
 
 #: shortcodes/fusion-person.php:718
+#, fuzzy
 msgid "Picture Style Type"
 msgstr "Bild Style Typ"
 
 #: shortcodes/fusion-person.php:719
+#, fuzzy
 msgid "Selected the style type for the picture."
 msgstr "Auswahl des Style Typ für das Bild."
 
@@ -11270,6 +11873,7 @@ msgstr ""
 "Auswahl der Designoption."
 
 #: shortcodes/fusion-person.php:780
+#, fuzzy
 msgid "Picture Style Color"
 msgstr "Bild Style Farbe"
 
@@ -11346,6 +11950,7 @@ msgstr ""
 "1px oder \"rund\"."
 
 #: shortcodes/fusion-person.php:885
+#, fuzzy
 msgid "Social Icon Color Type"
 msgstr "Social Icon Farbtyp"
 
@@ -11361,12 +11966,14 @@ msgstr ""
 #: shortcodes/fusion-person.php:890 shortcodes/fusion-sharingbox.php:507
 #: shortcodes/fusion-sharingbox.php:773 shortcodes/fusion-social-links.php:320
 #: shortcodes/fusion-social-links.php:471
+#, fuzzy
 msgid "Custom Colors"
 msgstr "Benutzerdefinierte Farben"
 
 #: shortcodes/fusion-person.php:891 shortcodes/fusion-sharingbox.php:508
 #: shortcodes/fusion-sharingbox.php:774 shortcodes/fusion-social-links.php:321
 #: shortcodes/fusion-social-links.php:472
+#, fuzzy
 msgid "Brand Colors"
 msgstr "Marken Farben"
 
@@ -11402,6 +12009,7 @@ msgstr ""
 
 #: shortcodes/fusion-person.php:930 shortcodes/fusion-sharingbox.php:813
 #: shortcodes/fusion-social-links.php:511
+#, fuzzy
 msgid "Social Icon Tooltip Position"
 msgstr "Social Icon Tooltip Position"
 
@@ -11421,14 +12029,17 @@ msgid "Blogger Link"
 msgstr "Blogger-Link"
 
 #: shortcodes/fusion-person.php:946 shortcodes/fusion-social-links.php:526
+#, fuzzy
 msgid "Insert your custom Blogger link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Blogger Link ein."
 
 #: shortcodes/fusion-person.php:952 shortcodes/fusion-social-links.php:532
+#, fuzzy
 msgid "Deviantart Link"
 msgstr "Deviantart Link"
 
 #: shortcodes/fusion-person.php:953 shortcodes/fusion-social-links.php:533
+#, fuzzy
 msgid "Insert your custom Deviantart link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Deviantart Link ein."
 
@@ -11438,70 +12049,87 @@ msgid "Digg Link"
 msgstr "Digg Link"
 
 #: shortcodes/fusion-person.php:960 shortcodes/fusion-social-links.php:540
+#, fuzzy
 msgid "Insert your custom Digg link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Digg Link ein."
 
 #: shortcodes/fusion-person.php:966 shortcodes/fusion-social-links.php:546
+#, fuzzy
 msgid "Dribbble Link"
 msgstr "Dribble Link"
 
 #: shortcodes/fusion-person.php:967 shortcodes/fusion-social-links.php:547
+#, fuzzy
 msgid "Insert your custom Dribbble link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Dribbble Link ein."
 
 #: shortcodes/fusion-person.php:973 shortcodes/fusion-social-links.php:553
+#, fuzzy
 msgid "Dropbox Link"
 msgstr "Dropbox Link"
 
 #: shortcodes/fusion-person.php:974 shortcodes/fusion-social-links.php:554
+#, fuzzy
 msgid "Insert your custom Dropbox link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Dropbox Link ein."
 
 #: shortcodes/fusion-person.php:980 shortcodes/fusion-social-links.php:560
+#, fuzzy
 msgid "Facebook Link"
 msgstr "Facebooklink"
 
 #: shortcodes/fusion-person.php:981 shortcodes/fusion-social-links.php:561
+#, fuzzy
 msgid "Insert your custom Facebook link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Facebook Link ein."
 
 #: shortcodes/fusion-person.php:987 shortcodes/fusion-social-links.php:567
+#, fuzzy
 msgid "Flickr Link"
 msgstr "Flickr Link"
 
 #: shortcodes/fusion-person.php:988 shortcodes/fusion-social-links.php:568
+#, fuzzy
 msgid "Insert your custom Flickr link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Flickr Link ein."
 
 #: shortcodes/fusion-person.php:994 shortcodes/fusion-social-links.php:574
+#, fuzzy
 msgid "Forrst Link"
 msgstr "Forrst Link"
 
 #: shortcodes/fusion-person.php:995 shortcodes/fusion-social-links.php:575
+#, fuzzy
 msgid "Insert your custom Forrst link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Forrst Link ein."
 
 #: shortcodes/fusion-person.php:1001 shortcodes/fusion-social-links.php:581
+#, fuzzy
 msgid "Google+ Link"
 msgstr "Google+ Link"
 
 #: shortcodes/fusion-person.php:1002 shortcodes/fusion-social-links.php:582
+#, fuzzy
 msgid "Insert your custom Google+ link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Google+ Link ein."
 
 #: shortcodes/fusion-person.php:1008 shortcodes/fusion-social-links.php:588
+#, fuzzy
 msgid "Instagram Link"
 msgstr "Instagram Link"
 
 #: shortcodes/fusion-person.php:1009 shortcodes/fusion-social-links.php:589
+#, fuzzy
 msgid "Insert your custom Instagram link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Instagram Link ein."
 
 #: shortcodes/fusion-person.php:1015 shortcodes/fusion-social-links.php:595
+#, fuzzy
 msgid "LinkedIn Link"
 msgstr "Linkedin Link "
 
 #: shortcodes/fusion-person.php:1016 shortcodes/fusion-social-links.php:596
+#, fuzzy
 msgid "Insert your custom LinkedIn link."
 msgstr "Fügen Sie Ihren benutzerdefinierten LinkedIn Link ein."
 
@@ -11511,6 +12139,7 @@ msgid "Myspace Link"
 msgstr "Myspace-Link"
 
 #: shortcodes/fusion-person.php:1023 shortcodes/fusion-social-links.php:603
+#, fuzzy
 msgid "Insert your custom Myspace link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Myspace Link ein."
 
@@ -11520,14 +12149,17 @@ msgid "PayPal Link"
 msgstr "PayPal Kauflink"
 
 #: shortcodes/fusion-person.php:1030 shortcodes/fusion-social-links.php:610
+#, fuzzy
 msgid "Insert your custom PayPal link."
 msgstr "Fügen Sie Ihren benutzerdefinierten PayPal Link ein."
 
 #: shortcodes/fusion-person.php:1036 shortcodes/fusion-social-links.php:616
+#, fuzzy
 msgid "Pinterest Link"
 msgstr "Pinterest Link"
 
 #: shortcodes/fusion-person.php:1037 shortcodes/fusion-social-links.php:617
+#, fuzzy
 msgid "Insert your custom Pinterest link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Pinterest Link ein."
 
@@ -11537,22 +12169,27 @@ msgid "Reddit Link"
 msgstr "Reddit-Link"
 
 #: shortcodes/fusion-person.php:1044 shortcodes/fusion-social-links.php:624
+#, fuzzy
 msgid "Insert your custom Reddit link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Reddit Link ein."
 
 #: shortcodes/fusion-person.php:1050 shortcodes/fusion-social-links.php:630
+#, fuzzy
 msgid "RSS Link"
 msgstr "RSS Link"
 
 #: shortcodes/fusion-person.php:1051 shortcodes/fusion-social-links.php:631
+#, fuzzy
 msgid "Insert your custom RSS link."
 msgstr "Fügen Sie Ihren benutzerdefinierten RSS Link ein."
 
 #: shortcodes/fusion-person.php:1057 shortcodes/fusion-social-links.php:637
+#, fuzzy
 msgid "Skype Link"
 msgstr "Skype Link"
 
 #: shortcodes/fusion-person.php:1058 shortcodes/fusion-social-links.php:638
+#, fuzzy
 msgid "Insert your custom Skype link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Skype Link ein."
 
@@ -11562,54 +12199,67 @@ msgid "SoundCloud Link"
 msgstr "Soundcloud Link"
 
 #: shortcodes/fusion-person.php:1065 shortcodes/fusion-social-links.php:645
+#, fuzzy
 msgid "Insert your custom SoundCloud link."
 msgstr "Fügen Sie Ihren benutzerdefinierten SoundCloud Link ein."
 
 #: shortcodes/fusion-person.php:1071 shortcodes/fusion-social-links.php:651
+#, fuzzy
 msgid "Spotify Link"
 msgstr "Spotify Link"
 
 #: shortcodes/fusion-person.php:1072 shortcodes/fusion-social-links.php:652
+#, fuzzy
 msgid "Insert your custom Spotify link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Spotify Link ein."
 
 #: shortcodes/fusion-person.php:1078 shortcodes/fusion-social-links.php:658
+#, fuzzy
 msgid "Tumblr Link"
 msgstr "Tumblr Link"
 
 #: shortcodes/fusion-person.php:1079 shortcodes/fusion-social-links.php:659
+#, fuzzy
 msgid "Insert your custom Tumblr link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Tumblr Link ein."
 
 #: shortcodes/fusion-person.php:1085 shortcodes/fusion-social-links.php:665
+#, fuzzy
 msgid "Twitter Link"
 msgstr "Twitter Link"
 
 #: shortcodes/fusion-person.php:1086 shortcodes/fusion-social-links.php:666
+#, fuzzy
 msgid "Insert your custom Twitter link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Twitter Link ein."
 
 #: shortcodes/fusion-person.php:1092 shortcodes/fusion-social-links.php:672
+#, fuzzy
 msgid "Vimeo Link"
 msgstr "Vimeo Link"
 
 #: shortcodes/fusion-person.php:1093 shortcodes/fusion-social-links.php:673
+#, fuzzy
 msgid "Insert your custom Vimeo link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Vimeo Link ein."
 
 #: shortcodes/fusion-person.php:1099 shortcodes/fusion-social-links.php:679
+#, fuzzy
 msgid "VK Link"
 msgstr "VK-Link"
 
 #: shortcodes/fusion-person.php:1100 shortcodes/fusion-social-links.php:680
+#, fuzzy
 msgid "Insert your custom VK link."
 msgstr "Fügen Sie Ihren benutzerdefinierten VK Link ein."
 
 #: shortcodes/fusion-person.php:1106 shortcodes/fusion-social-links.php:686
+#, fuzzy
 msgid "Xing Link"
 msgstr "Xing Link"
 
 #: shortcodes/fusion-person.php:1107 shortcodes/fusion-social-links.php:687
+#, fuzzy
 msgid "Insert your custom Xing link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Xing Link ein."
 
@@ -11619,22 +12269,27 @@ msgid "Yahoo Link"
 msgstr "Yahoo Link"
 
 #: shortcodes/fusion-person.php:1114 shortcodes/fusion-social-links.php:694
+#, fuzzy
 msgid "Insert your custom Yahoo link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Yahoo Link ein."
 
 #: shortcodes/fusion-person.php:1120 shortcodes/fusion-social-links.php:700
+#, fuzzy
 msgid "Yelp Link"
 msgstr "Yelp Link"
 
 #: shortcodes/fusion-person.php:1121 shortcodes/fusion-social-links.php:701
+#, fuzzy
 msgid "Insert your custom Yelp link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Yelp Link ein."
 
 #: shortcodes/fusion-person.php:1127 shortcodes/fusion-social-links.php:707
+#, fuzzy
 msgid "Youtube Link"
 msgstr "YouTube Link"
 
 #: shortcodes/fusion-person.php:1128 shortcodes/fusion-social-links.php:708
+#, fuzzy
 msgid "Insert your custom Youtube link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Youtube Link ein."
 
@@ -11644,6 +12299,7 @@ msgid "Insert an email address to display the email icon."
 msgstr "Fügen Sie eine e-Mail-Adresse das e-Mail-Symbol angezeigt."
 
 #: shortcodes/fusion-person.php:1141
+#, fuzzy
 msgid "Show Custom Social Icons"
 msgstr "Benutzerdefinierte Social Icons anzeigen"
 
@@ -11655,26 +12311,32 @@ msgstr ""
 "sozialen Symbole an."
 
 #: shortcodes/fusion-person.php:1158 shortcodes/fusion-social-links.php:738
+#, fuzzy
 msgid "%s Link"
 msgstr "%s Link"
 
 #: shortcodes/fusion-person.php:1159 shortcodes/fusion-social-links.php:739
+#, fuzzy
 msgid "Insert your custom social link."
 msgstr "Fügen Sie Ihren benutzerdefinierten Social Link ein."
 
 #: shortcodes/fusion-popover.php:168
+#, fuzzy
 msgid "Popover Element"
 msgstr "PopOver Element"
 
 #: shortcodes/fusion-popover.php:174 shortcodes/fusion-popover.php:268
+#, fuzzy
 msgid "Popover Heading Background Color"
 msgstr "PopOver Überschrift Hintergrundfarbe"
 
 #: shortcodes/fusion-popover.php:175
+#, fuzzy
 msgid "Controls the color of the popover heading background."
 msgstr "Steuert die Farbe des PopOver Überschriften Hintergrunds."
 
 #: shortcodes/fusion-popover.php:181 shortcodes/fusion-popover.php:284
+#, fuzzy
 msgid "Popover Content Background Color"
 msgstr "PopOver Inhalt Hintergrundfarbe"
 
@@ -11684,6 +12346,7 @@ msgid "Controls the color of popover content background."
 msgstr "Steuert die Farbe des Popover-Inhaltshintergrunds."
 
 #: shortcodes/fusion-popover.php:188 shortcodes/fusion-popover.php:293
+#, fuzzy
 msgid "Popover Border Color"
 msgstr "PopOver Rahmenfarbe"
 
@@ -11692,14 +12355,17 @@ msgid "Controls the border color of popover box."
 msgstr ""
 
 #: shortcodes/fusion-popover.php:195 shortcodes/fusion-popover.php:302
+#, fuzzy
 msgid "Popover Text Color"
 msgstr "PopOver Textfarbe"
 
 #: shortcodes/fusion-popover.php:196
+#, fuzzy
 msgid "Controls the color of the popover text."
 msgstr "Steuert die Farbe des PopOver Text."
 
 #: shortcodes/fusion-popover.php:202 shortcodes/fusion-popover.php:322
+#, fuzzy
 msgid "Popover Position"
 msgstr "PopOver Position"
 
@@ -11710,6 +12376,7 @@ msgid ""
 msgstr "Steuert die Position des Popover in Bezug auf das auslösende Element."
 
 #: shortcodes/fusion-popover.php:247
+#, fuzzy
 msgid "Popover"
 msgstr "PopOver"
 
@@ -11724,22 +12391,27 @@ msgid "Content that will trigger the popover."
 msgstr "Inhalt, der das Popover auslöst."
 
 #: shortcodes/fusion-popover.php:261
+#, fuzzy
 msgid "Popover Heading"
 msgstr "PopOver Überschrift"
 
 #: shortcodes/fusion-popover.php:262
+#, fuzzy
 msgid "Heading text of the popover."
 msgstr "Überschrift Text für das PopOver."
 
 #: shortcodes/fusion-popover.php:269
+#, fuzzy
 msgid "Controls the background color of the popover heading. "
 msgstr "Steuert die Hintergrundfarbe der Überschrift im PopOver. "
 
 #: shortcodes/fusion-popover.php:277
+#, fuzzy
 msgid "Contents Inside Popover"
 msgstr "Inhalt nach innen Popover"
 
 #: shortcodes/fusion-popover.php:278
+#, fuzzy
 msgid "Text to be displayed inside the popover."
 msgstr "Text der im PopOver angezeigt werden soll."
 
@@ -11773,6 +12445,7 @@ msgid "Choose mouse action to trigger popover."
 msgstr "Wählen Sie eine Mausaktion aus, um Popover auszulösen."
 
 #: shortcodes/fusion-popover.php:316 shortcodes/fusion-tooltip.php:184
+#, fuzzy
 msgid "Click"
 msgstr "Klicken"
 
@@ -11786,11 +12459,13 @@ msgstr ""
 "Auswahl der Designoption."
 
 #: shortcodes/fusion-post-slider.php:481
+#, fuzzy
 msgid "Post Slider"
 msgstr "Beitrags Slider"
 
 #: shortcodes/fusion-post-slider.php:489 shortcodes/fusion-recent-posts.php:575
 #: shortcodes/fusion-soundcloud.php:155 shortcodes/fusion-tabs.php:732
+#, fuzzy
 msgid "Layout"
 msgstr "Layout"
 
@@ -11800,6 +12475,7 @@ msgid "Choose a layout style for Post Slider."
 msgstr "Wählen Sie einen Layoutstil für Post Slider aus."
 
 #: shortcodes/fusion-post-slider.php:493
+#, fuzzy
 msgid "Posts with Title"
 msgstr "Beiträge mit Titel"
 
@@ -11814,6 +12490,7 @@ msgid "Attachment Layout, Only Images Attached to Post/Page"
 msgstr "Anlagenlayout, nur an Post / Seite angehängte Bilder"
 
 #: shortcodes/fusion-post-slider.php:501
+#, fuzzy
 msgid "Attach Images to Post/Page Gallery"
 msgstr "Bilder an Beitrag/Seiten Galerie anhängen"
 
@@ -11836,6 +12513,7 @@ msgstr ""
 "Wählen Sie eine Kategorie von Beiträgen aus, die angezeigt werden sollen."
 
 #: shortcodes/fusion-post-slider.php:545
+#, fuzzy
 msgid "Number of Slides"
 msgstr "Anzahl der Folien"
 
@@ -11845,6 +12523,7 @@ msgid "Select the number of slides to display."
 msgstr "Wählen Sie die Anzahl der anzuzeigenden Folien aus."
 
 #: shortcodes/fusion-post-slider.php:552
+#, fuzzy
 msgid "Image Lightbox"
 msgstr "Bild Lightbox"
 
@@ -11858,22 +12537,27 @@ msgstr ""
 "aktiviert sein, sonst wird das Bild auf derselben Registerkarte geöffnet."
 
 #: shortcodes/fusion-pricing-table.php:503
+#, fuzzy
 msgid "Pricing Table Element"
 msgstr "Preistabelle Element"
 
 #: shortcodes/fusion-pricing-table.php:509
+#, fuzzy
 msgid "Pricing Box Style 1 Heading Color"
 msgstr "Preis Box Style 1 Überschrift Farbe"
 
 #: shortcodes/fusion-pricing-table.php:510
+#, fuzzy
 msgid "Controls the color of style 1 pricing table headings."
 msgstr "Steuert die Farbe der Preistabellen Überschriften von Style 1."
 
 #: shortcodes/fusion-pricing-table.php:516
+#, fuzzy
 msgid "Pricing Box Style 2 Heading Color"
 msgstr "Preis Box Style 2 Überschrift Farbe"
 
 #: shortcodes/fusion-pricing-table.php:517
+#, fuzzy
 msgid "Controls the color of style 2 pricing table headings."
 msgstr "Steuert die Farbe der Preistabellen Überschriften von Style 2."
 
@@ -11912,6 +12596,7 @@ msgid "Pricing Box Border Color"
 msgstr "Box Rahmenfarbe"
 
 #: shortcodes/fusion-pricing-table.php:545
+#, fuzzy
 msgid ""
 "Controls the color of the outer border, pricing row and footer row "
 "backgrounds."
@@ -11920,30 +12605,37 @@ msgstr ""
 "Hintergründe."
 
 #: shortcodes/fusion-pricing-table.php:551
+#, fuzzy
 msgid "Pricing Box Divider Color"
 msgstr "Preis Box Teiler Farbe"
 
 #: shortcodes/fusion-pricing-table.php:552
+#, fuzzy
 msgid "Controls the color of the dividers in-between pricing rows."
 msgstr "Steuert die Farbe der Teiler zwischen den Preiszeilen."
 
 #: shortcodes/fusion-pricing-table.php:579
+#, fuzzy
 msgid "Pricing Table"
 msgstr "Preistabelle"
 
 #: shortcodes/fusion-pricing-table.php:594 shortcodes/fusion-table.php:73
+#, fuzzy
 msgid "Type"
 msgstr "Typ"
 
 #: shortcodes/fusion-pricing-table.php:595
+#, fuzzy
 msgid "Select the type of pricing table."
 msgstr "Wähle den Typ der Preistabelle."
 
 #: shortcodes/fusion-pricing-table.php:598 shortcodes/fusion-table.php:77
+#, fuzzy
 msgid "Style 1"
 msgstr "Stil 1"
 
 #: shortcodes/fusion-pricing-table.php:599 shortcodes/fusion-table.php:78
+#, fuzzy
 msgid "Style 2"
 msgstr "Stil 2"
 
@@ -11953,6 +12645,7 @@ msgid "Set pricing table background color. "
 msgstr "Set Preis Tabelle Hintergrundfarbe."
 
 #: shortcodes/fusion-pricing-table.php:613
+#, fuzzy
 msgid "Background Hover Color"
 msgstr "Hover Hintergrundfarbe"
 
@@ -11966,6 +12659,7 @@ msgid "Set pricing table border color."
 msgstr ""
 
 #: shortcodes/fusion-pricing-table.php:629
+#, fuzzy
 msgid "Divider Color"
 msgstr "Trennlinien Farbe"
 
@@ -11977,23 +12671,28 @@ msgstr "Set Preis Tabelle Teiler Farbe."
 #: shortcodes/fusion-pricing-table.php:637
 #: shortcodes/fusion-pricing-table.php:652 shortcodes/fusion-user-login.php:954
 #: shortcodes/fusion-user-login.php:1104 shortcodes/fusion-user-login.php:1240
+#, fuzzy
 msgid "Heading Color"
 msgstr "Überschrift Farbe"
 
 #: shortcodes/fusion-pricing-table.php:638
 #: shortcodes/fusion-pricing-table.php:653
+#, fuzzy
 msgid "Set pricing table headings color."
 msgstr "Legen Sie die Überschrift Farbe der Preistabelle fest."
 
 #: shortcodes/fusion-pricing-table.php:667
+#, fuzzy
 msgid "Pricing Text Color"
 msgstr "Preis Text Farbe"
 
 #: shortcodes/fusion-pricing-table.php:668
+#, fuzzy
 msgid "Set pricing table price text color."
 msgstr "Legen Sie die Preis Text Farbe der Preistabelle fest."
 
 #: shortcodes/fusion-pricing-table.php:675
+#, fuzzy
 msgid "Body Text Color"
 msgstr "Hauptteil Farbe"
 
@@ -12003,18 +12702,22 @@ msgid "Set pricing table body text color"
 msgstr "Set Preis Tabelle Text Körperfarbe"
 
 #: shortcodes/fusion-pricing-table.php:683
+#, fuzzy
 msgid "Short Code"
 msgstr "Shortcode"
 
 #: shortcodes/fusion-pricing-table.php:684
+#, fuzzy
 msgid "Pricing Table short code content."
 msgstr "Preistabelle ShortCode Inhalt."
 
 #: shortcodes/fusion-progress.php:257
+#, fuzzy
 msgid "Progress Bar Element"
 msgstr "Fortschrittsanzeige (Progress Bar) Element"
 
 #: shortcodes/fusion-progress.php:263 shortcodes/fusion-progress.php:370
+#, fuzzy
 msgid "Progress Bar Height"
 msgstr "Höhe des dynamischen Balkens"
 
@@ -12024,6 +12727,7 @@ msgid "Insert a height for the progress bar."
 msgstr "Fügen Sie eine Höhe für den Fortschrittsbalken ein."
 
 #: shortcodes/fusion-progress.php:270 shortcodes/fusion-progress.php:379
+#, fuzzy
 msgid "Text Position"
 msgstr "Text Position"
 
@@ -12037,14 +12741,17 @@ msgstr ""
 "die Option Designauswahl."
 
 #: shortcodes/fusion-progress.php:276 shortcodes/fusion-progress.php:384
+#, fuzzy
 msgid "On Bar"
 msgstr "Auf Balken"
 
 #: shortcodes/fusion-progress.php:277 shortcodes/fusion-progress.php:385
+#, fuzzy
 msgid "Above Bar"
 msgstr "Über Balken"
 
 #: shortcodes/fusion-progress.php:278 shortcodes/fusion-progress.php:386
+#, fuzzy
 msgid "Below Bar"
 msgstr "Unter Balken"
 
@@ -12060,6 +12767,7 @@ msgstr ""
 "Steuert die Farbe des mit dem Fortschrittsbalken ausgefüllten Bereichs."
 
 #: shortcodes/fusion-progress.php:289
+#, fuzzy
 msgid "Progress Bar Filled Border Color"
 msgstr "Farbe des ausgefüllten Bereichs im Fortschrittsbalken"
 
@@ -12070,6 +12778,7 @@ msgstr ""
 "Steuert die Randfarbe des mit dem Fortschrittsbalken ausgefüllten Bereichs."
 
 #: shortcodes/fusion-progress.php:296
+#, fuzzy
 msgid "Progress Bar Filled Border Size"
 msgstr "Rahmendicke des ausgefüllten Bereichs im Fortschrittsbalken"
 
@@ -12080,6 +12789,7 @@ msgstr ""
 "Steuert die Randgröße des mit dem Fortschrittsbalken ausgefüllten Bereichs."
 
 #: shortcodes/fusion-progress.php:308
+#, fuzzy
 msgid "Progress Bar Unfilled Color"
 msgstr "Farbe des nicht ausgefüllten Bereichs im Fortschrittsbalken"
 
@@ -12099,6 +12809,7 @@ msgid "Controls the color of the progress bar text."
 msgstr "Steuert die Farbe des Fortschrittsbalkentextes."
 
 #: shortcodes/fusion-progress.php:361
+#, fuzzy
 msgid "Progress Bar"
 msgstr "Progress Bar"
 
@@ -12112,6 +12823,7 @@ msgstr ""
 "einschließlich aller gültigen CSS-Einheiten ein, z. B .: 10px."
 
 #: shortcodes/fusion-progress.php:392
+#, fuzzy
 msgid "Display Percentage Value"
 msgstr "Prozentwert anzeigen"
 
@@ -12158,6 +12870,7 @@ msgid "Choose to get the filled area striped."
 msgstr "Wählen Sie aus, ob der gefüllte Bereich gestreift werden soll."
 
 #: shortcodes/fusion-progress.php:477
+#, fuzzy
 msgid "Animated Stripes"
 msgstr "Animierte Streifen"
 
@@ -12177,71 +12890,88 @@ msgid "Text will show up on progess bar."
 msgstr "Der Text wird in der Fortschrittsleiste angezeigt."
 
 #: shortcodes/fusion-progress.php:503 shortcodes/fusion-testimonials.php:645
+#, fuzzy
 msgid "Text Color"
 msgstr "Textfarbe"
 
 #: shortcodes/fusion-progress.php:504 shortcodes/fusion-testimonials.php:646
+#, fuzzy
 msgid "Controls the text color. "
 msgstr "Steuert die Textfarbe. "
 
 #: shortcodes/fusion-recent-posts.php:567
+#, fuzzy
 msgid "Recent Posts"
 msgstr "Aktuelles"
 
 #: shortcodes/fusion-recent-posts.php:576
+#, fuzzy
 msgid "Select the layout for the element."
 msgstr "Wählen Sie das Layout für das Element."
 
 #: shortcodes/fusion-recent-posts.php:579
+#, fuzzy
 msgid "Standard"
 msgstr "Standard"
 
 #: shortcodes/fusion-recent-posts.php:580
+#, fuzzy
 msgid "Thumbnails on Side"
 msgstr "Thumbnails auf der Seite"
 
 #: shortcodes/fusion-recent-posts.php:581
+#, fuzzy
 msgid "Date on Side"
 msgstr "Datum auf Seite"
 
 #: shortcodes/fusion-recent-posts.php:601
+#, fuzzy
 msgid "Select the number of columns to display."
 msgstr "Wählen Sie Anzahl Spalte aus, die angezeigt werden sollen."
 
 #: shortcodes/fusion-recent-posts.php:611
+#, fuzzy
 msgid "Select number of posts per page.  Set to -1 to display all."
 msgstr ""
 "Wähle die Anzahl der Beiträge pro Seite.  Auf-1 setzen, um alle anzuzeigen."
 
 #: shortcodes/fusion-recent-posts.php:730
+#, fuzzy
 msgid "Show Meta"
 msgstr "Meta-Information anzeigen"
 
 #: shortcodes/fusion-recent-posts.php:832
+#, fuzzy
 msgid "Choose to display the post excerpt."
 msgstr "Die Post-Auszug Anzeige auswählen."
 
 #: shortcodes/fusion-recent-posts.php:860
+#, fuzzy
 msgid "Strip HTML"
 msgstr "HTML entfernen"
 
 #: shortcodes/fusion-recent-posts.php:861
+#, fuzzy
 msgid "Strip HTML from the post excerpt."
 msgstr "HTML aus den Beitrag Auszügen entfernen."
 
 #: shortcodes/fusion-row.php:31
+#, fuzzy
 msgid "Row"
 msgstr "Zeile"
 
 #: shortcodes/fusion-section-separator.php:505
+#, fuzzy
 msgid "Section Separator Element"
 msgstr "Abschnitt-Separator-Element"
 
 #: shortcodes/fusion-section-separator.php:511
+#, fuzzy
 msgid "Section Separator Border Size"
 msgstr "Abschnitt-Separator-Rahmendicke"
 
 #: shortcodes/fusion-section-separator.php:512
+#, fuzzy
 msgid "Controls the border size of the section separator."
 msgstr "Steuert die Rahmendicke für den Abschnittstrennbalken."
 
@@ -12266,6 +12996,7 @@ msgid "Controls the border color of the separator."
 msgstr "Steuert die Rahmenfarbe für FAQ Artikel."
 
 #: shortcodes/fusion-section-separator.php:558
+#, fuzzy
 msgid "Section Separator"
 msgstr "Abschnitt Trenner"
 
@@ -12280,14 +13011,17 @@ msgid "Select the type of the section separator"
 msgstr "Wählen Sie den Typ des Abschnittsseparators"
 
 #: shortcodes/fusion-section-separator.php:568
+#, fuzzy
 msgid "Triangle"
 msgstr "Dreieck"
 
 #: shortcodes/fusion-section-separator.php:569
+#, fuzzy
 msgid "Slant"
 msgstr "Schräg stellen"
 
 #: shortcodes/fusion-section-separator.php:570
+#, fuzzy
 msgid "Big Triangle"
 msgstr "Großes Dreieck"
 
@@ -12297,14 +13031,17 @@ msgid "Rounded Split"
 msgstr "Abgerundeter Split"
 
 #: shortcodes/fusion-section-separator.php:572
+#, fuzzy
 msgid "Curved"
 msgstr "Gebogen"
 
 #: shortcodes/fusion-section-separator.php:573
+#, fuzzy
 msgid "Big Half Circle"
 msgstr "Großer Halbkreis"
 
 #: shortcodes/fusion-section-separator.php:574
+#, fuzzy
 msgid "Clouds"
 msgstr "Wolken"
 
@@ -12329,6 +13066,7 @@ msgid "Select the vertical position of the section separator."
 msgstr "Wählen Sie die vertikale Position des Abschnittsseparators aus."
 
 #: shortcodes/fusion-section-separator.php:620
+#, fuzzy
 msgid "Top and Bottom"
 msgstr "Oben und Unten"
 
@@ -12352,6 +13090,7 @@ msgid "Separator Element"
 msgstr "Separatorelement."
 
 #: shortcodes/fusion-separator.php:322
+#, fuzzy
 msgid "Separator Style"
 msgstr "Trennzeichen Style"
 
@@ -12366,10 +13105,12 @@ msgstr ""
 
 #: shortcodes/fusion-separator.php:339 shortcodes/fusion-separator.php:429
 #: shortcodes/fusion-title.php:461
+#, fuzzy
 msgid "Separator Color"
 msgstr "Trennzeichen Farbe"
 
 #: shortcodes/fusion-separator.php:340
+#, fuzzy
 msgid ""
 "Controls the color of all separators, divider lines and borders for meta, "
 "previous & next, filters, archive pages, boxes around number pagination, "
@@ -12380,6 +13121,7 @@ msgstr ""
 "Seitenleisen-Widgets, Akkordeon-Trennlinien, Counter-Boxen und vieles mehr."
 
 #: shortcodes/fusion-separator.php:347
+#, fuzzy
 msgid "Controls the border size of the separator."
 msgstr "Steuert die Randgröße des Trennzeichens."
 
@@ -12396,6 +13138,7 @@ msgstr ""
 "anzeigen möchten."
 
 #: shortcodes/fusion-separator.php:365 shortcodes/fusion-separator.php:491
+#, fuzzy
 msgid "Circle Color"
 msgstr "Kreisfarbe"
 
@@ -12405,6 +13148,7 @@ msgid "Controls the background color of the circle around the icon."
 msgstr "Steuert die Rahmendicke für den Abschnittstrennbalken."
 
 #: shortcodes/fusion-separator.php:403 shortcodes/fusion-title.php:440
+#, fuzzy
 msgid "Separator"
 msgstr "Trennlinie"
 
@@ -12425,10 +13169,12 @@ msgstr ""
 "Abstand oberhalb und unterhalb der Spalte. In px, Em oder %, z.B. 10px."
 
 #: shortcodes/fusion-separator.php:458
+#, fuzzy
 msgid "In pixels. "
 msgstr "in Pixeln. "
 
 #: shortcodes/fusion-separator.php:471
+#, fuzzy
 msgid "Circled Icon"
 msgstr "Eingekreistes Icon"
 
@@ -12437,10 +13183,13 @@ msgstr "Eingekreistes Icon"
 msgid "Choose to have a circle in separator color around the icon."
 msgstr "Wählen Sie einen Kreis in Trennfarbe um das Symbol herum."
 
+#: shortcodes/fusion-separator.php:513
+#, fuzzy
 msgid "Separator Width"
 msgstr "Trennzeichen-Breite"
 
 #: shortcodes/fusion-separator.php:518
+#, fuzzy
 msgid "In pixels (px or %), ex: 1px, ex: 50%. Leave blank for full width."
 msgstr ""
 "In Pixel (px oder %), z.B.: 1px, z.B.: 50%. Für die ganze Breite einfach "
@@ -12454,55 +13203,68 @@ msgstr ""
 "eine Breite angegeben ist."
 
 #: shortcodes/fusion-sharingbox.php:446
+#, fuzzy
 msgid "Sharing Box Element"
 msgstr "Box Element teilen"
 
 #: shortcodes/fusion-sharingbox.php:452
+#, fuzzy
 msgid "Sharing Box Tagline"
 msgstr "Sharing Box Untertitel"
 
 #: shortcodes/fusion-sharingbox.php:453
+#, fuzzy
 msgid "Insert a tagline for the social sharing boxes."
 msgstr "Gib eine Schlagzeile für die Teilen Box ein."
 
 #: shortcodes/fusion-sharingbox.php:455 shortcodes/fusion-sharingbox.php:694
+#, fuzzy
 msgid "Share This Story, Choose Your Platform!"
 msgstr "Teile diesen Artikel!"
 
 #: shortcodes/fusion-sharingbox.php:459
+#, fuzzy
 msgid "Sharing Box Tagline Text Color"
 msgstr "Sharing Box Untertitel Textfarbe"
 
 #: shortcodes/fusion-sharingbox.php:460
+#, fuzzy
 msgid "Controls the color of the tagline text in the social sharing boxes."
 msgstr "Steuert die Textfarbe der Schlagzeile der Teilen Box."
 
 #: shortcodes/fusion-sharingbox.php:466
+#, fuzzy
 msgid "Sharing Box Background Color"
 msgstr "Sharing Box Hintergrundfarbe"
 
 #: shortcodes/fusion-sharingbox.php:467
+#, fuzzy
 msgid "Controls the background color of the social sharing boxes."
 msgstr "Steuert die Hintergrundfarbe der Social-Sharing-Boxen."
 
 #: shortcodes/fusion-sharingbox.php:473
+#, fuzzy
 msgid "Social Sharing Box Icons"
 msgstr "Social Sharing Box Icons Schriftgröße"
 
 #: shortcodes/fusion-sharingbox.php:480
+#, fuzzy
 msgid "Sharing Box Icon Font Size"
 msgstr "Sharing Box Icon Schriftgröße"
 
 #: shortcodes/fusion-sharingbox.php:481
+#, fuzzy
 msgid "Controls the font size of the social icons in the social sharing boxes."
 msgstr ""
 "Steuert die Schriftgröße der sozialen Symbole in den Social-Sharing-Boxen."
 
 #: shortcodes/fusion-sharingbox.php:487
+#, fuzzy
 msgid "Sharing Box Icons Tooltip Position"
 msgstr "Box-Icons teilen Tooltip-Position"
 
 #: shortcodes/fusion-sharingbox.php:488
+#, fuzzy
 msgid ""
 "Controls the tooltip position of the social icons in the social sharing "
 "boxes."
@@ -12510,10 +13272,12 @@ msgstr ""
 "Steuert die Tooltip-Position der Social-Icons in den Social-Sharing-Boxen."
 
 #: shortcodes/fusion-sharingbox.php:501
+#, fuzzy
 msgid "Sharing Box Icon Color Type"
 msgstr "Sharing Box Icon Farbtyp"
 
 #: shortcodes/fusion-sharingbox.php:502 shortcodes/fusion-social-links.php:315
+#, fuzzy
 msgid ""
 "Custom colors allow you to choose a color for icons and boxes. Brand colors "
 "will use the exact brand color of each network for the icons or boxes."
@@ -12523,10 +13287,12 @@ msgstr ""
 "Netzwerks für die Symbole oder Boxen."
 
 #: shortcodes/fusion-sharingbox.php:512
+#, fuzzy
 msgid "Sharing Box Icon Color"
 msgstr "Sharing Box Icon Farbe"
 
 #: shortcodes/fusion-sharingbox.php:513
+#, fuzzy
 msgid ""
 "Controls the color of the social icons in the social sharing boxes. This "
 "color will be used for all social icons."
@@ -12535,42 +13301,52 @@ msgstr ""
 "Farbe wird für alle sozialen Ikonen verwendet."
 
 #: shortcodes/fusion-sharingbox.php:526
+#, fuzzy
 msgid "Sharing Box Icons Boxed"
 msgstr "Box-Icons freigeben"
 
 #: shortcodes/fusion-sharingbox.php:527
+#, fuzzy
 msgid "Controls if each social icon is displayed in a small box."
 msgstr "Steuert, ob jedes soziale Symbol in einer kleinen Box angezeigt wird."
 
 #: shortcodes/fusion-sharingbox.php:533
+#, fuzzy
 msgid "Sharing Box Icon Box Color"
 msgstr "Sharing Box Icon Box Farbe"
 
 #: shortcodes/fusion-sharingbox.php:534
+#, fuzzy
 msgid "Controls the color of the social icon box."
 msgstr "Steuert die Farbe der Social Icon Box."
 
 #: shortcodes/fusion-sharingbox.php:552
+#, fuzzy
 msgid "Sharing Box Icon Boxed Radius"
 msgstr "Sharing Box Icon Boxed Radius"
 
 #: shortcodes/fusion-sharingbox.php:553
+#, fuzzy
 msgid "Controls the box radius of the social icon box."
 msgstr "Steuert den Box Radius der sozialen Icon Box."
 
 #: shortcodes/fusion-sharingbox.php:566
+#, fuzzy
 msgid "Sharing Box Icons Boxed Padding"
 msgstr "Sharing Box Icons Boxed Abstand"
 
 #: shortcodes/fusion-sharingbox.php:567
+#, fuzzy
 msgid "Controls the interior padding of the social icon box."
 msgstr "Steuert den Innenabstand des Sozial-Symbol angezeigt."
 
 #: shortcodes/fusion-sharingbox.php:580
+#, fuzzy
 msgid "Sharing Box Links"
 msgstr "Freigabe von Box-Links"
 
 #: shortcodes/fusion-sharingbox.php:587 shortcodes/fusion-sharingbox.php:588
+#, fuzzy
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -12579,55 +13355,68 @@ msgstr "Facebook"
 #: shortcodes/fusion-sharingbox.php:616 shortcodes/fusion-sharingbox.php:623
 #: shortcodes/fusion-sharingbox.php:630 shortcodes/fusion-sharingbox.php:637
 #: shortcodes/fusion-sharingbox.php:644
+#, fuzzy
 msgid "Turn on to display %s in the social share box."
 msgstr "Einschalten, um die die Teilen-mit-Box anzuzeigen."
 
 #: shortcodes/fusion-sharingbox.php:594 shortcodes/fusion-sharingbox.php:595
+#, fuzzy
 msgid "Twitter"
 msgstr "Twitter"
 
 #: shortcodes/fusion-sharingbox.php:601 shortcodes/fusion-sharingbox.php:602
+#, fuzzy
 msgid "Reddit"
 msgstr "Reddit"
 
 #: shortcodes/fusion-sharingbox.php:608 shortcodes/fusion-sharingbox.php:609
+#, fuzzy
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
 #: shortcodes/fusion-sharingbox.php:615 shortcodes/fusion-sharingbox.php:616
+#, fuzzy
 msgid "Google+"
 msgstr "Google+"
 
 #: shortcodes/fusion-sharingbox.php:622 shortcodes/fusion-sharingbox.php:623
+#, fuzzy
 msgid "Tumblr"
 msgstr "Tumblr"
 
 #: shortcodes/fusion-sharingbox.php:629 shortcodes/fusion-sharingbox.php:630
+#, fuzzy
 msgid "Pinterest"
 msgstr "Pinterest"
 
 #: shortcodes/fusion-sharingbox.php:636 shortcodes/fusion-sharingbox.php:637
+#, fuzzy
 msgid "VK"
 msgstr "VK"
 
 #: shortcodes/fusion-sharingbox.php:643 shortcodes/fusion-sharingbox.php:644
 #: shortcodes/fusion-user-login.php:228 shortcodes/fusion-user-login.php:229
+#, fuzzy
 msgid "Email"
 msgstr "Email"
 
 #: shortcodes/fusion-sharingbox.php:683
+#, fuzzy
 msgid "Sharing Box"
 msgstr "Teilen in sozialen Netzwerken Box"
 
 #: shortcodes/fusion-sharingbox.php:691
+#, fuzzy
 msgid "Tagline"
 msgstr "Slogan"
 
 #: shortcodes/fusion-sharingbox.php:692
+#, fuzzy
 msgid "The title tagline that will display."
 msgstr "Der Untertitel der angezeigt wird."
 
 #: shortcodes/fusion-sharingbox.php:698
+#, fuzzy
 msgid "Tagline Color"
 msgstr "Untertitel Farbe"
 
@@ -12640,18 +13429,22 @@ msgstr ""
 
 #: shortcodes/fusion-sharingbox.php:714 shortcodes/fusion-tagline.php:453
 #: shortcodes/fusion-testimonials.php:638
+#, fuzzy
 msgid "Controls the background color. "
 msgstr "Steuert die Hintergrundfarbe. "
 
 #: shortcodes/fusion-sharingbox.php:722
+#, fuzzy
 msgid "The post title that will be shared."
 msgstr "Der Beitragstitel der geteilt wird."
 
 #: shortcodes/fusion-sharingbox.php:728
+#, fuzzy
 msgid "Link to Share"
 msgstr "Link zum Teilen"
 
 #: shortcodes/fusion-sharingbox.php:729
+#, fuzzy
 msgid "The link that will be shared."
 msgstr "Der Link der geteilt wird."
 
@@ -12689,6 +13482,7 @@ msgid "Choose Image to Share on Pinterest."
 msgstr "Wählen Sie ein Bild aus, das Sie auf Pinterest teilen möchten."
 
 #: shortcodes/fusion-slider.php:336
+#, fuzzy
 msgid "Slider"
 msgstr "Slider"
 
@@ -12703,6 +13497,7 @@ msgid "Dimensions in percentage (%) or pixels (px)."
 msgstr "Dimensionen in Prozent (%) oder Pixel (px)."
 
 #: shortcodes/fusion-slider.php:434
+#, fuzzy
 msgid "Slide Type"
 msgstr "Folien Typ"
 
@@ -12712,6 +13507,7 @@ msgid "Choose a video or image slide."
 msgstr "Wählen Sie eine Video- oder Bildfolie aus."
 
 #: shortcodes/fusion-slider.php:460
+#, fuzzy
 msgid "Video Element or Video Embed Code"
 msgstr "Video Element oder Video Embed Code"
 
@@ -12731,6 +13527,7 @@ msgstr ""
 "video\" data-type=\"fusion_vimeo\">Vimeo Video hinzufügen</a> </p> .."
 
 #: shortcodes/fusion-slider.php:475
+#, fuzzy
 msgid "Full Image Link or External Link"
 msgstr "Vollständiger Bild Link oder externer Link"
 
@@ -12784,10 +13581,12 @@ msgid "Social Links Custom Icons Color"
 msgstr "Links zu sozialen Netzwerken benutzerdefinierte Symbole Farbe"
 
 #: shortcodes/fusion-social-links.php:326
+#, fuzzy
 msgid "Controls the color of the custom icons."
 msgstr "Steuert die Farbe von benutzerdefinierten Symbolen."
 
 #: shortcodes/fusion-social-links.php:339
+#, fuzzy
 msgid "Social Links Icons Boxed"
 msgstr "Social Links Icons Boxed"
 
@@ -12801,18 +13600,22 @@ msgstr ""
 "Ausschalten, um das Symbol ohne Box anzuzeigen."
 
 #: shortcodes/fusion-social-links.php:346
+#, fuzzy
 msgid "Social Links Icons Custom Box Color"
 msgstr "Social Links Icons Benutzerdefinierte Box Farbe"
 
 #: shortcodes/fusion-social-links.php:347
+#, fuzzy
 msgid "Select a custom social icon box color."
 msgstr "Wähle  eine benutzerdefinierte Farbe der Icons für soziale Netzwerke."
 
 #: shortcodes/fusion-social-links.php:365
+#, fuzzy
 msgid "Social Links Icons Boxed Radius"
 msgstr "Social Links Icons Boxed Radius"
 
 #: shortcodes/fusion-social-links.php:366
+#, fuzzy
 msgid "Box radius for the social icons."
 msgstr "Box Radius für die sozialen Symbole."
 
@@ -12827,14 +13630,17 @@ msgid "Social Links Icons Tooltip Position"
 msgstr "Social Links Icons Tooltip Position"
 
 #: shortcodes/fusion-social-links.php:394
+#, fuzzy
 msgid "Controls the tooltip position of the social links icons."
 msgstr "Steuert die QuickInfo-Position der sozialen Symbole der Kopfzeile."
 
 #: shortcodes/fusion-social-links.php:434
+#, fuzzy
 msgid "Social Links"
 msgstr "Soziale Links"
 
 #: shortcodes/fusion-social-links.php:721
+#, fuzzy
 msgid "Show Custom Social Icon"
 msgstr "Benutzerdefiniertes Social Icon anzeigen"
 
@@ -12846,14 +13652,17 @@ msgstr ""
 "an."
 
 #: shortcodes/fusion-soundcloud.php:140
+#, fuzzy
 msgid "Soundcloud"
 msgstr "SoundCloud"
 
 #: shortcodes/fusion-soundcloud.php:148
+#, fuzzy
 msgid "SoundCloud Url"
 msgstr "SoundCloud URL"
 
 #: shortcodes/fusion-soundcloud.php:149
+#, fuzzy
 msgid ""
 "The SoundCloud url, ex: https://soundcloud.com/zaaali/miles-davis-kind-of-"
 "blue-26-03."
@@ -12867,10 +13676,12 @@ msgid "Choose the layout of the soundcloud embed."
 msgstr "Wähle das Layout des Soundcloud-Betts."
 
 #: shortcodes/fusion-soundcloud.php:160
+#, fuzzy
 msgid "Visual"
 msgstr "Visuell"
 
 #: shortcodes/fusion-soundcloud.php:166
+#, fuzzy
 msgid "Show Comments"
 msgstr "Kommentare anzeigen"
 
@@ -12880,18 +13691,22 @@ msgid "Choose to display comments."
 msgstr "Wählen Sie, um Kommentare anzuzeigen."
 
 #: shortcodes/fusion-soundcloud.php:177
+#, fuzzy
 msgid "Show Related"
 msgstr "Ähnliche anzeigen"
 
 #: shortcodes/fusion-soundcloud.php:178
+#, fuzzy
 msgid "Choose to display related items."
 msgstr "Auswählen um verwandte Artikel anzuzeigen."
 
 #: shortcodes/fusion-soundcloud.php:188
+#, fuzzy
 msgid "Show User"
 msgstr "user anzeigen"
 
 #: shortcodes/fusion-soundcloud.php:189
+#, fuzzy
 msgid "Choose to display the user who posted the item."
 msgstr "Auswählen um den User anzuzeigen, der den Artikel geschrieben hat."
 
@@ -12907,6 +13722,7 @@ msgstr "Wählen Sie die Farbe des Elements."
 
 #: shortcodes/fusion-soundcloud.php:218 shortcodes/fusion-vimeo.php:200
 #: shortcodes/fusion-youtube.php:201
+#, fuzzy
 msgid "Dimensions"
 msgstr "Dimensionen"
 
@@ -12916,68 +13732,84 @@ msgid "In pixels (px) or percentage (%)."
 msgstr "In Pixel (px) oder Prozent (%)."
 
 #: shortcodes/fusion-table.php:74
+#, fuzzy
 msgid "Select the table style."
 msgstr "Tabellen-Style auswählen."
 
 #: shortcodes/fusion-table.php:86
+#, fuzzy
 msgid "Select how many columns to display."
 msgstr "Wählen Sie, wie viele Spalten angezeigt werden."
 
 #: shortcodes/fusion-table.php:89
+#, fuzzy
 msgid "Select Columns"
 msgstr "Spalten auswählen"
 
 #: shortcodes/fusion-table.php:90
+#, fuzzy
 msgid "1 Column"
 msgstr "1 Spalte"
 
 #: shortcodes/fusion-table.php:91
+#, fuzzy
 msgid "2 Column"
 msgstr "2 Spalten"
 
 #: shortcodes/fusion-table.php:92
+#, fuzzy
 msgid "3 Column"
 msgstr "3 Spalten"
 
 #: shortcodes/fusion-table.php:93
+#, fuzzy
 msgid "4 Column"
 msgstr "4 Spalten"
 
 #: shortcodes/fusion-table.php:94
+#, fuzzy
 msgid "5 Column"
 msgstr "5 Spalten"
 
 #: shortcodes/fusion-table.php:102
+#, fuzzy
 msgid "Table content will appear here."
 msgstr "Tabelleninhalt wird hier angezeigt."
 
 #: shortcodes/fusion-tabs.php:606
+#, fuzzy
 msgid "Tabs Element"
 msgstr "Tab Element"
 
 #: shortcodes/fusion-tabs.php:612
+#, fuzzy
 msgid "Tabs Background Color + Hover Color"
 msgstr "Tab Hintergrundfarbe + Hover Farbe"
 
 #: shortcodes/fusion-tabs.php:613
+#, fuzzy
 msgid "Controls the color of the active tab, tab hover and content background."
 msgstr ""
 "Stellt die Farbe der aktiven Reiter, des Reiter-Hover und des Inhalts-"
 "Hintergrunds ein."
 
 #: shortcodes/fusion-tabs.php:619
+#, fuzzy
 msgid "Tabs Inactive Color"
 msgstr "Tab Inaktiv Farbe"
 
 #: shortcodes/fusion-tabs.php:620
+#, fuzzy
 msgid "Controls the color of the inactive tabs."
 msgstr "Stellt die Farbe der inaktiven Reiter ein."
 
 #: shortcodes/fusion-tabs.php:626
+#, fuzzy
 msgid "Tabs Border Color"
 msgstr "Tab Rahmen Farbe"
 
 #: shortcodes/fusion-tabs.php:627
+#, fuzzy
 msgid "Controls the color of the tab border."
 msgstr "Stellt die Farbe der Reiter-Umrandung ein."
 
@@ -12987,14 +13819,17 @@ msgid "Choose the position of the icon on the tab."
 msgstr "Wählen Sie die Position des Symbols auf der Registerkarte."
 
 #: shortcodes/fusion-tabs.php:645 shortcodes/fusion-tabs.php:804
+#, fuzzy
 msgid "Tabs Icon Size"
 msgstr "Tab Icon Größe"
 
 #: shortcodes/fusion-tabs.php:646 shortcodes/fusion-toggle.php:496
+#, fuzzy
 msgid "Set the size of the icon."
 msgstr "Legen Sie die Größe des Icon fest."
 
 #: shortcodes/fusion-tabs.php:704
+#, fuzzy
 msgid "Tabs"
 msgstr "Tabs"
 
@@ -13036,6 +13871,7 @@ msgid "Controls the inactive tab color. "
 msgstr "Steuert die inaktive Tabulatorfarbe."
 
 #: shortcodes/fusion-tabs.php:778
+#, fuzzy
 msgid "Controls the color of the outer tab border. "
 msgstr "Stellt die Farbe der Reiter-Umrandung ein. "
 
@@ -13070,18 +13906,22 @@ msgstr ""
 "ausgewählt und müssen nicht verwendet werden."
 
 #: shortcodes/fusion-tabs.php:851
+#, fuzzy
 msgid "Tab"
 msgstr "Tab"
 
 #: shortcodes/fusion-tabs.php:858
+#, fuzzy
 msgid "Tab Title"
 msgstr "Tab Title"
 
 #: shortcodes/fusion-tabs.php:859
+#, fuzzy
 msgid "Title of the tab."
 msgstr "Titel des Tabs."
 
 #: shortcodes/fusion-tabs.php:873
+#, fuzzy
 msgid "Tab Content"
 msgstr "Tab Inhalt."
 
@@ -13091,26 +13931,32 @@ msgid "Add content for the tab."
 msgstr "Fügen Sie Inhalte für die Registerkarte hinzu."
 
 #: shortcodes/fusion-tagline.php:376
+#, fuzzy
 msgid "Tagline Element"
 msgstr "Untertitel Element"
 
 #: shortcodes/fusion-tagline.php:382
+#, fuzzy
 msgid "Tagline Box Background Color"
 msgstr "Untertitel Box Hintergrundfarbe"
 
 #: shortcodes/fusion-tagline.php:383
+#, fuzzy
 msgid "Controls the color of the tagline box background."
 msgstr "Stellt die Hintergrundfarbe der Slogan-Box ein."
 
 #: shortcodes/fusion-tagline.php:389
+#, fuzzy
 msgid "Tagline Box Border Color"
 msgstr "Untertitel Box Rahmenfarbe"
 
 #: shortcodes/fusion-tagline.php:390
+#, fuzzy
 msgid "Controls the border color of the tagline box."
 msgstr "Stellt die Umrandungsfarbe der Slogan-Box ein."
 
 #: shortcodes/fusion-tagline.php:396
+#, fuzzy
 msgid "Tagline Top/Bottom Margins"
 msgstr "Untertitel Ränder Oben/Unten"
 
@@ -13120,6 +13966,7 @@ msgid "Controls the top/bottom margin of the tagline box."
 msgstr "Steuert den oberen / unteren Rand der Tagline-Box."
 
 #: shortcodes/fusion-tagline.php:443
+#, fuzzy
 msgid "Tagline Box"
 msgstr "Untertitel Box"
 
@@ -13129,6 +13976,7 @@ msgid "Show the shadow below the box."
 msgstr "Zeigen Sie den Schatten unter dem Feld."
 
 #: shortcodes/fusion-tagline.php:471
+#, fuzzy
 msgid "Shadow Opacity"
 msgstr "Schatten Deckkraft"
 
@@ -13158,6 +14006,7 @@ msgid "Choose how the content should be displayed."
 msgstr "Wählen Sie aus, wie der Inhalt angezeigt werden soll."
 
 #: shortcodes/fusion-tagline.php:547
+#, fuzzy
 msgid "Button Link"
 msgstr "Button Link"
 
@@ -13179,6 +14028,7 @@ msgstr ""
 "Auswahl der Designoption."
 
 #: shortcodes/fusion-tagline.php:608
+#, fuzzy
 msgid "XLarge"
 msgstr "Extragroß"
 
@@ -13197,6 +14047,7 @@ msgstr ""
 "Auswahl der Designoption."
 
 #: shortcodes/fusion-tagline.php:660
+#, fuzzy
 msgid "Button Color"
 msgstr "Farbe Schaltfläche"
 
@@ -13208,14 +14059,17 @@ msgstr ""
 "von Designoptionen."
 
 #: shortcodes/fusion-tagline.php:685
+#, fuzzy
 msgid "Tagline Title"
 msgstr "Untertitel Titel"
 
 #: shortcodes/fusion-tagline.php:686 shortcodes/fusion-title.php:404
+#, fuzzy
 msgid "Insert the title text."
 msgstr "Titel einfügen."
 
 #: shortcodes/fusion-tagline.php:693
+#, fuzzy
 msgid "Tagline Description"
 msgstr "Untertitel Beschreibung"
 
@@ -13225,6 +14079,7 @@ msgid "Insert the description text."
 msgstr "Fügen Sie den Beschreibungstext ein."
 
 #: shortcodes/fusion-tagline.php:701
+#, fuzzy
 msgid "Additional Content"
 msgstr ""
 "Unsere Wissensdatenbank enthält zusätzliche Inhalte, die nicht innerhalb "
@@ -13248,10 +14103,12 @@ msgstr ""
 "Abstand oberhalb und unterhalb der Spalte. In px, Em oder %, z.B. 10px."
 
 #: shortcodes/fusion-testimonials.php:521
+#, fuzzy
 msgid "Testimonials Element"
 msgstr "Empfehlungen Elemente"
 
 #: shortcodes/fusion-testimonials.php:527
+#, fuzzy
 msgid "Testimonial Background Color"
 msgstr "Empfehlung Hintergrundfarbe"
 
@@ -13261,24 +14118,29 @@ msgid "Controls the color of the testimonial background."
 msgstr "Steuert die Farbe des Textes Testimonial."
 
 #: shortcodes/fusion-testimonials.php:534
+#, fuzzy
 msgid "Testimonial Text Color"
 msgstr "Empfehlung Textfarbe"
 
 #: shortcodes/fusion-testimonials.php:535
+#, fuzzy
 msgid "Controls the color of the testimonial text."
 msgstr "Steuert die Farbe des Textes Testimonial."
 
 #: shortcodes/fusion-testimonials.php:541
+#, fuzzy
 msgid "Testimonials Speed"
 msgstr "Empfehlungen Geschwindigkeit"
 
 #: shortcodes/fusion-testimonials.php:542
+#, fuzzy
 msgid "Controls the speed of the testimonial slider. ex: 1000 = 1 second."
 msgstr ""
 "Steuert die Geschwindigkeit des Testimunial Slider. Ex: 1000 = 1 Sekunde."
 
 #: shortcodes/fusion-testimonials.php:553
 #: shortcodes/fusion-testimonials.php:653
+#, fuzzy
 msgid "Random Order"
 msgstr "Zufällige Sortierung"
 
@@ -13291,14 +14153,17 @@ msgstr ""
 "anzuzeigen."
 
 #: shortcodes/fusion-testimonials.php:609
+#, fuzzy
 msgid "Testimonials"
 msgstr "Kundenmeinungen"
 
 #: shortcodes/fusion-testimonials.php:701
+#, fuzzy
 msgid "Testimonial"
 msgstr "Testimonial"
 
 #: shortcodes/fusion-testimonials.php:716
+#, fuzzy
 msgid "Avatar"
 msgstr "Benutzerbild"
 
@@ -13308,22 +14173,27 @@ msgid "Choose which kind of Avatar to be displayed."
 msgstr "Wählen Sie welche Art von Avatar angezeigt werden."
 
 #: shortcodes/fusion-testimonials.php:720
+#, fuzzy
 msgid "Male"
 msgstr "Männlich"
 
 #: shortcodes/fusion-testimonials.php:721
+#, fuzzy
 msgid "Female"
 msgstr "Frau"
 
 #: shortcodes/fusion-testimonials.php:729
+#, fuzzy
 msgid "Custom Avatar"
 msgstr "Benutzerdefiniertes Profilbild"
 
 #: shortcodes/fusion-testimonials.php:730
+#, fuzzy
 msgid "Upload a custom avatar image."
 msgstr "Individuelles Avatar Bild hochladen."
 
 #: shortcodes/fusion-testimonials.php:744
+#, fuzzy
 msgid ""
 "Choose the radius of the testimonial image. In pixels (px), ex: 1px, or "
 "\"round\". "
@@ -13332,10 +14202,12 @@ msgstr ""
 "\"runden\"."
 
 #: shortcodes/fusion-testimonials.php:757
+#, fuzzy
 msgid "Company"
 msgstr "Unternehmen"
 
 #: shortcodes/fusion-testimonials.php:758
+#, fuzzy
 msgid "Insert the name of the company."
 msgstr "Geben Sie den Namen des Unternehmens ein."
 
@@ -13345,22 +14217,27 @@ msgid "Add the url the company name will link to."
 msgstr "Fügen Sie die URL hinzu, mit der der Firmenname verknüpft wird."
 
 #: shortcodes/fusion-testimonials.php:790
+#, fuzzy
 msgid "Testimonial Content"
 msgstr "Empfehlung Inhalt"
 
 #: shortcodes/fusion-testimonials.php:791
+#, fuzzy
 msgid "Add the testimonial content."
 msgstr "Die Testimonial Inhalte hinzufügen."
 
 #: shortcodes/fusion-text.php:64
+#, fuzzy
 msgid "Text Block"
 msgstr "Textblock"
 
 #: shortcodes/fusion-title.php:305
+#, fuzzy
 msgid "Title Element"
 msgstr "Titel Element"
 
 #: shortcodes/fusion-title.php:311
+#, fuzzy
 msgid "Title Separator"
 msgstr "Titel Trennzeichen"
 
@@ -13370,54 +14247,67 @@ msgid "Controls the type of title separator that will display."
 msgstr "Steuert den Typ des Titeltrennzeichens, das angezeigt wird."
 
 #: shortcodes/fusion-title.php:317
+#, fuzzy
 msgid "Single"
 msgstr "Einzeln"
 
 #: shortcodes/fusion-title.php:318 shortcodes/fusion-title.php:445
+#, fuzzy
 msgid "Single Solid"
 msgstr "Einfach durchgezogen"
 
 #: shortcodes/fusion-title.php:319 shortcodes/fusion-title.php:446
+#, fuzzy
 msgid "Single Dashed"
 msgstr "Einfach gestrichelt"
 
 #: shortcodes/fusion-title.php:320 shortcodes/fusion-title.php:447
+#, fuzzy
 msgid "Single Dotted"
 msgstr "Einfach gepunktet"
 
 #: shortcodes/fusion-title.php:321
+#, fuzzy
 msgid "Double"
 msgstr "Doppellinie"
 
 #: shortcodes/fusion-title.php:322 shortcodes/fusion-title.php:448
+#, fuzzy
 msgid "Double Solid"
 msgstr "Doppelt durchgezogen"
 
 #: shortcodes/fusion-title.php:323 shortcodes/fusion-title.php:449
+#, fuzzy
 msgid "Double Dashed"
 msgstr "Doppelt gestrichelt"
 
 #: shortcodes/fusion-title.php:324 shortcodes/fusion-title.php:450
+#, fuzzy
 msgid "Double Dotted"
 msgstr "Doppelt gepunktet"
 
 #: shortcodes/fusion-title.php:325
+#, fuzzy
 msgid "Underline"
 msgstr "Unterstrichen"
 
 #: shortcodes/fusion-title.php:326 shortcodes/fusion-title.php:451
+#, fuzzy
 msgid "Underline Solid"
 msgstr "Unterstrichen durchgezogen"
 
 #: shortcodes/fusion-title.php:327 shortcodes/fusion-title.php:452
+#, fuzzy
 msgid "Underline Dashed"
 msgstr "Unterstrichen gestrichelt"
 
 #: shortcodes/fusion-title.php:328 shortcodes/fusion-title.php:453
+#, fuzzy
 msgid "Underline Dotted"
 msgstr "Unterstrichen gepunktet"
 
 #: shortcodes/fusion-title.php:333
+#, fuzzy
 msgid "Title Separator Color"
 msgstr "Titel Trennzeichen Farbe"
 
@@ -13427,6 +14317,7 @@ msgid "Controls the color of the title separators."
 msgstr "Steuert die Farbe der Titelschriftart."
 
 #: shortcodes/fusion-title.php:340
+#, fuzzy
 msgid "Title Top/Bottom Margins"
 msgstr "Titel Oben/Unten Ränder"
 
@@ -13446,6 +14337,7 @@ msgstr "Wählen Sie die Titelgröße, H1-H6."
 
 #: shortcodes/fusion-title.php:423 shortcodes/fusion-title.php:436
 #: shortcodes/fusion-title.php:457 shortcodes/fusion-title.php:465
+#, fuzzy
 msgid "Design Options"
 msgstr "Design Optionen"
 
@@ -13460,6 +14352,7 @@ msgid "Choose to align the heading left or right."
 msgstr "Wählen Sie die Ausrichtung nach links oder rechts aus."
 
 #: shortcodes/fusion-title.php:441
+#, fuzzy
 msgid "Choose the kind of the title separator you want to use."
 msgstr "Wähle die Art des Trennzeichens, das du verwenden möchtest."
 
@@ -13495,10 +14388,12 @@ msgstr ""
 
 #: shortcodes/fusion-toggle.php:408 shortcodes/fusion-toggle.php:584
 #: shortcodes/fusion-toggle.php:606
+#, fuzzy
 msgid "Toggles"
 msgstr "Umschalter"
 
 #: shortcodes/fusion-toggle.php:409 shortcodes/fusion-toggle.php:607
+#, fuzzy
 msgid "Accordions"
 msgstr "Akkordeon"
 
@@ -13569,10 +14464,12 @@ msgstr ""
 "Elementen anzuzeigen."
 
 #: shortcodes/fusion-toggle.php:495 shortcodes/fusion-toggle.php:711
+#, fuzzy
 msgid "Toggle Icon Size"
 msgstr "Toggle Symbolgröße"
 
 #: shortcodes/fusion-toggle.php:505 shortcodes/fusion-toggle.php:722
+#, fuzzy
 msgid "Toggle Icon Color"
 msgstr "Ein/aus Symbolfarbe"
 
@@ -13621,14 +14518,17 @@ msgid "Controls the alignment of toggle icon."
 msgstr "Steuert die Ausrichtung des ein/aus Symbol."
 
 #: shortcodes/fusion-toggle.php:613
+#, fuzzy
 msgid "Boxed Mode"
 msgstr "Boxed Modus"
 
 #: shortcodes/fusion-toggle.php:614
+#, fuzzy
 msgid "Choose to display items in boxed mode."
 msgstr "Auswählen um Artikel im Boxed Modus anzuzeigen."
 
 #: shortcodes/fusion-toggle.php:625
+#, fuzzy
 msgid "Boxed Mode Border Width"
 msgstr "Boxed Modus Rahmenbreite"
 
@@ -13638,6 +14538,7 @@ msgid "Set the border width for toggle item. In pixels."
 msgstr "Legen Sie die Rahmenbreite für den FAQ Artikel fest. In Pixel."
 
 #: shortcodes/fusion-toggle.php:643
+#, fuzzy
 msgid "Boxed Mode Border Color"
 msgstr "Boxed Modus Rahmenfarbe"
 
@@ -13647,6 +14548,7 @@ msgid "Set the border color for toggle item."
 msgstr "Legen Sie die Umrandungsfarbe für das Umschaltelement fest."
 
 #: shortcodes/fusion-toggle.php:663
+#, fuzzy
 msgid "Boxed Mode Background Color"
 msgstr "Boxed Modus Hintergrundfarbe"
 
@@ -13657,19 +14559,23 @@ msgstr ""
 "Legen Sie die Schwebefarbe des Hintergrunds für das Umschaltelement fest."
 
 #: shortcodes/fusion-toggle.php:678
+#, fuzzy
 msgid "Boxed Mode Background Hover Color"
 msgstr "Boxed Modus Hover Hintergrundfarbe"
 
 #: shortcodes/fusion-toggle.php:679
+#, fuzzy
 msgid "Set the background hover color for toggle item."
 msgstr ""
 "Legen Sie die Schwebefarbe des Hintergrunds für das Umschaltelement fest."
 
 #: shortcodes/fusion-toggle.php:693
+#, fuzzy
 msgid "Divider Line"
 msgstr "Trennlinie"
 
 #: shortcodes/fusion-toggle.php:694
+#, fuzzy
 msgid "Choose to display a divider line between each item."
 msgstr ""
 "Auswählen wenn eine Trennlinie zwischen den einzelnen Artikeln angezeigt "
@@ -13681,10 +14587,12 @@ msgid "Set the color of icon in toggle box."
 msgstr "Stellen Sie die Farbe des Symbols im Umschaltfeld ein."
 
 #: shortcodes/fusion-toggle.php:731
+#, fuzzy
 msgid "Choose to display icon in boxed mode."
 msgstr "Auswählen ob das Icon im Boxed Modus angezeigt werden soll."
 
 #: shortcodes/fusion-toggle.php:790
+#, fuzzy
 msgid "Toggle"
 msgstr "Umschalten"
 
@@ -13694,23 +14602,28 @@ msgid "Insert the toggle title."
 msgstr "Legen Sie den ein/aus-Titel."
 
 #: shortcodes/fusion-toggle.php:805
+#, fuzzy
 msgid "Open by Default"
 msgstr "Öffnen standardmäßig"
 
 #: shortcodes/fusion-toggle.php:806
+#, fuzzy
 msgid "Choose to have the toggle open when page loads."
 msgstr ""
 "Wählen Sie aus, ob der Schalter beim Laden der Seite geöffnet werden soll."
 
 #: shortcodes/fusion-toggle.php:816
+#, fuzzy
 msgid "Toggle Content"
 msgstr "Inhalt auswechseln"
 
 #: shortcodes/fusion-toggle.php:817
+#, fuzzy
 msgid "Insert the toggle content."
 msgstr "Die Toggle-Inhalt einfügen."
 
 #: shortcodes/fusion-tooltip.php:144
+#, fuzzy
 msgid "Tooltip"
 msgstr "Tooltip"
 
@@ -13724,58 +14637,72 @@ msgid "Insert the text that will activate the tooltip hover."
 msgstr ""
 
 #: shortcodes/fusion-tooltip.php:165
+#, fuzzy
 msgid "Tooltip Position"
 msgstr "Tooltip Position"
 
 #: shortcodes/fusion-tooltip.php:166
+#, fuzzy
 msgid "Choose the display position."
 msgstr "Anzeigeposition wählen."
 
 #: shortcodes/fusion-tooltip.php:179
+#, fuzzy
 msgid "Tooltip Trigger"
 msgstr "Tooltip Auslöser"
 
 #: shortcodes/fusion-tooltip.php:180
+#, fuzzy
 msgid "Choose action to trigger the tooltip."
 msgstr "Wählen Sie eine Aktion um den Tooltip auszulösen."
 
 #: shortcodes/fusion-user-login.php:152
+#, fuzzy
 msgid "Log in"
 msgstr "Einloggen"
 
 #: shortcodes/fusion-user-login.php:164
+#, fuzzy
 msgid "Lost password?"
 msgstr "Passwort vergessen?"
 
 #: shortcodes/fusion-user-login.php:167 shortcodes/fusion-user-login.php:241
+#, fuzzy
 msgid "Register"
 msgstr "Registrieren"
 
 #: shortcodes/fusion-user-login.php:175
+#, fuzzy
 msgid "Welcome %s"
 msgstr "Willkommen %s"
 
 #: shortcodes/fusion-user-login.php:178
+#, fuzzy
 msgid "Dashboard"
 msgstr "Kontodetails"
 
 #: shortcodes/fusion-user-login.php:179
+#, fuzzy
 msgid "Profile"
 msgstr "Profil"
 
 #: shortcodes/fusion-user-login.php:180
+#, fuzzy
 msgid "Logout"
 msgstr "Abmelden"
 
 #: shortcodes/fusion-user-login.php:238
+#, fuzzy
 msgid "Registration confirmation will be e-mailed to you."
 msgstr "Die Registrierungsbestätigung wird dir per E-Mail zugeschickt."
 
 #: shortcodes/fusion-user-login.php:259
+#, fuzzy
 msgid "You are already signed up."
 msgstr "Sie sind bereits angemeldet."
 
 #: shortcodes/fusion-user-login.php:299
+#, fuzzy
 msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
@@ -13786,78 +14713,96 @@ msgstr ""
 "ein neues Passwort erstellen können."
 
 #: shortcodes/fusion-user-login.php:302 shortcodes/fusion-user-login.php:303
+#, fuzzy
 msgid "Username or Email"
 msgstr "Username oder E-Mail"
 
 #: shortcodes/fusion-user-login.php:307
+#, fuzzy
 msgid "Reset Password"
 msgstr "Passwort zurücksetzen"
 
 #: shortcodes/fusion-user-login.php:325
+#, fuzzy
 msgid "You are already signed in."
 msgstr "Sie sind bereits angemeldet."
 
 #: shortcodes/fusion-user-login.php:635
+#, fuzzy
 msgid "Login failed, please try again."
 msgstr "Anmeldung fehlgeschlagen. Bitte versuchen Sie es erneut."
 
 #: shortcodes/fusion-user-login.php:641
+#, fuzzy
 msgid "Registration complete. Please check your e-mail."
 msgstr "Registrierung vollständig. Bitte überprüfen Sie ihr E-Mail Postfach."
 
 #: shortcodes/fusion-user-login.php:649
+#, fuzzy
 msgid "Please enter a username."
 msgstr "Bitte geben Sie einen Benutzernamen ein."
 
 #: shortcodes/fusion-user-login.php:653
+#, fuzzy
 msgid "Please type your e-mail address."
 msgstr "Bitte geben Sie eine Email-Adresse ein."
 
 #: shortcodes/fusion-user-login.php:657
+#, fuzzy
 msgid "This username is already registered. Please choose another one."
 msgstr "Dieser Benutzername existiert bereits. Bitte wähle einen anderen."
 
 #: shortcodes/fusion-user-login.php:661
+#, fuzzy
 msgid "This email is already registered, please choose another one."
 msgstr ""
 "Diese E-Mail Adresse wird bereits verwendet. Bitte wählen Sie eine andere."
 
 #: shortcodes/fusion-user-login.php:666
+#, fuzzy
 msgid "Something went wrong during registration. Please try again."
 msgstr ""
 "Etwas lief bei der Registrierung falsch. Bitte versuchen Sie es erneut."
 
 #: shortcodes/fusion-user-login.php:677
+#, fuzzy
 msgid "Check your e-mail for the confirmation link."
 msgstr ""
 "Bitte überprüfen Sie Ihren Posteingang. Sie haben eine E-mail mit "
 "Bestätigungslink erhalten."
 
 #: shortcodes/fusion-user-login.php:685
+#, fuzzy
 msgid "Enter a username or e-mail address."
 msgstr "Geben Sie Ihren Benutzernamen oder Ihre E-Mail Adresse ein."
 
 #: shortcodes/fusion-user-login.php:690
+#, fuzzy
 msgid "Invalid username."
 msgstr "Benutzername ist ungültig."
 
 #: shortcodes/fusion-user-login.php:695
+#, fuzzy
 msgid "There is no user registered with that email address."
 msgstr "Es existiert kein Benutzer mit dieser E-Mail Adresse."
 
 #: shortcodes/fusion-user-login.php:700
+#, fuzzy
 msgid "Invalid username or e-mail."
 msgstr "Ungültiger Benutzername oder E-Mail Adresse."
 
 #: shortcodes/fusion-user-login.php:870
+#, fuzzy
 msgid "User Login Element"
 msgstr "Benutzer Login Element"
 
 #: shortcodes/fusion-user-login.php:876
+#, fuzzy
 msgid "User Login Text Align"
 msgstr "User Login Textausrichtung"
 
 #: shortcodes/fusion-user-login.php:877
+#, fuzzy
 msgid ""
 "Controls the alignment of all user login content. \"Text Flow\" follows the "
 "default text align of the site. \"Center\" will center all elements."
@@ -13867,23 +14812,28 @@ msgstr ""
 "zentrieren."
 
 #: shortcodes/fusion-user-login.php:887
+#, fuzzy
 msgid "User Login Form Background Color"
 msgstr "User Login Formular Hintergrundfarbe"
 
 #: shortcodes/fusion-user-login.php:888
+#, fuzzy
 msgid "Controls the color of the form background."
 msgstr "Steuert die Farbe von den Formularhintergrund."
 
 #: shortcodes/fusion-user-login.php:927
+#, fuzzy
 msgid "User Login"
 msgstr "Benutzer Login"
 
 #: shortcodes/fusion-user-login.php:928
+#, fuzzy
 msgid "Enter some content for this block"
 msgstr "Geben Sie einen Inhalt für diese Textblock ein"
 
 #: shortcodes/fusion-user-login.php:935 shortcodes/fusion-user-login.php:1085
 #: shortcodes/fusion-user-login.php:1221
+#, fuzzy
 msgid ""
 "Choose the alignment of all content parts. \"Text Flow\" follows the default "
 "text align of the site. \"Center\" will center all elements."
@@ -13893,26 +14843,31 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:946 shortcodes/fusion-user-login.php:1096
 #: shortcodes/fusion-user-login.php:1232
+#, fuzzy
 msgid "Heading"
 msgstr "Überschrift"
 
 #: shortcodes/fusion-user-login.php:947 shortcodes/fusion-user-login.php:1097
 #: shortcodes/fusion-user-login.php:1233
+#, fuzzy
 msgid "Choose a heading text."
 msgstr "Wählen Sie einen Überschrift Text."
 
 #: shortcodes/fusion-user-login.php:955 shortcodes/fusion-user-login.php:1105
 #: shortcodes/fusion-user-login.php:1241
+#, fuzzy
 msgid "Choose a heading color."
 msgstr "Wählen Sie eine Überschrift Farbe."
 
 #: shortcodes/fusion-user-login.php:969 shortcodes/fusion-user-login.php:1119
 #: shortcodes/fusion-user-login.php:1255
+#, fuzzy
 msgid "Choose a caption text."
 msgstr "Wählen Sie eine Bildbeschriftung."
 
 #: shortcodes/fusion-user-login.php:976 shortcodes/fusion-user-login.php:1126
 #: shortcodes/fusion-user-login.php:1262
+#, fuzzy
 msgid "Caption Color"
 msgstr "Überschrift Farbe"
 
@@ -13929,31 +14884,37 @@ msgstr ""
 
 #: shortcodes/fusion-user-login.php:1002 shortcodes/fusion-user-login.php:1152
 #: shortcodes/fusion-user-login.php:1288
+#, fuzzy
 msgid "Form Background Color"
 msgstr "Formular Hintergrund Farbe"
 
 #: shortcodes/fusion-user-login.php:1003 shortcodes/fusion-user-login.php:1153
 #: shortcodes/fusion-user-login.php:1289
+#, fuzzy
 msgid "Choose a background color for the form wrapping box."
 msgstr "Wählen Sie eine Hintergrundfarbe für die Formularumhüllungsbox aus."
 
 #: shortcodes/fusion-user-login.php:1010 shortcodes/fusion-user-login.php:1160
 #: shortcodes/fusion-user-login.php:1296
+#, fuzzy
 msgid "Link Color"
 msgstr "Linkfarbe"
 
 #: shortcodes/fusion-user-login.php:1011 shortcodes/fusion-user-login.php:1161
 #: shortcodes/fusion-user-login.php:1297
+#, fuzzy
 msgid "Choose a link color."
 msgstr "Wählen Sie eine Linkfarbe."
 
 #: shortcodes/fusion-user-login.php:1018 shortcodes/fusion-user-login.php:1168
 #: shortcodes/fusion-user-login.php:1304
+#, fuzzy
 msgid "Redirection Link"
 msgstr "Weiterleitung Link"
 
 #: shortcodes/fusion-user-login.php:1019 shortcodes/fusion-user-login.php:1169
 #: shortcodes/fusion-user-login.php:1305
+#, fuzzy
 msgid ""
 "Add the url to which a user should redirected after form submission. Leave "
 "empty to use the same page."
@@ -13962,56 +14923,69 @@ msgstr ""
 "Formulars umgeleitet. Verwenden Sie die gleiche Seite leer lassen."
 
 #: shortcodes/fusion-user-login.php:1025
+#, fuzzy
 msgid "Register Link"
 msgstr "Registrierungslink"
 
 #: shortcodes/fusion-user-login.php:1026
+#, fuzzy
 msgid "Add the url the \"Register\" link should open."
 msgstr "Fügen Sie die Url \"Registrieren\" Link öffnen sollte."
 
 #: shortcodes/fusion-user-login.php:1032
+#, fuzzy
 msgid "Lost Password Link"
 msgstr "Passwort vergessen Link"
 
 #: shortcodes/fusion-user-login.php:1033
+#, fuzzy
 msgid "Add the url the \"Lost Password\" link should open."
 msgstr ""
 "Fügen Sie die URL hinzu, die der Link \"Passwort vergessen\" öffnen soll."
 
 #: shortcodes/fusion-user-login.php:1078
+#, fuzzy
 msgid "User Lost Password"
 msgstr "User Passwort vergessen"
 
 #: shortcodes/fusion-user-login.php:1214
+#, fuzzy
 msgid "User Register"
 msgstr "User Registrieren"
 
 #: shortcodes/fusion-vimeo.php:171
+#, fuzzy
 msgid "Vimeo"
 msgstr "Vimeo"
 
 #: shortcodes/fusion-vimeo.php:179 shortcodes/fusion-youtube.php:180
+#, fuzzy
 msgid "Video ID"
 msgstr "Video ID"
 
 #: shortcodes/fusion-vimeo.php:180
+#, fuzzy
 msgid "For example the Video ID for https://vimeo.com/75230326 is 75230326."
 msgstr ""
 "Zum Beispiel ist die Video-ID für https://vimeo.com/75230326 die ID 75230326"
 
 #: shortcodes/fusion-vimeo.php:187 shortcodes/fusion-youtube.php:188
+#, fuzzy
 msgid "Select the video's alignment."
 msgstr "Video Ausrichtung auswählen."
 
 #: shortcodes/fusion-vimeo.php:201 shortcodes/fusion-youtube.php:202
+#, fuzzy
 msgid "In pixels but only enter a number, ex: 600."
 msgstr "Geben Sie in Pixel nur eine Zahl ein, zB 600."
 
 #: shortcodes/fusion-vimeo.php:210 shortcodes/fusion-youtube.php:211
+#, fuzzy
 msgid "Autoplay Video"
 msgstr "Autoplay Video"
 
 #: shortcodes/fusion-vimeo.php:211 shortcodes/fusion-youtube.php:212
+#, fuzzy
 msgid "Set to yes to make video autoplaying."
 msgstr "Stellen Sie auf ja, um die Video-Autoplay-Funktion zu aktivieren."
 
@@ -14028,6 +15002,7 @@ msgstr ""
 "Videos zu deaktivieren."
 
 #: shortcodes/fusion-widget-area.php:192
+#, fuzzy
 msgid "Widget Area Element"
 msgstr "Widget Bereich Element"
 
@@ -14042,44 +15017,54 @@ msgid "Controls the size of widget titles. In pixels."
 msgstr "Wählen Sie die Größe des Widget Titels. In Pixel (px) z.B.: 13px."
 
 #: shortcodes/fusion-widget-area.php:205 shortcodes/fusion-widget-area.php:258
+#, fuzzy
 msgid "Widget Title Color"
 msgstr "Widget Titelfarbe"
 
 #: shortcodes/fusion-widget-area.php:206 shortcodes/fusion-widget-area.php:259
+#, fuzzy
 msgid "Controls the color of widget titles."
 msgstr "Steuert die Farbe des Widget Titels."
 
 #: shortcodes/fusion-widget-area.php:236
+#, fuzzy
 msgid "Widget Area"
 msgstr "Widget Bereich"
 
 #: shortcodes/fusion-widget-area.php:242
+#, fuzzy
 msgid "Widget Area Name"
 msgstr "Widget Bereich Name"
 
 #: shortcodes/fusion-widget-area.php:243
+#, fuzzy
 msgid "Choose the name of the widget area to display."
 msgstr "Wählen Sie den Namen des Widget Bereichs der angezeigt werden soll."
 
 #: shortcodes/fusion-widget-area.php:251
+#, fuzzy
 msgid "Controls the size of widget titles. In pixels ex: 18px."
 msgstr "Wählen Sie die Größe des Widget Titels. In Pixel (px) z.B.: 13px."
 
 #: shortcodes/fusion-widget-area.php:266
+#, fuzzy
 msgid "Backgound Color"
 msgstr "Hintergrundfarbe"
 
 #: shortcodes/fusion-widget-area.php:267
+#, fuzzy
 msgid "Choose a background color for the widget area."
 msgstr "Wähle eine Hintergrundfarbe für den Widget Bereich."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:338
 #: shortcodes/fusion-woo-product-slider.php:385
+#, fuzzy
 msgid "Carousel Layout"
 msgstr "Karussell Layout"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:339
 #: shortcodes/fusion-woo-product-slider.php:386
+#, fuzzy
 msgid "Choose to show titles on rollover image, or below image."
 msgstr ""
 "Wählen aus ob die Titel auf dem Rollover-Bild oder unter dem Bild angezeigt "
@@ -14087,114 +15072,140 @@ msgstr ""
 
 #: shortcodes/fusion-woo-featured-products-slider.php:342
 #: shortcodes/fusion-woo-product-slider.php:389
+#, fuzzy
 msgid "Title on rollover"
 msgstr "Titel bei Rollover"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:343
 #: shortcodes/fusion-woo-product-slider.php:390
+#, fuzzy
 msgid "Title below image"
 msgstr "Titel unter Bild"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:349
 #: shortcodes/fusion-woo-product-slider.php:396
+#, fuzzy
 msgid "Carousel Autoplay"
 msgstr "Karussell Autostart"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:371
 #: shortcodes/fusion-woo-product-slider.php:418
+#, fuzzy
 msgid "Insert the amount of spacing between items without 'px'. ex: 13."
 msgstr "Füge den Abstand ohne 'px' zwischen Elementen ein. z.B. 13."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:407
 #: shortcodes/fusion-woo-product-slider.php:454
+#, fuzzy
 msgid "Choose to show or hide the categories."
 msgstr "Auswählen zum Ein- oder Ausblenden der Kategorien."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:417
 #: shortcodes/fusion-woo-product-slider.php:464
+#, fuzzy
 msgid "Show Price"
 msgstr "Preis anzeigen"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:418
 #: shortcodes/fusion-woo-product-slider.php:465
+#, fuzzy
 msgid "Choose to show or hide the price."
 msgstr "Auswählen zum Ein- oder Ausblenden des Preises."
 
 #: shortcodes/fusion-woo-featured-products-slider.php:428
 #: shortcodes/fusion-woo-product-slider.php:475
+#, fuzzy
 msgid "Show Buttons"
 msgstr "Buttons anzeigen"
 
 #: shortcodes/fusion-woo-featured-products-slider.php:429
 #: shortcodes/fusion-woo-product-slider.php:476
+#, fuzzy
 msgid "Choose to show or hide the icon buttons."
 msgstr "Auswählen zum Ein- oder Ausblenden des Icons."
 
 #: shortcodes/fusion-woo-product-slider.php:378
+#, fuzzy
 msgid "Number of Products"
 msgstr "Anzahl der Produkte"
 
 #: shortcodes/fusion-woo-product-slider.php:379
+#, fuzzy
 msgid "Select the number of products to display."
 msgstr "Anzahl der anzuzeigenden Produkte."
 
 #: shortcodes/fusion-woo-shortcodes.php:75
+#, fuzzy
 msgid "Shortocode"
 msgstr "Shortcode"
 
 #: shortcodes/fusion-woo-shortcodes.php:76
+#, fuzzy
 msgid "Choose woocommerce shortcode."
 msgstr "Wähle WooCommerce Shortcode."
 
 #: shortcodes/fusion-woo-shortcodes.php:79
+#, fuzzy
 msgid "Order tracking"
 msgstr "Bestellungs Nachverfolgung"
 
 #: shortcodes/fusion-woo-shortcodes.php:80
+#, fuzzy
 msgid "Product price/cart button"
 msgstr "Produktpreis / Warenkorb Button"
 
 #: shortcodes/fusion-woo-shortcodes.php:81
+#, fuzzy
 msgid "Product by SKU/ID"
 msgstr "Produkt nach SKU / ID"
 
 #: shortcodes/fusion-woo-shortcodes.php:82
+#, fuzzy
 msgid "Products by SKU/ID"
 msgstr "Produkte nach SKU / ID"
 
 #: shortcodes/fusion-woo-shortcodes.php:83
+#, fuzzy
 msgid "Product categories"
 msgstr "Produkt Kategorien"
 
 #: shortcodes/fusion-woo-shortcodes.php:84
+#, fuzzy
 msgid "Products by category slug"
 msgstr "Produkte nach Kategorie Slug"
 
 #: shortcodes/fusion-woo-shortcodes.php:85
+#, fuzzy
 msgid "Recent products"
 msgstr "Aktuelle Produkte"
 
 #: shortcodes/fusion-woo-shortcodes.php:86
+#, fuzzy
 msgid "Featured products"
 msgstr "Hervorgehobenes Produkt"
 
 #: shortcodes/fusion-woo-shortcodes.php:87
+#, fuzzy
 msgid "Shop Message"
 msgstr "Shop Nachricht"
 
 #: shortcodes/fusion-woo-shortcodes.php:94
+#, fuzzy
 msgid "Shortcode content"
 msgstr "ShortCode Inhalt"
 
 #: shortcodes/fusion-woo-shortcodes.php:95
+#, fuzzy
 msgid "Shortcode will appear here."
 msgstr "Shortcode wird hier angezeigt."
 
 #: shortcodes/fusion-youtube.php:172
+#, fuzzy
 msgid "Youtube"
 msgstr "Youtube"
 
 #: shortcodes/fusion-youtube.php:181
+#, fuzzy
 msgid ""
 "For example the Video ID for https://www.youtube.com/watch?v=UDyNsnB_COA is "
 "UDyNsnB_COA."
@@ -14203,48 +15214,58 @@ msgstr ""
 "v=UDyNsnB_COA die ID UDyNsnB_COA"
 
 #. Author URI of the plugin/theme
+#, fuzzy
 msgid "http://www.theme-fusion.com"
 msgstr "http://www.theme-fusion.com"
 
 #. Description of the plugin/theme
+#, fuzzy
 msgid "ThemeFusion Page Builder Plugin"
 msgstr "ThemeFusion Page Builder PlugIn"
 
 #. Author of the plugin/theme
+#, fuzzy
 msgid "ThemeFusion"
 msgstr "ThemeFusion"
 
 #: inc/layouts.php:14
+#, fuzzy
 msgctxt "Layout type general name"
 msgid "Fusion Templates"
 msgstr "Fusion Vorlagen"
 
 #: inc/layouts.php:15
+#, fuzzy
 msgctxt "Layout type singular name"
 msgid "Layout"
 msgstr "Layout"
 
 #: inc/layouts.php:16
+#, fuzzy
 msgctxt "Layout item"
 msgid "Add New"
 msgstr "Neu hinzufügen"
 
 #: inc/layouts.php:48
+#, fuzzy
 msgctxt "element type general name"
 msgid "Fusion Elements"
 msgstr "Fusion Elemente"
 
 #: inc/layouts.php:49
+#, fuzzy
 msgctxt "Element type singular name"
 msgid "Element"
 msgstr "Element"
 
 #: inc/layouts.php:50
+#, fuzzy
 msgctxt "Element item"
 msgid "Add New"
 msgstr "Neu hinzufügen"
 
 #: inc/lib/inc/redux/framework/FusionReduxCore/inc/welcome/views/status_report.php:553
+#, fuzzy
 msgctxt "by author"
 msgid "by %s"
 msgstr "von %s"
